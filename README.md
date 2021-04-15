@@ -9,7 +9,8 @@ keywords:  stylefiles, helper functions
 description:  A less-than 50-word description of your package that will help other users find it.
 ```
 
-Either fork this repo and add the new file to it, or use the `Add File` button above, and then create a PR.
+Either fork this repo and add the new file to the `packages` directory,
+or use the `Add File` button above, and then create a PR.
 
 Note that the name of the yml and the name of the repo should ideally match.
 
