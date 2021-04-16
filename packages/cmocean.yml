@@ -1,3 +1,4 @@
-github: https://github.com/matplotlib/cmocean
+repo: matplotlib/cmocean
+site: https://matplotlib.org/cmocean/
 keywords:  colormaps
-description:  Preceptually uniform olormaps for commonly-used oceanographic variables
+description:  Preceptually uniform colormaps for commonly-used oceanographic variables
