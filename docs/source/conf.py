@@ -5,8 +5,7 @@ author = "matplotlib developers"
 
 project = "Matplotlib third-party packages"
 copyright = (
-     "Matplotlib development "
-     f"team; 2012 - {datetime.datetime.now().year} The Matplotlib development team"
+     f"2012 - {datetime.datetime.now().year} The Matplotlib development team"
  )
 
 source_suffix = ['.rst']
