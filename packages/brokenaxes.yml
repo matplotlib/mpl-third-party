@@ -1,0 +1,5 @@
+repo: bendichter/brokenaxes
+keywords: axes
+section: specialty plots
+description: plots with breaks in the axes.
+conda_channel: conda-forge

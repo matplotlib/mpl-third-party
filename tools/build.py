@@ -9,25 +9,51 @@ import glob
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-
-os.remove(os.path.join(here, '../packages/all.yml'))
+try:
+    os.remove(os.path.join(here, '../packages/all.yml'))
+except:
+    pass
 packages = glob.glob(os.path.join(here, '../packages/*'))
 
+section_names = {'colormaps and styles': 'Colormaps and styles', 
+           'specialty plots': 'Specialty plots',
+           'gui applications': 'GUI applications', 
+           'miscellaneous': 'Miscellaneous', 
+           'backends': 'Rendering backends', 
+           'interactivity': 'Interactivity',
+           'animations': 'Animations',
+           'mapping': 'Mapping', 
+           'declarative libraries': 'Declarative Libraries'}
 
-with open(os.path.join(here, '../packages/all.yml'), 'w') as out:
-    out.write('- name: User packages\n')
-    out.write('  intro: Packages built that use matplotlib\n')
-    out.write('  packages:\n\n')
-    for package in packages:
-        with open(package, 'r') as fin:
-            pack = safe_load(fin)
+
+packs = dict()
+# divide the yml files into sections based on teh section tag...
+for package in packages:
+    with open(package, 'r') as fin:
+        pack = safe_load(fin)
+        if 'section' not in pack:
+            pack['section'] = 'miscellaneous'
+        if pack['section'] in packs:
+            packs[pack['section']] += [pack]   
+        else:
+            packs[pack['section']] = [pack]
+
+print(packs)
+
             
-            out.write(f"  - repo: {pack['repo']}\n")
+with open(os.path.join(here, '../packages/all.yml'), 'w') as out:
+    for secname, packs in packs.items():
+
+        out.write(f'  - name: {section_names[secname]}\n')
+        out.write(f'    packages:\n\n')
+        for pack in packs:
+            out.write(f'    - repo: {pack["repo"]}\n')
             for k, v in pack.items():
                 if k != 'repo':
-                    out.write(f"    {k}: {v}\n")
-            out.write('\n')
-            
+                    out.write(f'      {k}: {v}\n')
+        out.write('\n')
+                     
+
 
 print("Opening config file")
 with open(os.path.join(here, '../packages/all.yml')) as f:
@@ -48,10 +74,11 @@ for section in config:
         package['conda_package'] = package.get('conda_package', package['name'])
         package['pypi_name'] = package.get('pypi_name', package['name'])
 
+        package['section'] = section_names[package['section'].lower()]
         if package.get('badges'):
             package['badges'] = [x.strip() for x in package['badges'].split(',')]
         else:
-            package['badges'] = ['pypi']
+            package['badges'] = ['pypi', 'conda']
         if package.get('conda_channel') and 'conda' not in package['badges']:
             package['badges'].append('conda')
         if package.get('sponsors') and 'sponsor' not in package['badges']:
@@ -60,11 +87,12 @@ for section in config:
             package['badges'].append('site')
         if package.get('dormant') and 'dormant' not in package['badges']:
             package['badges'].append('dormant')
+        
 
         if 'rtd' in package['badges'] and 'rtd_name' not in package:
             package['rtd_name'] = package['name']
         if 'conda' in package['badges'] and 'conda_channel' not in package:
-            package['conda_channel'] = 'anaconda'
+            package['conda_channel'] = 'conda-forge'
         if 'site' in package['badges']:
             if 'site' not in package:
                 package['site'] = '{}.org'.format(package['name'])

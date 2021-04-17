@@ -4,10 +4,14 @@ List of matplotlib user-contributed packages.  These are served at <http://matpl
 To add your package to the list create a YAML file `your-cool-mpl-package.yml` with the following fields:
 
 ```yml
-github: https://github.com/yourname/your-cool-mpl-package/
-keywords:  stylefiles, helper functions
-description:  A less-than 50-word description of your package that will help other users find it.
+repo: matplotlib/cmocean
+site: https://matplotlib.org/cmocean/
+keywords:  colormaps
+description:  Preceptually uniform colormaps for commonly-used oceanographic variables
 ```
+
+Other descriptors can be `pypi_name`, `conda_package`, and `conda_channel`, 
+`pypi_name` will automatically fill with the repo name if `pypi_name` is not supplied.  
 
 Either fork this repo and add the new file to the `packages` directory,
 or use the `Add File` button above, and then create a PR.

@@ -1,0 +1,4 @@
+repo: mwaskom/seaborn
+section: specialty plots
+description: High-level interface for drawing attractive statistical graphics
+site: https://seaborn.pydata.org

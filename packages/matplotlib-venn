@@ -1,0 +1,5 @@
+repo: konstantint/matplotlib-venn
+keywords: diagrams
+section: specialty plots
+description: Plotting area-weighted two- and three-circle venn diagrams.
+
