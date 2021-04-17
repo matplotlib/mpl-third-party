@@ -100,11 +100,11 @@ for section in config:
             else:
                 package['site_protocol'], package['site'] = package['site'].rstrip('/').split('://')
 
-template = Template(open(os.path.join(here, 'template.html'), 'r').read())
+template = Template(open(os.path.join(here, 'template.rst'), 'r').read())
 
 with open(os.path.join(here, '../docs/source/packages.rst'), 'w') as f:
-    f.write("Third-party packages\n")
-    f.write("====================\n\n")
+    f.write("Third-party and user-contributed packages\n")
+    f.write("=========================================\n\n")
     f.write(".. include:: intro.rst\n\n")
-    f.write(".. raw:: html\n\n")
+    # f.write(".. include:: html\n\n")
     f.write(template.render(config=config))
