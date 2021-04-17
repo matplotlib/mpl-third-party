@@ -4,18 +4,21 @@ orbs:
   python: circleci/python@0.2.1
 
 jobs:
-  build-and-test:
+  build_docs:
     executor: python/default
     steps:
       - checkout
-      - python/load-cache
       - python/install-deps
-      - python/save-cache
       - run:
-          command: ./manage.py test
-          name: Test
+          name: Build docs
+          command: cd docs/ && make html
+      - persist_to_workspace:
+          root: docs/build/html
+          paths: .
+      - store_artifacts:
+          path: docs/build/html/
 
 workflows:
   main:
     jobs:
-      - build-and-test
+      - build_docs

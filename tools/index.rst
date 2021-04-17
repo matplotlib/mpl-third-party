@@ -1,8 +1,6 @@
 All Tools
 =========
 
-.. mdinclude:: tools.md
-
 .. raw:: html
 
     <div id="tools-wrapper">
@@ -291,7 +289,7 @@ All Tools
         <td style="vertical-align:top; text-align:left">
           <a href="http://github.com/residentmario/geoplot">geoplot</a>
         </td>
-        <td align='left'>  High-level Python geospatial plotting library based on cartopy.   </td>             
+        <td align='left'>  High-level Python geospatial plotting library based on cartopy   </td>             
         
         <td>
           <a href="https://residentmario.github.io/geoplot/index.html">

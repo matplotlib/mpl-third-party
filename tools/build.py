@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 from jinja2 import Template
-from yaml import safe_load, dump
+from yaml import safe_load
 from markdown import markdown
 import glob 
 
