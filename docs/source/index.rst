@@ -4,6 +4,6 @@
    :hidden:
    :maxdepth: 2
 
-.. include:: ../../tools/index.rst
+.. include:: ./packages.rst
    
 

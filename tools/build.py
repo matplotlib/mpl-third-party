@@ -100,14 +100,10 @@ for section in config:
             else:
                 package['site_protocol'], package['site'] = package['site'].rstrip('/').split('://')
 
-with open(os.path.join(here, 'sponsors.yml')) as f:
-    sponsors = safe_load(f)
-
 template = Template(open(os.path.join(here, 'template.html'), 'r').read())
 
-with open(os.path.join(here, 'index.rst'), 'w') as f:
+with open(os.path.join(here, '../docs/source/packages.rst'), 'w') as f:
     f.write("All Tools\n")
     f.write("=========\n\n")
-    f.write(".. mdinclude:: tools.md\n\n")
     f.write(".. raw:: html\n\n")
-    f.write(template.render(config=config, sponsors=sponsors))
+    f.write(template.render(config=config))
