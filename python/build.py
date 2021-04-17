@@ -83,7 +83,7 @@ for section in config:
             package['badges'].append('conda')
         if package.get('sponsors') and 'sponsor' not in package['badges']:
             package['badges'].append('sponsor')
-        if package.get('site') and 'site' not in package['badges']:
+        if package.get('site') and 'site' not in package['badges'] and 'rtd' not in package['badges']:
             package['badges'].append('site')
         if package.get('dormant') and 'dormant' not in package['badges']:
             package['badges'].append('dormant')

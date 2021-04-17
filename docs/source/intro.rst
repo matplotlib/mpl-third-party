@@ -1,6 +1,7 @@
-A list of third-party packages and packages contributed by our users.  
+A list of packages that extend Matplotlib.  These are maintained 
+and distributed independently from Matplotlib.
 
-Please contribute yours package by opening a pull-request at 
+Please contribute your package by opening a pull-request at 
 https://github.com/matplotlib/mpl-third-party and create a new yml
 file from the template there and we will add you to the list.  
 
