@@ -1,5 +1,6 @@
-# mpl-user-contrib
-List of matplotlib user-contributed packages.  These are served at <http://matplotlib.org/mpl-user-contrib.html>
+# mpl-third-party
+
+List of matplotlib user-contributed packages.  These are served at YYY.html
 
 To add your package to the list create a YAML file `your-cool-mpl-package.yml` with the following fields:
 
@@ -10,7 +11,7 @@ keywords:  colormaps
 description:  Preceptually uniform colormaps for commonly-used oceanographic variables
 ```
 
-Other descriptors can be `pypi_name`, `conda_package`, and `conda_channel`, 
+Other descriptors can be `pypi_name`, `conda_package`, and `conda_channel`. 
 `pypi_name` will automatically fill with the repo name if `pypi_name` is not supplied.  
 
 Either fork this repo and add the new file to the `packages` directory,
