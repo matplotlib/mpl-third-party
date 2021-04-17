@@ -1,7 +1,13 @@
-    <div id="tools-wrapper">
-    {% for section in config %}
-    <h3 id="{{ section.name.lower().replace(' ', '-') }}">{{ section.name }}</h3>
-    {{ section.get('intro', '') }}
+{% for section in config %}
+    
+{{ section.name }}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{{ section.get('intro', '') }}
+  
+  .. raw:: html
+
+    <div>
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
