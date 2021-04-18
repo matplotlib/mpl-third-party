@@ -1,4 +1,4 @@
-A list of packages that extend Matplotlib.  These are maintained 
+XYZ A list of packages that extend Matplotlib.  These are maintained 
 and distributed independently from Matplotlib so go to the website 
 listed for instructions.  
 
