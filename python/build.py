@@ -67,6 +67,7 @@ for section in config:
     if section.get('intro'):
         section['intro'] = markdown(section['intro'])
     for package in section['packages']:
+        print(package['repo'])
         try:
             package['user'], package['name'] = package['repo'].split('/')
         except:
