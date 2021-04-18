@@ -42,11 +42,12 @@ print(packs)
 
             
 with open(os.path.join(here, '../packages/all.yml'), 'w') as out:
-    for secname, packs in packs.items():
-
+    for secname in sorted(packs.keys()):
+        packs_sec = sorted(packs[secname], key= lambda i: i['repo'].split('/')[1])
+        
         out.write(f'  - name: {section_names[secname]}\n')
         out.write(f'    packages:\n\n')
-        for pack in packs:
+        for pack in packs_sec:
             out.write(f'    - repo: {pack["repo"]}\n')
             for k, v in pack.items():
                 if k != 'repo':
@@ -101,6 +102,9 @@ for section in config:
                 package['site_protocol'], package['site'] = package['site'].rstrip('/').split('://')
 
 template = Template(open(os.path.join(here, 'template.rst'), 'r').read())
+
+config = sorted(config, key = lambda i: i['name'])
+
 
 with open(os.path.join(here, '../docs/source/packages.rst'), 'w') as f:
     f.write("Third-party and user-contributed packages\n")
