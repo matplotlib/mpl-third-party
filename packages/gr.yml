@@ -1,0 +1,4 @@
+repo: jheinen/gr
+section: backends
+description: Graphic kernel system backend.
+site: https://gr-framework.org/python.html

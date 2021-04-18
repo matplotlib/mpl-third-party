@@ -1,0 +1,4 @@
+repo: newville/wxmplot
+section: backends
+description: Tighter integration with wxPython
+site: http://newville.github.io/wxmplot/
