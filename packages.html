@@ -1,0 +1,874 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Third-party and user-contributed packages &#8212; Matplotlib third-party packages  documentation</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="https://matplotlib.org/stable">
+  <img src="_static/logo2.svg" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference external nav-link" href="http://matplotlib.org/stable/users/installing.html">
+  Installing
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference external nav-link" href="http://matplotlib.org/stable/plot_types/index.html">
+  Plot types
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference external nav-link" href="http://matplotlib.org/stable/gallery/index.html">
+  Examples
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference external nav-link" href="http://matplotlib.org/stable/tutorials/index.html">
+  Tutorials
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference external nav-link" href="http://matplotlib.org/stable/api/index.html">
+  API
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference external nav-link" href="http://matplotlib.org/stable/users/index.html">
+  Users guide
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference external nav-link" href="http://matplotlib.org/stable/devel/index.html">
+  Contributing
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://gitter.im/matplotlib" rel="noopener" target="_blank" title="gitter">
+            <span><i class="fab fa-gitter"></i></span>
+            <label class="sr-only">gitter</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://discourse.matplotlib.org" rel="noopener" target="_blank" title="discourse">
+            <span><i class="fab fa-discourse"></i></span>
+            <label class="sr-only">discourse</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/matplotlib/matplotlib" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Third-party and user-contributed packages</a><ul>
+<li><a class="reference internal" href="#animations">Animations</a></li>
+<li><a class="reference internal" href="#colormaps-and-styles">Colormaps and styles</a></li>
+<li><a class="reference internal" href="#interactivity">Interactivity</a></li>
+<li><a class="reference internal" href="#mapping">Mapping</a></li>
+<li><a class="reference internal" href="#specialty-plots">Specialty plots</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#animations">
+   Animations
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#colormaps-and-styles">
+   Colormaps and styles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#interactivity">
+   Interactivity
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mapping">
+   Mapping
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#specialty-plots">
+   Specialty plots
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="third-party-and-user-contributed-packages">
+<h1>Third-party and user-contributed packages<a class="headerlink" href="#third-party-and-user-contributed-packages" title="Permalink to this headline">¶</a></h1>
+<p>A list of packages that extend Matplotlib.  These are maintained
+and distributed independently from Matplotlib so go to the website
+listed for instructions.</p>
+<p>Please contribute your package by opening a pull-request at
+<a class="reference external" href="https://github.com/matplotlib/mpl-third-party">https://github.com/matplotlib/mpl-third-party</a> and create a new yml
+file from the template there and we will add you to the list.</p>
+<p>If you need help making a package, see
+<a class="reference external" href="https://github.com/matplotlib/mpl-cookiecutter-package">https://github.com/matplotlib/mpl-cookiecutter-package</a>, where we give you
+a template to make it easy!</p>
+<div class="section" id="animations">
+<h2>Animations<a class="headerlink" href="#animations" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div>
+<table>
+  <tr style="text-align:center">
+    <th style="width:10em">Name</th>
+    <th>Description</th>
+    <th style="width:6em; text-align:center">Website</th>
+    <th style="width:4em; text-align:center">PyPi</th>
+    <th style="text-align:center; width:6em">Conda</th>
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/t-makaro/animatplot">animatplot</a>
+    </td>
+    <td align='left'>  Interactive animated plots.   </td>
+
+    <td>
+      <a href="https://animatplot.readthedocs.io/en/latest/index.html">
+        <img src="https://img.shields.io/website-up-down-green-red/https/animatplot.readthedocs.io/en/latest/index.html.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/animatplot">
+        <img src="https://img.shields.io/pypi/v/animatplot.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/animatplot">
+      <img src="https://img.shields.io/conda/vn/conda-forge/animatplot.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/maxhumber/gif">gif</a>
+    </td>
+    <td align='left'>  Ultra lightweight animated gif API   </td>
+
+    <td><a href="http://github.com/maxhumber/gif">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/gif">
+        <img src="https://img.shields.io/pypi/v/gif.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/gif">
+      <img src="https://img.shields.io/conda/vn/conda-forge/gif.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/WarrenWeckesser/numpngw">numpngw</a>
+    </td>
+    <td align='left'>  Write animated pngs   </td>
+
+    <td><a href="http://github.com/WarrenWeckesser/numpngw">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/numpngw">
+        <img src="https://img.shields.io/pypi/v/numpngw.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/numpngw">
+      <img src="https://img.shields.io/conda/vn/conda-forge/numpngw.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+</table></div></blockquote>
+</div>
+<div class="section" id="colormaps-and-styles">
+<h2>Colormaps and styles<a class="headerlink" href="#colormaps-and-styles" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div>
+<table>
+  <tr style="text-align:center">
+    <th style="width:10em">Name</th>
+    <th>Description</th>
+    <th style="width:6em; text-align:center">Website</th>
+    <th style="width:4em; text-align:center">PyPi</th>
+    <th style="text-align:center; width:6em">Conda</th>
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/matplotlib/cmocean">cmocean</a>
+    </td>
+    <td align='left'>  Perceptually uniform colormaps for oceanographic variables   </td>
+
+    <td>
+      <a href="https://matplotlib.org/cmocean">
+        <img src="https://img.shields.io/website-up-down-green-red/https/matplotlib.org/cmocean.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/cmocean">
+        <img src="https://img.shields.io/pypi/v/cmocean.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/cmocean">
+      <img src="https://img.shields.io/conda/vn/conda-forge/cmocean.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+</table></div></blockquote>
+</div>
+<div class="section" id="interactivity">
+<h2>Interactivity<a class="headerlink" href="#interactivity" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div>
+<table>
+  <tr style="text-align:center">
+    <th style="width:10em">Name</th>
+    <th>Description</th>
+    <th style="width:6em; text-align:center">Website</th>
+    <th style="width:4em; text-align:center">PyPi</th>
+    <th style="text-align:center; width:6em">Conda</th>
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/ianhi/mpl-interactions">mpl-interactions</a>
+    </td>
+    <td align='left'>  Interactive widgets for responsive plots.   </td>
+
+    <td>
+      <a href="https://mpl-interactions.readthedocs.io">
+        <img src="https://img.shields.io/website-up-down-green-red/https/mpl-interactions.readthedocs.io.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/mpl-interactions">
+        <img src="https://img.shields.io/pypi/v/mpl-interactions.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/mpl-interactions">
+      <img src="https://img.shields.io/conda/vn/conda-forge/mpl-interactions.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/anntzer/mplcursors">mplcursors</a>
+    </td>
+    <td align='left'>  Interactive data selection cursors.   </td>
+
+    <td>
+      <a href="https://mplcursors.readthedocs.io">
+        <img src="https://img.shields.io/website-up-down-green-red/https/mplcursors.readthedocs.io.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/mplcursors">
+        <img src="https://img.shields.io/pypi/v/mplcursors.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/mplcursors">
+      <img src="https://img.shields.io/conda/vn/conda-forge/mplcursors.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/joferkington/mpldatacursor">mpldatacursor</a>
+    </td>
+    <td align='left'>  Interactive data selection cursors.   </td>
+
+    <td><a href="http://github.com/joferkington/mpldatacursor">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/mpldatacursor">
+        <img src="https://img.shields.io/pypi/v/mpldatacursor.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/mpldatacursor">
+      <img src="https://img.shields.io/conda/vn/conda-forge/mpldatacursor.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+</table></div></blockquote>
+</div>
+<div class="section" id="mapping">
+<h2>Mapping<a class="headerlink" href="#mapping" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div>
+<table>
+  <tr style="text-align:center">
+    <th style="width:10em">Name</th>
+    <th>Description</th>
+    <th style="width:6em; text-align:center">Website</th>
+    <th style="width:4em; text-align:center">PyPi</th>
+    <th style="text-align:center; width:6em">Conda</th>
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/SciTools/cartopy">cartopy</a>
+    </td>
+    <td align='left'>  Produce maps and other geospatial data analyses   </td>
+
+    <td>
+      <a href="https://scitools.org.uk/cartopy/docs/latest">
+        <img src="https://img.shields.io/website-up-down-green-red/https/scitools.org.uk/cartopy/docs/latest.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/cartopy">
+        <img src="https://img.shields.io/pypi/v/cartopy.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/cartopy">
+      <img src="https://img.shields.io/conda/vn/conda-forge/cartopy.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/residentmario/geoplot">geoplot</a>
+    </td>
+    <td align='left'>  High-level Python geospatial plotting library based on cartopy   </td>
+
+    <td>
+      <a href="https://residentmario.github.io/geoplot/index.html">
+        <img src="https://img.shields.io/website-up-down-green-red/https/residentmario.github.io/geoplot/index.html.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/geoplot">
+        <img src="https://img.shields.io/pypi/v/geoplot.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/geoplot">
+      <img src="https://img.shields.io/conda/vn/conda-forge/geoplot.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/ColCarroll/ridge_map">ridge_map</a>
+    </td>
+    <td align='left'>  Library for making ridge plots of... ridges.   </td>
+
+    <td><a href="http://github.com/ColCarroll/ridge_map">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/ridge_map">
+        <img src="https://img.shields.io/pypi/v/ridge_map.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/ridge_map">
+      <img src="https://img.shields.io/conda/vn/conda-forge/ridge_map.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+</table></div></blockquote>
+</div>
+<div class="section" id="specialty-plots">
+<h2>Specialty plots<a class="headerlink" href="#specialty-plots" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div>
+<table>
+  <tr style="text-align:center">
+    <th style="width:10em">Name</th>
+    <th>Description</th>
+    <th style="width:6em; text-align:center">Website</th>
+    <th style="width:4em; text-align:center">PyPi</th>
+    <th style="text-align:center; width:6em">Conda</th>
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/astropy/astropy">astropy</a>
+    </td>
+    <td align='left'>  Astronomy processing and graphics (including mapping)   </td>
+
+    <td>
+      <a href="https://www.astropy.org">
+        <img src="https://img.shields.io/website-up-down-green-red/https/www.astropy.org.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/astropy">
+        <img src="https://img.shields.io/pypi/v/astropy.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/astropy">
+      <img src="https://img.shields.io/conda/vn/conda-forge/astropy.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/bendichter/brokenaxes">brokenaxes</a>
+    </td>
+    <td align='left'>  plots with breaks in the axes.   </td>
+
+    <td><a href="http://github.com/bendichter/brokenaxes">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/brokenaxes">
+        <img src="https://img.shields.io/pypi/v/brokenaxes.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/brokenaxes">
+      <img src="https://img.shields.io/conda/vn/conda-forge/brokenaxes.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/ppinard/matplotlib-scalebar">matplotlib-scalebar</a>
+    </td>
+    <td align='left'>  Display a scale bar.   </td>
+
+    <td><a href="http://github.com/ppinard/matplotlib-scalebar">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/matplotlib-scalebar">
+        <img src="https://img.shields.io/pypi/v/matplotlib-scalebar.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/matplotlib-scalebar">
+      <img src="https://img.shields.io/conda/vn/conda-forge/matplotlib-scalebar.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/konstantint/matplotlib-venn">matplotlib-venn</a>
+    </td>
+    <td align='left'>  Plotting area-weighted two- and three-circle venn diagrams.   </td>
+
+    <td><a href="http://github.com/konstantint/matplotlib-venn">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/matplotlib-venn">
+        <img src="https://img.shields.io/pypi/v/matplotlib-venn.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/matplotlib-venn">
+      <img src="https://img.shields.io/conda/vn/conda-forge/matplotlib-venn.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/matplotlib/mpl-probscale">mpl-probscale</a>
+    </td>
+    <td align='left'>  Real probability scales for matplotlib   </td>
+
+    <td>
+      <a href="https://matplotlib.org/mpl-probscale">
+        <img src="https://img.shields.io/website-up-down-green-red/https/matplotlib.org/mpl-probscale.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/mpl-probscale">
+        <img src="https://img.shields.io/pypi/v/mpl-probscale.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/mpl-probscale">
+      <img src="https://img.shields.io/conda/vn/conda-forge/mpl-probscale.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/joferkington/mplstereonet">mplstereonet</a>
+    </td>
+    <td align='left'>  Lower-hemisphere equal-area and equal-angle stereonets   </td>
+
+    <td><a href="http://github.com/joferkington/mplstereonet">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/mplstereonet">
+        <img src="https://img.shields.io/pypi/v/mplstereonet.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/mplstereonet">
+      <img src="https://img.shields.io/conda/vn/conda-forge/mplstereonet.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/ImSoErgodic/py-upset">py-upset</a>
+    </td>
+    <td align='left'>  UpSet suite of visualisation methods   </td>
+
+    <td><a href="http://github.com/ImSoErgodic/py-upset">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/pyupset">
+        <img src="https://img.shields.io/pypi/v/pyupset.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/py-upset">
+      <img src="https://img.shields.io/conda/vn/conda-forge/py-upset.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/mwaskom/seaborn">seaborn</a>
+    </td>
+    <td align='left'>  High-level interface for drawing attractive statistical graphics   </td>
+
+    <td>
+      <a href="https://seaborn.pydata.org">
+        <img src="https://img.shields.io/website-up-down-green-red/https/seaborn.pydata.org.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/seaborn">
+        <img src="https://img.shields.io/pypi/v/seaborn.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/seaborn">
+      <img src="https://img.shields.io/conda/vn/conda-forge/seaborn.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/scls19fr/windrose">windrose</a>
+    </td>
+    <td align='left'>  Create windrose plots   </td>
+
+    <td><a href="http://github.com/scls19fr/windrose">github</a></td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/windrose">
+        <img src="https://img.shields.io/pypi/v/windrose.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/windrose">
+      <img src="https://img.shields.io/conda/vn/conda-forge/windrose.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+  <tr style="vertical-align:top; text-align:center">
+    <td style="vertical-align:top; text-align:left">
+      <a href="http://github.com/DistrictDataLabs/yellowbrick">yellowbrick</a>
+    </td>
+    <td align='left'>  Visual analysis and diagnostic tools to facilitate machine learning model selection.   </td>
+
+    <td>
+      <a href="https://www.scikit-yb.org/en/latest">
+        <img src="https://img.shields.io/website-up-down-green-red/https/www.scikit-yb.org/en/latest.svg">
+      </a>
+    </td>
+
+
+    <td >
+      <a href="https://pypi.python.org/pypi/yellowbrick">
+        <img src="https://img.shields.io/pypi/v/yellowbrick.svg?label">
+      </a>
+    </td>
+
+
+    <td>
+      <a href="https://anaconda.org/conda-forge/yellowbrick">
+      <img src="https://img.shields.io/conda/vn/conda-forge/yellowbrick.svg?style=flat">
+      </a>
+    </td>
+
+  </tr>
+
+</table>
+
+</div></div></blockquote>
+</div>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+    
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2012 - 2021 The Matplotlib development team.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

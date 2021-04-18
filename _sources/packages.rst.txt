@@ -1,0 +1,627 @@
+Third-party and user-contributed packages
+=========================================
+
+.. include:: intro.rst
+
+
+    
+Animations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  
+  .. raw:: html
+
+    <div>
+    <table>
+      <tr style="text-align:center">
+        <th style="width:10em">Name</th>
+        <th>Description</th>
+        <th style="width:6em; text-align:center">Website</th>
+        <th style="width:4em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:6em">Conda</th>
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/t-makaro/animatplot">animatplot</a>
+        </td>
+        <td align='left'>  Interactive animated plots.   </td>             
+        
+        <td>
+          <a href="https://animatplot.readthedocs.io/en/latest/index.html">
+            <img src="https://img.shields.io/website-up-down-green-red/https/animatplot.readthedocs.io/en/latest/index.html.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/animatplot">
+            <img src="https://img.shields.io/pypi/v/animatplot.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/animatplot">
+          <img src="https://img.shields.io/conda/vn/conda-forge/animatplot.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/maxhumber/gif">gif</a>
+        </td>
+        <td align='left'>  Ultra lightweight animated gif API   </td>             
+        
+        <td><a href="http://github.com/maxhumber/gif">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/gif">
+            <img src="https://img.shields.io/pypi/v/gif.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/gif">
+          <img src="https://img.shields.io/conda/vn/conda-forge/gif.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/WarrenWeckesser/numpngw">numpngw</a>
+        </td>
+        <td align='left'>  Write animated pngs   </td>             
+        
+        <td><a href="http://github.com/WarrenWeckesser/numpngw">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/numpngw">
+            <img src="https://img.shields.io/pypi/v/numpngw.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/numpngw">
+          <img src="https://img.shields.io/conda/vn/conda-forge/numpngw.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+    </table>
+    
+    
+Colormaps and styles
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  
+  .. raw:: html
+
+    <div>
+    <table>
+      <tr style="text-align:center">
+        <th style="width:10em">Name</th>
+        <th>Description</th>
+        <th style="width:6em; text-align:center">Website</th>
+        <th style="width:4em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:6em">Conda</th>
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/matplotlib/cmocean">cmocean</a>
+        </td>
+        <td align='left'>  Perceptually uniform colormaps for oceanographic variables   </td>             
+        
+        <td>
+          <a href="https://matplotlib.org/cmocean">
+            <img src="https://img.shields.io/website-up-down-green-red/https/matplotlib.org/cmocean.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/cmocean">
+            <img src="https://img.shields.io/pypi/v/cmocean.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/cmocean">
+          <img src="https://img.shields.io/conda/vn/conda-forge/cmocean.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+    </table>
+    
+    
+Interactivity
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  
+  .. raw:: html
+
+    <div>
+    <table>
+      <tr style="text-align:center">
+        <th style="width:10em">Name</th>
+        <th>Description</th>
+        <th style="width:6em; text-align:center">Website</th>
+        <th style="width:4em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:6em">Conda</th>
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/ianhi/mpl-interactions">mpl-interactions</a>
+        </td>
+        <td align='left'>  Interactive widgets for responsive plots.   </td>             
+        
+        <td>
+          <a href="https://mpl-interactions.readthedocs.io">
+            <img src="https://img.shields.io/website-up-down-green-red/https/mpl-interactions.readthedocs.io.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/mpl-interactions">
+            <img src="https://img.shields.io/pypi/v/mpl-interactions.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/mpl-interactions">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mpl-interactions.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/anntzer/mplcursors">mplcursors</a>
+        </td>
+        <td align='left'>  Interactive data selection cursors.   </td>             
+        
+        <td>
+          <a href="https://mplcursors.readthedocs.io">
+            <img src="https://img.shields.io/website-up-down-green-red/https/mplcursors.readthedocs.io.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/mplcursors">
+            <img src="https://img.shields.io/pypi/v/mplcursors.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/mplcursors">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mplcursors.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/joferkington/mpldatacursor">mpldatacursor</a>
+        </td>
+        <td align='left'>  Interactive data selection cursors.   </td>             
+        
+        <td><a href="http://github.com/joferkington/mpldatacursor">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/mpldatacursor">
+            <img src="https://img.shields.io/pypi/v/mpldatacursor.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/mpldatacursor">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mpldatacursor.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+    </table>
+    
+    
+Mapping
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  
+  .. raw:: html
+
+    <div>
+    <table>
+      <tr style="text-align:center">
+        <th style="width:10em">Name</th>
+        <th>Description</th>
+        <th style="width:6em; text-align:center">Website</th>
+        <th style="width:4em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:6em">Conda</th>
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/SciTools/cartopy">cartopy</a>
+        </td>
+        <td align='left'>  Produce maps and other geospatial data analyses   </td>             
+        
+        <td>
+          <a href="https://scitools.org.uk/cartopy/docs/latest">
+            <img src="https://img.shields.io/website-up-down-green-red/https/scitools.org.uk/cartopy/docs/latest.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/cartopy">
+            <img src="https://img.shields.io/pypi/v/cartopy.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/cartopy">
+          <img src="https://img.shields.io/conda/vn/conda-forge/cartopy.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/residentmario/geoplot">geoplot</a>
+        </td>
+        <td align='left'>  High-level Python geospatial plotting library based on cartopy   </td>             
+        
+        <td>
+          <a href="https://residentmario.github.io/geoplot/index.html">
+            <img src="https://img.shields.io/website-up-down-green-red/https/residentmario.github.io/geoplot/index.html.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/geoplot">
+            <img src="https://img.shields.io/pypi/v/geoplot.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/geoplot">
+          <img src="https://img.shields.io/conda/vn/conda-forge/geoplot.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/ColCarroll/ridge_map">ridge_map</a>
+        </td>
+        <td align='left'>  Library for making ridge plots of... ridges.   </td>             
+        
+        <td><a href="http://github.com/ColCarroll/ridge_map">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/ridge_map">
+            <img src="https://img.shields.io/pypi/v/ridge_map.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/ridge_map">
+          <img src="https://img.shields.io/conda/vn/conda-forge/ridge_map.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+    </table>
+    
+    
+Specialty plots
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  
+  .. raw:: html
+
+    <div>
+    <table>
+      <tr style="text-align:center">
+        <th style="width:10em">Name</th>
+        <th>Description</th>
+        <th style="width:6em; text-align:center">Website</th>
+        <th style="width:4em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:6em">Conda</th>
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/astropy/astropy">astropy</a>
+        </td>
+        <td align='left'>  Astronomy processing and graphics (including mapping)   </td>             
+        
+        <td>
+          <a href="https://www.astropy.org">
+            <img src="https://img.shields.io/website-up-down-green-red/https/www.astropy.org.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/astropy">
+            <img src="https://img.shields.io/pypi/v/astropy.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/astropy">
+          <img src="https://img.shields.io/conda/vn/conda-forge/astropy.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/bendichter/brokenaxes">brokenaxes</a>
+        </td>
+        <td align='left'>  plots with breaks in the axes.   </td>             
+        
+        <td><a href="http://github.com/bendichter/brokenaxes">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/brokenaxes">
+            <img src="https://img.shields.io/pypi/v/brokenaxes.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/brokenaxes">
+          <img src="https://img.shields.io/conda/vn/conda-forge/brokenaxes.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/ppinard/matplotlib-scalebar">matplotlib-scalebar</a>
+        </td>
+        <td align='left'>  Display a scale bar.   </td>             
+        
+        <td><a href="http://github.com/ppinard/matplotlib-scalebar">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/matplotlib-scalebar">
+            <img src="https://img.shields.io/pypi/v/matplotlib-scalebar.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/matplotlib-scalebar">
+          <img src="https://img.shields.io/conda/vn/conda-forge/matplotlib-scalebar.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/konstantint/matplotlib-venn">matplotlib-venn</a>
+        </td>
+        <td align='left'>  Plotting area-weighted two- and three-circle venn diagrams.   </td>             
+        
+        <td><a href="http://github.com/konstantint/matplotlib-venn">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/matplotlib-venn">
+            <img src="https://img.shields.io/pypi/v/matplotlib-venn.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/matplotlib-venn">
+          <img src="https://img.shields.io/conda/vn/conda-forge/matplotlib-venn.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/matplotlib/mpl-probscale">mpl-probscale</a>
+        </td>
+        <td align='left'>  Real probability scales for matplotlib   </td>             
+        
+        <td>
+          <a href="https://matplotlib.org/mpl-probscale">
+            <img src="https://img.shields.io/website-up-down-green-red/https/matplotlib.org/mpl-probscale.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/mpl-probscale">
+            <img src="https://img.shields.io/pypi/v/mpl-probscale.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/mpl-probscale">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mpl-probscale.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/joferkington/mplstereonet">mplstereonet</a>
+        </td>
+        <td align='left'>  Lower-hemisphere equal-area and equal-angle stereonets   </td>             
+        
+        <td><a href="http://github.com/joferkington/mplstereonet">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/mplstereonet">
+            <img src="https://img.shields.io/pypi/v/mplstereonet.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/mplstereonet">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mplstereonet.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/ImSoErgodic/py-upset">py-upset</a>
+        </td>
+        <td align='left'>  UpSet suite of visualisation methods   </td>             
+        
+        <td><a href="http://github.com/ImSoErgodic/py-upset">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/pyupset">
+            <img src="https://img.shields.io/pypi/v/pyupset.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/py-upset">
+          <img src="https://img.shields.io/conda/vn/conda-forge/py-upset.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/mwaskom/seaborn">seaborn</a>
+        </td>
+        <td align='left'>  High-level interface for drawing attractive statistical graphics   </td>             
+        
+        <td>
+          <a href="https://seaborn.pydata.org">
+            <img src="https://img.shields.io/website-up-down-green-red/https/seaborn.pydata.org.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/seaborn">
+            <img src="https://img.shields.io/pypi/v/seaborn.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/seaborn">
+          <img src="https://img.shields.io/conda/vn/conda-forge/seaborn.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/scls19fr/windrose">windrose</a>
+        </td>
+        <td align='left'>  Create windrose plots   </td>             
+        
+        <td><a href="http://github.com/scls19fr/windrose">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/windrose">
+            <img src="https://img.shields.io/pypi/v/windrose.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/windrose">
+          <img src="https://img.shields.io/conda/vn/conda-forge/windrose.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/DistrictDataLabs/yellowbrick">yellowbrick</a>
+        </td>
+        <td align='left'>  Visual analysis and diagnostic tools to facilitate machine learning model selection.   </td>             
+        
+        <td>
+          <a href="https://www.scikit-yb.org/en/latest">
+            <img src="https://img.shields.io/website-up-down-green-red/https/www.scikit-yb.org/en/latest.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/yellowbrick">
+            <img src="https://img.shields.io/pypi/v/yellowbrick.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/yellowbrick">
+          <img src="https://img.shields.io/conda/vn/conda-forge/yellowbrick.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+    </table>
+    
+    </div>
