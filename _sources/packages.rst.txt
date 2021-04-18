@@ -149,6 +149,50 @@ Colormaps and styles
     </table>
     
     
+GUI applications
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  
+  .. raw:: html
+
+    <div>
+    <table>
+      <tr style="text-align:center">
+        <th style="width:10em">Name</th>
+        <th>Description</th>
+        <th style="width:6em; text-align:center">Website</th>
+        <th style="width:4em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:6em">Conda</th>
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/SojiroFukuda/sview-gui">sview-gui</a>
+        </td>
+        <td align='left'>  PyQt5 GUI for data visualisation of csv file or pandas' DataFrames.   </td>             
+        
+        <td><a href="http://github.com/SojiroFukuda/sview-gui">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/sview-gui">
+            <img src="https://img.shields.io/pypi/v/sview-gui.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/sview-gui">
+          <img src="https://img.shields.io/conda/vn/conda-forge/sview-gui.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+    </table>
+    
+    
 Interactivity
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -349,6 +393,250 @@ Mapping
     </table>
     
     
+Miscellaneous
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  
+  .. raw:: html
+
+    <div>
+    <table>
+      <tr style="text-align:center">
+        <th style="width:10em">Name</th>
+        <th>Description</th>
+        <th style="width:6em; text-align:center">Website</th>
+        <th style="width:4em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:6em">Conda</th>
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer">DnaFeaturesViewer</a>
+        </td>
+        <td align='left'>  Visualize DNA features, e.g. from GenBank or Gff files, or Biopython SeqRecords.   </td>             
+        
+        <td>
+          <a href="https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer">
+            <img src="https://img.shields.io/website-up-down-green-red/https/edinburgh-genome-foundry.github.io/DnaFeaturesViewer.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/DnaFeaturesViewer">
+            <img src="https://img.shields.io/pypi/v/DnaFeaturesViewer.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/DnaFeaturesViewer">
+          <img src="https://img.shields.io/conda/vn/conda-forge/DnaFeaturesViewer.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/Phlya/adjustText">adjustText</a>
+        </td>
+        <td align='left'>  Draw many text artists so that they do not overlap.   </td>             
+        
+        <td><a href="http://github.com/Phlya/adjustText">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/adjustText">
+            <img src="https://img.shields.io/pypi/v/adjustText.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/adjustText">
+          <img src="https://img.shields.io/conda/vn/conda-forge/adjustText.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/swfiua/blume">blume</a>
+        </td>
+        <td align='left'>  Alternate table artist.   </td>             
+        
+        <td><a href="http://github.com/swfiua/blume">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/blume">
+            <img src="https://img.shields.io/pypi/v/blume.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/blume">
+          <img src="https://img.shields.io/conda/vn/conda-forge/blume.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/ebenp/figpager">figpager</a>
+        </td>
+        <td align='left'>  Save plots with single or multiple pages   </td>             
+        
+        <td><a href="http://github.com/ebenp/figpager">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/figpager">
+            <img src="https://img.shields.io/pypi/v/figpager.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/figpager">
+          <img src="https://img.shields.io/conda/vn/conda-forge/figpager.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/austinorr/mpl-template">mpl-template</a>
+        </td>
+        <td align='left'>  Templating engine for consistent plots.   </td>             
+        
+        <td><a href="http://github.com/austinorr/mpl-template">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/mpl-template">
+            <img src="https://img.shields.io/pypi/v/mpl-template.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/mpl-template">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mpl-template.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+    </table>
+    
+    
+Rendering backends
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  
+  .. raw:: html
+
+    <div>
+    <table>
+      <tr style="text-align:center">
+        <th style="width:10em">Name</th>
+        <th>Description</th>
+        <th style="width:6em; text-align:center">Website</th>
+        <th style="width:4em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:6em">Conda</th>
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/jheinen/gr">gr</a>
+        </td>
+        <td align='left'>  Graphic kernel system backend.   </td>             
+        
+        <td>
+          <a href="https://gr-framework.org/python.html">
+            <img src="https://img.shields.io/website-up-down-green-red/https/gr-framework.org/python.html.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/gr">
+            <img src="https://img.shields.io/pypi/v/gr.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/gr">
+          <img src="https://img.shields.io/conda/vn/conda-forge/gr.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/matplotlib/mplcairo">mplcairo</a>
+        </td>
+        <td align='left'>  Improved backend for cairo   </td>             
+        
+        <td><a href="http://github.com/matplotlib/mplcairo">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/mplcairo">
+            <img src="https://img.shields.io/pypi/v/mplcairo.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/mplcairo">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mplcairo.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/newville/wxmplot">wxmplot</a>
+        </td>
+        <td align='left'>  Tighter integration with wxPython   </td>             
+        
+        <td>
+          <a href="http://newville.github.io/wxmplot">
+            <img src="https://img.shields.io/website-up-down-green-red/http/newville.github.io/wxmplot.svg">
+          </a>
+        </td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/wxmplot">
+            <img src="https://img.shields.io/pypi/v/wxmplot.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/wxmplot">
+          <img src="https://img.shields.io/conda/vn/conda-forge/wxmplot.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+    </table>
+    
+    
 Specialty plots
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -489,6 +777,30 @@ Specialty plots
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-probscale">
           <img src="https://img.shields.io/conda/vn/conda-forge/mpl-probscale.svg?style=flat">
+          </a>
+        </td>
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+          <a href="http://github.com/matplotlib/mplfinance">mplfinance</a>
+        </td>
+        <td align='left'>  utilities for the visual analysis of financial data.   </td>             
+        
+        <td><a href="http://github.com/matplotlib/mplfinance">github</a></td>
+        
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/mplfinance">
+            <img src="https://img.shields.io/pypi/v/mplfinance.svg?label">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/mplfinance">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mplfinance.svg?style=flat">
           </a>
         </td>
           
