@@ -12,31 +12,29 @@
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
-        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">GitHub</th>
         <th style="width:6em; text-align:center">PyPi</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       {% for package in section.packages %}
       <tr style="vertical-align:top; text-align:center">
         <td style="vertical-align:top; text-align:left">
-          <a href="http://github.com/{{ package.repo }}">{{ package.name }}</a>
+          {% if 'site' in package.badges %} 
+            <a href="{{ package.site_protocol}}://{{ package.site }}">{{ package.name }}</a>
+          {% else %}
+            <a href="http://github.com/{{ package.repo }}">{{ package.name }}</a>
+          {% endif %}
         </td>
-        <td align='left'>  {{ package.description }}   </td>             
-        {% if 'site' in package.badges %}
+        <td align='left'>  
+          {{ package.description }}   
+        </td>             
+        
         <td>
-          <a href="{{ package.site_protocol}}://{{ package.site }}">
-            <img src="https://img.shields.io/website-up-down-green-red/{{ package.site_protocol}}/{{ package.site }}.svg?logoWidth=40">
-          </a>
+          <a href = "https://github.com/{{ package.user }}/{{ package.name }}">
+            <img src="https://img.shields.io/github/stars/{{ package.user }}/{{ package.name }}.svg?style=social">
+          </a?>
         </td>
-        {% elif 'rtd' in package.badges %}
-        <td>
-          <a href="https://{{ package.rtd_name }}.readthedocs.io">
-            <img src="https://readthedocs.org/projects/{{ package.rtd_name }}/badge/?version=latest">
-          </a>
-        </td>
-        {% else %}
-        <td><a href="http://github.com/{{ package.repo }}">github</a></td>
-        {% endif %}
+
         {% if 'pypi' in package.badges %}
         <td >
           <a href="https://pypi.python.org/pypi/{{ package.pypi_name }}">
