@@ -16,10 +16,10 @@ Animations
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
-        <th>Description</th>
-        <th style="width:6em; text-align:center">Website</th>
-        <th style="width:4em; text-align:center">PyPi</th>
-        <th style="text-align:center; width:6em">Conda</th>
+        <th style="width:30em;">Description</th>
+        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
       <tr style="vertical-align:top; text-align:center">
@@ -30,21 +30,21 @@ Animations
         
         <td>
           <a href="https://animatplot.readthedocs.io/en/latest/index.html">
-            <img src="https://img.shields.io/website-up-down-green-red/https/animatplot.readthedocs.io/en/latest/index.html.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/animatplot.readthedocs.io/en/latest/index.html.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/animatplot">
-            <img src="https://img.shields.io/pypi/v/animatplot.svg?label">
+            <img src="https://img.shields.io/pypi/v/animatplot.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/animatplot">
-          <img src="https://img.shields.io/conda/vn/conda-forge/animatplot.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/animatplot.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -61,16 +61,12 @@ Animations
         
         <td >
           <a href="https://pypi.python.org/pypi/gif">
-            <img src="https://img.shields.io/pypi/v/gif.svg?label">
+            <img src="https://img.shields.io/pypi/v/gif.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/gif">
-          <img src="https://img.shields.io/conda/vn/conda-forge/gif.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -85,16 +81,12 @@ Animations
         
         <td >
           <a href="https://pypi.python.org/pypi/numpngw">
-            <img src="https://img.shields.io/pypi/v/numpngw.svg?label">
+            <img src="https://img.shields.io/pypi/v/numpngw.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/numpngw">
-          <img src="https://img.shields.io/conda/vn/conda-forge/numpngw.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -112,10 +104,10 @@ Colormaps and styles
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
-        <th>Description</th>
-        <th style="width:6em; text-align:center">Website</th>
-        <th style="width:4em; text-align:center">PyPi</th>
-        <th style="text-align:center; width:6em">Conda</th>
+        <th style="width:30em;">Description</th>
+        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
       <tr style="vertical-align:top; text-align:center">
@@ -126,21 +118,21 @@ Colormaps and styles
         
         <td>
           <a href="https://matplotlib.org/cmocean">
-            <img src="https://img.shields.io/website-up-down-green-red/https/matplotlib.org/cmocean.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/matplotlib.org/cmocean.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/cmocean">
-            <img src="https://img.shields.io/pypi/v/cmocean.svg?label">
+            <img src="https://img.shields.io/pypi/v/cmocean.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/cmocean">
-          <img src="https://img.shields.io/conda/vn/conda-forge/cmocean.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/cmocean.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -157,14 +149,14 @@ Colormaps and styles
         
         <td >
           <a href="https://pypi.python.org/pypi/viscm">
-            <img src="https://img.shields.io/pypi/v/viscm.svg?label">
+            <img src="https://img.shields.io/pypi/v/viscm.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/viscm">
-          <img src="https://img.shields.io/conda/vn/conda-forge/viscm.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/viscm.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -184,10 +176,10 @@ GUI applications
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
-        <th>Description</th>
-        <th style="width:6em; text-align:center">Website</th>
-        <th style="width:4em; text-align:center">PyPi</th>
-        <th style="text-align:center; width:6em">Conda</th>
+        <th style="width:30em;">Description</th>
+        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
       <tr style="vertical-align:top; text-align:center">
@@ -199,18 +191,10 @@ GUI applications
         <td><a href="http://github.com/SojiroFukuda/sview-gui">github</a></td>
         
         
-        <td >
-          <a href="https://pypi.python.org/pypi/sview-gui">
-            <img src="https://img.shields.io/pypi/v/sview-gui.svg?label">
-          </a>
-        </td>
+        <td>-</td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/sview-gui">
-          <img src="https://img.shields.io/conda/vn/conda-forge/sview-gui.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -228,10 +212,10 @@ Interactivity
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
-        <th>Description</th>
-        <th style="width:6em; text-align:center">Website</th>
-        <th style="width:4em; text-align:center">PyPi</th>
-        <th style="text-align:center; width:6em">Conda</th>
+        <th style="width:30em;">Description</th>
+        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
       <tr style="vertical-align:top; text-align:center">
@@ -242,23 +226,19 @@ Interactivity
         
         <td>
           <a href="https://mpl-interactions.readthedocs.io">
-            <img src="https://img.shields.io/website-up-down-green-red/https/mpl-interactions.readthedocs.io.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/mpl-interactions.readthedocs.io.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/mpl-interactions">
-            <img src="https://img.shields.io/pypi/v/mpl-interactions.svg?label">
+            <img src="https://img.shields.io/pypi/v/mpl-interactions.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/mpl-interactions">
-          <img src="https://img.shields.io/conda/vn/conda-forge/mpl-interactions.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -270,21 +250,21 @@ Interactivity
         
         <td>
           <a href="https://mplcursors.readthedocs.io">
-            <img src="https://img.shields.io/website-up-down-green-red/https/mplcursors.readthedocs.io.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/mplcursors.readthedocs.io.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/mplcursors">
-            <img src="https://img.shields.io/pypi/v/mplcursors.svg?label">
+            <img src="https://img.shields.io/pypi/v/mplcursors.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/mplcursors">
-          <img src="https://img.shields.io/conda/vn/conda-forge/mplcursors.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mplcursors.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -301,16 +281,12 @@ Interactivity
         
         <td >
           <a href="https://pypi.python.org/pypi/mpldatacursor">
-            <img src="https://img.shields.io/pypi/v/mpldatacursor.svg?label">
+            <img src="https://img.shields.io/pypi/v/mpldatacursor.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/mpldatacursor">
-          <img src="https://img.shields.io/conda/vn/conda-forge/mpldatacursor.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -328,10 +304,10 @@ Mapping
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
-        <th>Description</th>
-        <th style="width:6em; text-align:center">Website</th>
-        <th style="width:4em; text-align:center">PyPi</th>
-        <th style="text-align:center; width:6em">Conda</th>
+        <th style="width:30em;">Description</th>
+        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
       <tr style="vertical-align:top; text-align:center">
@@ -342,21 +318,21 @@ Mapping
         
         <td>
           <a href="https://scitools.org.uk/cartopy/docs/latest">
-            <img src="https://img.shields.io/website-up-down-green-red/https/scitools.org.uk/cartopy/docs/latest.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/scitools.org.uk/cartopy/docs/latest.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/cartopy">
-            <img src="https://img.shields.io/pypi/v/cartopy.svg?label">
+            <img src="https://img.shields.io/pypi/v/cartopy.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/cartopy">
-          <img src="https://img.shields.io/conda/vn/conda-forge/cartopy.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/cartopy.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -370,21 +346,21 @@ Mapping
         
         <td>
           <a href="https://residentmario.github.io/geoplot/index.html">
-            <img src="https://img.shields.io/website-up-down-green-red/https/residentmario.github.io/geoplot/index.html.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/residentmario.github.io/geoplot/index.html.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/geoplot">
-            <img src="https://img.shields.io/pypi/v/geoplot.svg?label">
+            <img src="https://img.shields.io/pypi/v/geoplot.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/geoplot">
-          <img src="https://img.shields.io/conda/vn/conda-forge/geoplot.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/geoplot.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -401,16 +377,12 @@ Mapping
         
         <td >
           <a href="https://pypi.python.org/pypi/ridge_map">
-            <img src="https://img.shields.io/pypi/v/ridge_map.svg?label">
+            <img src="https://img.shields.io/pypi/v/ridge_map.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/ridge_map">
-          <img src="https://img.shields.io/conda/vn/conda-forge/ridge_map.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -428,10 +400,10 @@ Miscellaneous
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
-        <th>Description</th>
-        <th style="width:6em; text-align:center">Website</th>
-        <th style="width:4em; text-align:center">PyPi</th>
-        <th style="text-align:center; width:6em">Conda</th>
+        <th style="width:30em;">Description</th>
+        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
       <tr style="vertical-align:top; text-align:center">
@@ -442,23 +414,15 @@ Miscellaneous
         
         <td>
           <a href="https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer">
-            <img src="https://img.shields.io/website-up-down-green-red/https/edinburgh-genome-foundry.github.io/DnaFeaturesViewer.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/edinburgh-genome-foundry.github.io/DnaFeaturesViewer.svg?logoWidth=40">
           </a>
         </td>
         
         
-        <td >
-          <a href="https://pypi.python.org/pypi/DnaFeaturesViewer">
-            <img src="https://img.shields.io/pypi/v/DnaFeaturesViewer.svg?label">
-          </a>
-        </td>
+        <td>-</td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/DnaFeaturesViewer">
-          <img src="https://img.shields.io/conda/vn/conda-forge/DnaFeaturesViewer.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -473,14 +437,14 @@ Miscellaneous
         
         <td >
           <a href="https://pypi.python.org/pypi/adjustText">
-            <img src="https://img.shields.io/pypi/v/adjustText.svg?label">
+            <img src="https://img.shields.io/pypi/v/adjustText.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/adjustText">
-          <img src="https://img.shields.io/conda/vn/conda-forge/adjustText.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/adjustText.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -497,16 +461,12 @@ Miscellaneous
         
         <td >
           <a href="https://pypi.python.org/pypi/blume">
-            <img src="https://img.shields.io/pypi/v/blume.svg?label">
+            <img src="https://img.shields.io/pypi/v/blume.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/blume">
-          <img src="https://img.shields.io/conda/vn/conda-forge/blume.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -521,16 +481,12 @@ Miscellaneous
         
         <td >
           <a href="https://pypi.python.org/pypi/figpager">
-            <img src="https://img.shields.io/pypi/v/figpager.svg?label">
+            <img src="https://img.shields.io/pypi/v/figpager.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/figpager">
-          <img src="https://img.shields.io/conda/vn/conda-forge/figpager.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -545,14 +501,14 @@ Miscellaneous
         
         <td >
           <a href="https://pypi.python.org/pypi/grid-strategy">
-            <img src="https://img.shields.io/pypi/v/grid-strategy.svg?label">
+            <img src="https://img.shields.io/pypi/v/grid-strategy.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/grid-strategy">
-          <img src="https://img.shields.io/conda/vn/conda-forge/grid-strategy.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/grid-strategy.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -564,21 +520,17 @@ Miscellaneous
         </td>
         <td align='left'>  Templating engine for consistent plots.   </td>             
         
-        <td><a href="http://github.com/austinorr/mpl-template">github</a></td>
-        
-        
-        <td >
-          <a href="https://pypi.python.org/pypi/mpl-template">
-            <img src="https://img.shields.io/pypi/v/mpl-template.svg?label">
-          </a>
-        </td>
-        
-        
         <td>
-          <a href="https://anaconda.org/conda-forge/mpl-template">
-          <img src="https://img.shields.io/conda/vn/conda-forge/mpl-template.svg?style=flat">
+          <a href="https://austinorr.github.io/mpl-template">
+            <img src="https://img.shields.io/website-up-down-green-red/https/austinorr.github.io/mpl-template.svg?logoWidth=40">
           </a>
         </td>
+        
+        
+        <td>-</td>
+        
+        
+        <td>-</td>        
           
       </tr>
       
@@ -596,10 +548,10 @@ Rendering backends
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
-        <th>Description</th>
-        <th style="width:6em; text-align:center">Website</th>
-        <th style="width:4em; text-align:center">PyPi</th>
-        <th style="text-align:center; width:6em">Conda</th>
+        <th style="width:30em;">Description</th>
+        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
       <tr style="vertical-align:top; text-align:center">
@@ -610,23 +562,19 @@ Rendering backends
         
         <td>
           <a href="https://gr-framework.org/python.html">
-            <img src="https://img.shields.io/website-up-down-green-red/https/gr-framework.org/python.html.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/gr-framework.org/python.html.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/gr">
-            <img src="https://img.shields.io/pypi/v/gr.svg?label">
+            <img src="https://img.shields.io/pypi/v/gr.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/gr">
-          <img src="https://img.shields.io/conda/vn/conda-forge/gr.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -641,16 +589,12 @@ Rendering backends
         
         <td >
           <a href="https://pypi.python.org/pypi/mplcairo">
-            <img src="https://img.shields.io/pypi/v/mplcairo.svg?label">
+            <img src="https://img.shields.io/pypi/v/mplcairo.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/mplcairo">
-          <img src="https://img.shields.io/conda/vn/conda-forge/mplcairo.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -662,23 +606,19 @@ Rendering backends
         
         <td>
           <a href="http://newville.github.io/wxmplot">
-            <img src="https://img.shields.io/website-up-down-green-red/http/newville.github.io/wxmplot.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/http/newville.github.io/wxmplot.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/wxmplot">
-            <img src="https://img.shields.io/pypi/v/wxmplot.svg?label">
+            <img src="https://img.shields.io/pypi/v/wxmplot.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/wxmplot">
-          <img src="https://img.shields.io/conda/vn/conda-forge/wxmplot.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -696,10 +636,10 @@ Specialty plots
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
-        <th>Description</th>
-        <th style="width:6em; text-align:center">Website</th>
-        <th style="width:4em; text-align:center">PyPi</th>
-        <th style="text-align:center; width:6em">Conda</th>
+        <th style="width:30em;">Description</th>
+        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
       <tr style="vertical-align:top; text-align:center">
@@ -710,21 +650,21 @@ Specialty plots
         
         <td>
           <a href="https://www.astropy.org">
-            <img src="https://img.shields.io/website-up-down-green-red/https/www.astropy.org.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/www.astropy.org.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/astropy">
-            <img src="https://img.shields.io/pypi/v/astropy.svg?label">
+            <img src="https://img.shields.io/pypi/v/astropy.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/astropy">
-          <img src="https://img.shields.io/conda/vn/conda-forge/astropy.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/astropy.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -741,14 +681,14 @@ Specialty plots
         
         <td >
           <a href="https://pypi.python.org/pypi/brokenaxes">
-            <img src="https://img.shields.io/pypi/v/brokenaxes.svg?label">
+            <img src="https://img.shields.io/pypi/v/brokenaxes.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/brokenaxes">
-          <img src="https://img.shields.io/conda/vn/conda-forge/brokenaxes.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/brokenaxes.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -765,14 +705,14 @@ Specialty plots
         
         <td >
           <a href="https://pypi.python.org/pypi/matplotlib-scalebar">
-            <img src="https://img.shields.io/pypi/v/matplotlib-scalebar.svg?label">
+            <img src="https://img.shields.io/pypi/v/matplotlib-scalebar.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/matplotlib-scalebar">
-          <img src="https://img.shields.io/conda/vn/conda-forge/matplotlib-scalebar.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/matplotlib-scalebar.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -789,14 +729,14 @@ Specialty plots
         
         <td >
           <a href="https://pypi.python.org/pypi/matplotlib-venn">
-            <img src="https://img.shields.io/pypi/v/matplotlib-venn.svg?label">
+            <img src="https://img.shields.io/pypi/v/matplotlib-venn.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/matplotlib-venn">
-          <img src="https://img.shields.io/conda/vn/conda-forge/matplotlib-venn.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/matplotlib-venn.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -810,21 +750,17 @@ Specialty plots
         
         <td>
           <a href="https://matplotlib.org/mpl-probscale">
-            <img src="https://img.shields.io/website-up-down-green-red/https/matplotlib.org/mpl-probscale.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/matplotlib.org/mpl-probscale.svg?logoWidth=40">
           </a>
         </td>
         
         
-        <td >
-          <a href="https://pypi.python.org/pypi/mpl-probscale">
-            <img src="https://img.shields.io/pypi/v/mpl-probscale.svg?label">
-          </a>
-        </td>
+        <td>-</td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-probscale">
-          <img src="https://img.shields.io/conda/vn/conda-forge/mpl-probscale.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mpl-probscale.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -841,14 +777,14 @@ Specialty plots
         
         <td >
           <a href="https://pypi.python.org/pypi/mplfinance">
-            <img src="https://img.shields.io/pypi/v/mplfinance.svg?label">
+            <img src="https://img.shields.io/pypi/v/mplfinance.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/mplfinance">
-          <img src="https://img.shields.io/conda/vn/conda-forge/mplfinance.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/mplfinance.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -865,16 +801,12 @@ Specialty plots
         
         <td >
           <a href="https://pypi.python.org/pypi/mplstereonet">
-            <img src="https://img.shields.io/pypi/v/mplstereonet.svg?label">
+            <img src="https://img.shields.io/pypi/v/mplstereonet.svg?label?logoWidth=100">
           </a>
         </td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/mplstereonet">
-          <img src="https://img.shields.io/conda/vn/conda-forge/mplstereonet.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -887,18 +819,10 @@ Specialty plots
         <td><a href="http://github.com/ImSoErgodic/py-upset">github</a></td>
         
         
-        <td >
-          <a href="https://pypi.python.org/pypi/pyupset">
-            <img src="https://img.shields.io/pypi/v/pyupset.svg?label">
-          </a>
-        </td>
+        <td>-</td>
         
         
-        <td>
-          <a href="https://anaconda.org/conda-forge/py-upset">
-          <img src="https://img.shields.io/conda/vn/conda-forge/py-upset.svg?style=flat">
-          </a>
-        </td>
+        <td>-</td>        
           
       </tr>
       
@@ -910,21 +834,21 @@ Specialty plots
         
         <td>
           <a href="https://seaborn.pydata.org">
-            <img src="https://img.shields.io/website-up-down-green-red/https/seaborn.pydata.org.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/seaborn.pydata.org.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/seaborn">
-            <img src="https://img.shields.io/pypi/v/seaborn.svg?label">
+            <img src="https://img.shields.io/pypi/v/seaborn.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/seaborn">
-          <img src="https://img.shields.io/conda/vn/conda-forge/seaborn.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/seaborn.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -941,14 +865,14 @@ Specialty plots
         
         <td >
           <a href="https://pypi.python.org/pypi/windrose">
-            <img src="https://img.shields.io/pypi/v/windrose.svg?label">
+            <img src="https://img.shields.io/pypi/v/windrose.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/windrose">
-          <img src="https://img.shields.io/conda/vn/conda-forge/windrose.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/windrose.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
@@ -962,21 +886,21 @@ Specialty plots
         
         <td>
           <a href="https://www.scikit-yb.org/en/latest">
-            <img src="https://img.shields.io/website-up-down-green-red/https/www.scikit-yb.org/en/latest.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/https/www.scikit-yb.org/en/latest.svg?logoWidth=40">
           </a>
         </td>
         
         
         <td >
           <a href="https://pypi.python.org/pypi/yellowbrick">
-            <img src="https://img.shields.io/pypi/v/yellowbrick.svg?label">
+            <img src="https://img.shields.io/pypi/v/yellowbrick.svg?label?logoWidth=100">
           </a>
         </td>
         
         
         <td>
           <a href="https://anaconda.org/conda-forge/yellowbrick">
-          <img src="https://img.shields.io/conda/vn/conda-forge/yellowbrick.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/conda-forge/yellowbrick.svg?style=flat?logoWidth=40">
           </a>
         </td>
           
