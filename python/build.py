@@ -4,6 +4,7 @@ from jinja2 import Template
 from yaml import safe_load
 from markdown import markdown
 import glob 
+import requests
 
 # concatenate yml files...
 
@@ -81,8 +82,23 @@ for section in config:
             package['badges'] = [x.strip() for x in package['badges'].split(',')]
         else:
             package['badges'] = ['pypi', 'conda']
+        
+        if 'pypi' in package['badges']:
+            print(f"Checking {package['name']} PyPi")
+            response = requests.get(f"http://pypi.python.org/pypi/{package['name']}/json/")
+            if response.status_code != 200:
+                print(f"   Removing {package['name']} pypi badge")
+                package['badges'].remove('pypi')
         if package.get('conda_channel') and 'conda' not in package['badges']:
             package['badges'].append('conda')
+        if 'conda_channel' not in package:
+            package['conda_channel'] = 'conda-forge'
+        if 'conda' in package['badges']:
+            print(f"Checking {package['name']} Conda")
+            response = requests.get(f"https://anaconda.org/{package['conda_channel']}/{package['name']}/", allow_redirects=False)
+            if response.status_code != 200:
+                print(f"  Removing {package['name']} conda badge")
+                package['badges'].remove('conda')
         if package.get('sponsors') and 'sponsor' not in package['badges']:
             package['badges'].append('sponsor')
         if package.get('site') and 'site' not in package['badges'] and 'rtd' not in package['badges']:
@@ -93,8 +109,7 @@ for section in config:
 
         if 'rtd' in package['badges'] and 'rtd_name' not in package:
             package['rtd_name'] = package['name']
-        if 'conda' in package['badges'] and 'conda_channel' not in package:
-            package['conda_channel'] = 'conda-forge'
+
         if 'site' in package['badges']:
             if 'site' not in package:
                 package['site'] = '{}.org'.format(package['name'])
