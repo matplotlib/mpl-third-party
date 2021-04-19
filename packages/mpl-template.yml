@@ -1,3 +1,4 @@
 repo: austinorr/mpl-template
 section: miscellaneous
 description: Templating engine for consistent plots.
+site: https://austinorr.github.io/mpl-template/

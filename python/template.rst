@@ -11,10 +11,10 @@
     <table>
       <tr style="text-align:center">
         <th style="width:10em">Name</th>
-        <th>Description</th>
-        <th style="width:6em; text-align:center">Website</th>
-        <th style="width:4em; text-align:center">PyPi</th>
-        <th style="text-align:center; width:6em">Conda</th>
+        <th style="width:30em;">Description</th>
+        <th style="width:5em; text-align:center">Website</th>
+        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="text-align:center; width:9em">Conda</th>
       </tr>
       {% for package in section.packages %}
       <tr style="vertical-align:top; text-align:center">
@@ -25,7 +25,7 @@
         {% if 'site' in package.badges %}
         <td>
           <a href="{{ package.site_protocol}}://{{ package.site }}">
-            <img src="https://img.shields.io/website-up-down-green-red/{{ package.site_protocol}}/{{ package.site }}.svg">
+            <img src="https://img.shields.io/website-up-down-green-red/{{ package.site_protocol}}/{{ package.site }}.svg?logoWidth=40">
           </a>
         </td>
         {% elif 'rtd' in package.badges %}
@@ -40,7 +40,7 @@
         {% if 'pypi' in package.badges %}
         <td >
           <a href="https://pypi.python.org/pypi/{{ package.pypi_name }}">
-            <img src="https://img.shields.io/pypi/v/{{ package.pypi_name }}.svg?label">
+            <img src="https://img.shields.io/pypi/v/{{ package.pypi_name }}.svg?label?logoWidth=100">
           </a>
         </td>
         {% else %}
@@ -49,7 +49,7 @@
         {% if 'conda' in package.badges %}
         <td>
           <a href="https://anaconda.org/{{ package.conda_channel }}/{{ package.conda_package }}">
-          <img src="https://img.shields.io/conda/vn/{{ package.conda_channel }}/{{ package.conda_package }}.svg?style=flat">
+          <img src="https://img.shields.io/conda/vn/{{ package.conda_channel }}/{{ package.conda_package }}.svg?style=flat?logoWidth=40">
           </a>
         </td>
         {% else %}
