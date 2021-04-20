@@ -89,7 +89,8 @@ for section in config:
         if 'pypi' in package['badges']:
             needs_newline = True
             print('    pypi: ', end='', flush=True)
-            response = requests.get(f"http://pypi.python.org/pypi/{package['name']}/json/")
+            response = requests.get(
+                f"http://pypi.python.org/pypi/{package['pypi_name']}/json/")
             if response.status_code == 200:
                 print('found')
             else:
@@ -102,7 +103,9 @@ for section in config:
         if 'conda' in package['badges']:
             needs_newline = True
             print('    conda: ', end='')
-            response = requests.get(f"https://anaconda.org/{package['conda_channel']}/{package['name']}/", allow_redirects=False)
+            response = requests.get(
+                f"https://anaconda.org/{package['conda_channel']}/{package['conda_package']}/",
+                allow_redirects=False)
             if response.status_code == 200:
                 print('found', end='')
             else:
