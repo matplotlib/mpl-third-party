@@ -2,3 +2,4 @@ repo: Edinburgh-Genome-Foundry/DnaFeaturesViewer
 section: miscellaneous
 description: Visualize DNA features, e.g. from GenBank or Gff files, or Biopython SeqRecords.
 site: https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer/
+pypi_name: dna-features-viewer
