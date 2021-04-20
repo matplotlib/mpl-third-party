@@ -1,4 +1,4 @@
 repo: astropy/astropy
-section: specialty plots
+section: domain specific library
 description: Astronomy processing and graphics (including mapping).
 site: https://www.astropy.org

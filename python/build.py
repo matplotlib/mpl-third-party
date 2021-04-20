@@ -18,15 +18,18 @@ except:
     pass
 packages = glob.glob(os.path.join(here, '../packages/*'))
 
-section_names = {'colormaps and styles': 'Colormaps and styles', 
-           'specialty plots': 'Specialty plots',
-           'gui applications': 'GUI applications', 
-           'miscellaneous': 'Miscellaneous', 
-           'backends': 'Rendering backends', 
+section_names = {'colormaps and styles': 'Colormaps and Styles', 
+           'plotting utilities': 'Plotting Utilities',
+           'plot types': 'Plot Types', 
+           'gui applications': 'GUI Applications', 
+           'backends': 'Rendering Backends', 
            'interactivity': 'Interactivity',
            'animations': 'Animations',
            'mapping': 'Mapping', 
-           'declarative libraries': 'Declarative Libraries'}
+           'domain specific libraries': 'Domain Specific Libraries',
+           'declarative libraries': 'Declarative Libraries', 
+           'documentation': 'Documentation'
+           'miscellaneous': 'Miscellaneous', }
 
 
 packs = dict()
