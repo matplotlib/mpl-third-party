@@ -1035,7 +1035,11 @@ Specialty plots
         </td>
 
         
-        <td>-</td>
+        <td >
+          <a href="https://pypi.python.org/pypi/pyupset">
+            <img src="https://img.shields.io/pypi/v/pyupset.svg?label?logoWidth=100">
+          </a>
+        </td>
         
         
         <td>-</td>        
