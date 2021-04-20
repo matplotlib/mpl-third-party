@@ -1,3 +1,4 @@
 repo: sphinx-gallery/sphinx-gallery
 section: miscellaneous
 description: Create matplotlib galleries for your sphinx-built documentation.
+site: https://sphinx-gallery.github.io/stable/
