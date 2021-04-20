@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 import os
+import pprint
+
 from jinja2 import Template
 from yaml import safe_load
 from markdown import markdown
@@ -39,7 +41,7 @@ for package in packages:
         else:
             packs[pack['section']] = [pack]
 
-print(packs)
+pprint.pprint(packs)
 
             
 with open(os.path.join(here, '../packages/all.yml'), 'w') as out:
@@ -60,15 +62,15 @@ with open(os.path.join(here, '../packages/all.yml'), 'w') as out:
 print("Opening config file")
 with open(os.path.join(here, '../packages/all.yml')) as f:
     config = safe_load(f)
-
-print(config)
+pprint.pprint(config)
+print()
 
 for section in config:
-    print(f"Building {section.get('name', '')}")
+    print(section.get('name', ''))
     if section.get('intro'):
         section['intro'] = markdown(section['intro'])
     for package in section['packages']:
-        print(package['repo'])
+        print(f"  {package['repo']}")
         try:
             package['user'], package['name'] = package['repo'].split('/')
         except:
@@ -82,23 +84,33 @@ for section in config:
             package['badges'] = [x.strip() for x in package['badges'].split(',')]
         else:
             package['badges'] = ['pypi', 'conda']
-        
+
+        needs_newline = False
         if 'pypi' in package['badges']:
-            print(f"Checking {package['name']} PyPI")
+            needs_newline = True
+            print('    pypi: ', end='', flush=True)
             response = requests.get(f"http://pypi.python.org/pypi/{package['name']}/json/")
-            if response.status_code != 200:
-                print(f"   Removing {package['name']} pypi badge")
+            if response.status_code == 200:
+                print('found')
+            else:
+                print('not found')
                 package['badges'].remove('pypi')
         if package.get('conda_channel') and 'conda' not in package['badges']:
             package['badges'].append('conda')
         if 'conda_channel' not in package:
             package['conda_channel'] = 'conda-forge'
         if 'conda' in package['badges']:
-            print(f"Checking {package['name']} Conda")
+            needs_newline = True
+            print('    conda: ', end='')
             response = requests.get(f"https://anaconda.org/{package['conda_channel']}/{package['name']}/", allow_redirects=False)
-            if response.status_code != 200:
-                print(f"  Removing {package['name']} conda badge")
+            if response.status_code == 200:
+                print('found', end='')
+            else:
+                print('not found', end='')
                 package['badges'].remove('conda')
+        if needs_newline:
+            print()
+
         if package.get('sponsors') and 'sponsor' not in package['badges']:
             package['badges'].append('sponsor')
         if package.get('site') and 'site' not in package['badges'] and 'rtd' not in package['badges']:
