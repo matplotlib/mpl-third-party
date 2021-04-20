@@ -26,10 +26,9 @@ section_names = {'colormaps and styles': 'Colormaps and Styles',
            'interactivity': 'Interactivity',
            'animations': 'Animations',
            'mapping': 'Mapping', 
-           'domain specific libraries': 'Domain Specific Libraries',
-           'declarative libraries': 'Declarative Libraries', 
-           'documentation': 'Documentation'
-           'miscellaneous': 'Miscellaneous', }
+           'domain specific libraries': 'Domain Specific Libraries', 
+           'documentation': 'Documentation',
+           'miscellaneous': 'Miscellaneous'}
 
 
 packs = dict()
