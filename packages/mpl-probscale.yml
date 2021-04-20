@@ -2,5 +2,5 @@ repo: matplotlib/mpl-probscale
 site: https://matplotlib.org/mpl-probscale/
 keywords: scales
 section: specialty plots
-description: Real probability scales for matplotlib
+description: Real probability scales for matplotlib.
 conda_channel: conda-forge
