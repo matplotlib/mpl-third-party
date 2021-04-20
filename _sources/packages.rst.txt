@@ -646,6 +646,38 @@ Miscellaneous
           
       </tr>
       
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
+           
+            <a href="https://sphinx-gallery.github.io/stable">sphinx-gallery</a>
+          
+        </td>
+        <td align='left'>  
+          Create matplotlib galleries for your sphinx-built documentation.   
+        </td>             
+        
+        <td>
+          <a href = "https://github.com/sphinx-gallery/sphinx-gallery">
+            <img src="https://img.shields.io/github/stars/sphinx-gallery/sphinx-gallery.svg?style=social">
+          </a?>
+        </td>
+
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/sphinx-gallery">
+            <img src="https://img.shields.io/pypi/v/sphinx-gallery.svg?label?logoWidth=100">
+          </a>
+        </td>
+        
+        
+        <td>
+          <a href="https://anaconda.org/conda-forge/sphinx-gallery">
+          <img src="https://img.shields.io/conda/vn/conda-forge/sphinx-gallery.svg?style=flat?logoWidth=40">
+          </a>
+        </td>
+          
+      </tr>
+      
     </table>
     
     
