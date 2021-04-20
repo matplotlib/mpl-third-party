@@ -34,7 +34,10 @@ html_theme_options = {
              "url": "https://github.com/matplotlib/matplotlib",
              "icon": "fab fa-github-square",
          },
-
+         {   "name": "twitter", 
+             "url":"https://twitter.com/matplotlib/", 
+             "icon":"fab fa-twitter-square",
+         },
      ],
 }
 html_sidebars = {
