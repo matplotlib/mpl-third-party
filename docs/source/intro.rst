@@ -3,7 +3,8 @@ and distributed independently from Matplotlib so go to the website
 listed for instructions.  
 
 Please contribute your package by opening a pull-request at 
-https://github.com/matplotlib/mpl-third-party using the template in the `readme <https://github.com/matplotlib/mpl-third-party>`_
+https://github.com/matplotlib/mpl-third-party using the template in the
+`readme <https://github.com/matplotlib/mpl-third-party>`_
 
 If you need help making a package, see 
 https://github.com/matplotlib/matplotlib-extension-cookiecutter
