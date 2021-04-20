@@ -84,7 +84,7 @@ for section in config:
             package['badges'] = ['pypi', 'conda']
         
         if 'pypi' in package['badges']:
-            print(f"Checking {package['name']} PyPi")
+            print(f"Checking {package['name']} PyPI")
             response = requests.get(f"http://pypi.python.org/pypi/{package['name']}/json/")
             if response.status_code != 200:
                 print(f"   Removing {package['name']} pypi badge")
