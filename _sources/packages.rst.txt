@@ -656,6 +656,34 @@ Miscellaneous
       
       <tr style="vertical-align:top; text-align:center">
         <td style="vertical-align:top; text-align:left">
+          
+            <a href="http://github.com/andrewRowlinson/mplsoccer">mplsoccer</a>
+          
+        </td>
+        <td align='left'>  
+          Plot soccer/football pitches and charts.   
+        </td>             
+        
+        <td>
+          <a href = "https://github.com/andrewRowlinson/mplsoccer">
+            <img src="https://img.shields.io/github/stars/andrewRowlinson/mplsoccer.svg?style=social">
+          </a?>
+        </td>
+
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/mplsoccer">
+            <img src="https://img.shields.io/pypi/v/mplsoccer.svg?label?logoWidth=100">
+          </a>
+        </td>
+        
+        
+        <td>-</td>        
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
            
             <a href="https://sphinx-gallery.github.io/stable">sphinx-gallery</a>
           
