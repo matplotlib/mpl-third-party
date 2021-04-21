@@ -18,7 +18,7 @@ Animations
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
         <th style="width:6em; text-align:center">GitHub</th>
-        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="width:6em; text-align:center">PyPI</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
@@ -126,7 +126,7 @@ Colormaps and styles
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
         <th style="width:6em; text-align:center">GitHub</th>
-        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="width:6em; text-align:center">PyPI</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
@@ -210,7 +210,7 @@ GUI applications
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
         <th style="width:6em; text-align:center">GitHub</th>
-        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="width:6em; text-align:center">PyPI</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
@@ -258,7 +258,7 @@ Interactivity
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
         <th style="width:6em; text-align:center">GitHub</th>
-        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="width:6em; text-align:center">PyPI</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
@@ -366,7 +366,7 @@ Mapping
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
         <th style="width:6em; text-align:center">GitHub</th>
-        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="width:6em; text-align:center">PyPI</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
@@ -478,7 +478,7 @@ Miscellaneous
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
         <th style="width:6em; text-align:center">GitHub</th>
-        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="width:6em; text-align:center">PyPI</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
@@ -702,7 +702,7 @@ Rendering backends
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
         <th style="width:6em; text-align:center">GitHub</th>
-        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="width:6em; text-align:center">PyPI</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
@@ -806,7 +806,7 @@ Specialty plots
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
         <th style="width:6em; text-align:center">GitHub</th>
-        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="width:6em; text-align:center">PyPI</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       
