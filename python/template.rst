@@ -13,7 +13,7 @@
         <th style="width:10em">Name</th>
         <th style="width:30em;">Description</th>
         <th style="width:6em; text-align:center">GitHub</th>
-        <th style="width:6em; text-align:center">PyPi</th>
+        <th style="width:6em; text-align:center">PyPI</th>
         <th style="text-align:center; width:9em">Conda</th>
       </tr>
       {% for package in section.packages %}
