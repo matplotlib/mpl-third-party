@@ -20,7 +20,7 @@ Note: The name of the yml file and the name of the repo should ideally match.
 
 ## Development
 
-The list of yml files in `packages/` is parsed by `build/build.py` using `template.rst` and
+The list of yml files in `packages/` is parsed by `python/build.py` using `template.rst` and
 the result is saved to `docs/source/packages.rst`.  This script is called by `docs/Makefile`
 using `make html`.  This runs a `sphinx-build` and makes the page at `build/html/index.html`.
 
