@@ -23,8 +23,8 @@
         </td>             
         
         <td>
-          <a href = "https://github.com/{{ package.user }}/{{ package.name }}">  
-          <img src="_static/badges/github-gray.svg">
+          <a href="https://github.com/{{ package.user }}/{{ package.name }}">  
+          <img style="text-align:left; height:1.4em"  src="_static/badges/github-gray.svg">
             
           </a?>
         </td>
@@ -32,7 +32,7 @@
         {% if 'pypi' in package.badges %}
         <td>
           <a href="https://pypi.python.org/pypi/{{ package.pypi_name }}">
-            <img src="_static/badges/pip-orange.svg">
+            <img style="text-align:left; height:1.4em" src="_static/badges/pip-orange.svg">
           </a>
         </td>
         {% else %}
@@ -41,7 +41,7 @@
         {% if 'conda' in package.badges %}
         <td>
           <a href="https://anaconda.org/{{ package.conda_channel }}/{{ package.conda_package }}">
-          <img src="_static/badges/conda-blue.svg">
+          <img style="text-align:left; height:1.4em" src="_static/badges/conda-blue.svg">
           </a>
         </td>
         {% else %}
