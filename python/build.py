@@ -121,10 +121,9 @@ for section in config:
 
         if 'site' in package['badges']:
             if 'site' not in package:
-                package['site'] = '{}.org'.format(package['repo_name'])
-                package['site_protocol'] = 'https'
+                package['site'] = f'https://{package["repo_name"]}.org'
             else:
-                package['site_protocol'], package['site'] = package['site'].rstrip('/').split('://')
+                package['site'] = package['site'].rstrip('/')
 
 template = Template((here / 'template.rst').read_text())
 
