@@ -1,5 +1,6 @@
 repo: rgerum/pylustrator
 site: https://pylustrator.readthedocs.io/en/latest/
 keywords: interactive, gui, code generation
+section: gui applications
 description: Interactive editor to style plots
 pypi_name:  pylustrator
