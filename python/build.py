@@ -19,14 +19,16 @@ except:
 packages = glob.glob(os.path.join(here, '../packages/*'))
 
 section_names = {'colormaps and styles': 'Colormaps and styles', 
-           'specialty plots': 'Specialty plots',
+           'plotting utilities': 'Plotting utilities',
+           'plot types': 'Plot types', 
            'gui applications': 'GUI applications', 
-           'miscellaneous': 'Miscellaneous', 
            'backends': 'Rendering backends', 
            'interactivity': 'Interactivity',
            'animations': 'Animations',
            'mapping': 'Mapping', 
-           'declarative libraries': 'Declarative Libraries'}
+           'domain specific libraries': 'Domain specific libraries', 
+           'documentation': 'Documentation',
+           'miscellaneous': 'Miscellaneous'}
 
 
 packs = dict()

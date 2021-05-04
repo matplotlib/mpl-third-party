@@ -1,4 +1,4 @@
 repo: ppinard/matplotlib-scalebar
-section: specialty plots
+section: plotting utilities
 description: Display a scale bar. 
 conda_channel: conda-forge
