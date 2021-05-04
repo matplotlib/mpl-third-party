@@ -476,6 +476,34 @@ GUI applications
       
       <tr style="vertical-align:top; text-align:center">
         <td style="vertical-align:top; text-align:left">
+           
+            <a href="https://pylustrator.readthedocs.io/en/latest">pylustrator</a>
+          
+        </td>
+        <td align='left'>  
+          Interactive editor to style plots   
+        </td>             
+        
+        <td>
+          <a href = "https://github.com/rgerum/pylustrator">
+            <img src="https://img.shields.io/github/stars/rgerum/pylustrator.svg?style=social">
+          </a?>
+        </td>
+
+        
+        <td >
+          <a href="https://pypi.python.org/pypi/pylustrator">
+            <img src="https://img.shields.io/pypi/v/pylustrator.svg?label?logoWidth=100">
+          </a>
+        </td>
+        
+        
+        <td>-</td>        
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
           
             <a href="http://github.com/SojiroFukuda/sview-gui">sview-gui</a>
           
