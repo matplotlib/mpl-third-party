@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="conda-blue.svg"
+   id="svg66"
+   version="1.1"
+   aria-label="conda"
+   role="img"
+   height="20"
+   width="43">
+  <metadata
+     id="metadata72">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs70" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg66"
+     inkscape:window-maximized="0"
+     inkscape:window-y="25"
+     inkscape:window-x="0"
+     inkscape:cy="10"
+     inkscape:cx="21.5"
+     inkscape:zoom="24.465116"
+     showgrid="false"
+     id="namedview68"
+     inkscape:window-height="704"
+     inkscape:window-width="1811"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title42">conda</title>
+  <linearGradient
+     y2="100%"
+     x2="0"
+     id="s">
+    <stop
+       id="stop44"
+       stop-opacity=".1"
+       stop-color="#bbb"
+       offset="0" />
+    <stop
+       id="stop46"
+       stop-opacity=".1"
+       offset="1" />
+  </linearGradient>
+  <clipPath
+     id="r">
+    <rect
+       id="rect49"
+       fill="#fff"
+       rx="3"
+       height="20"
+       width="43" />
+  </clipPath>
+  <g
+     id="g58"
+     clip-path="url(#r)">
+    <rect
+       id="rect52"
+       fill="#007ec6"
+       height="20"
+       width="0" />
+    <rect
+       id="rect54"
+       fill="#007ec6"
+       height="20"
+       width="43"
+       x="0" />
+    <rect
+       id="rect56"
+       fill="url(#s)"
+       height="20"
+       width="43" />
+  </g>
+  <g
+     id="g64"
+     font-size="110"
+     text-rendering="geometricPrecision"
+     font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+     text-anchor="middle"
+     fill="#fff">
+    <text
+       id="text60"
+       textLength="330"
+       transform="scale(.1)"
+       fill-opacity=".3"
+       fill="#010101"
+       y="150"
+       x="215"
+       aria-hidden="true">conda</text>
+    <text
+       id="text62"
+       textLength="330"
+       fill="#fff"
+       transform="scale(.1)"
+       y="140"
+       x="215">conda</text>
+  </g>
+</svg>
