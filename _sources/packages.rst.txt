@@ -388,6 +388,30 @@ Domain specific libraries
       
       <tr style="vertical-align:top; text-align:center">
         <td style="vertical-align:top; text-align:left">
+          
+            <a href="http://github.com/AnkitBarik/planetMagFields">planetMagFields</a>
+          
+        </td>
+        <td align='left'>  
+          Routines to easily access information about magnetic fields of planets in our solar system and visualize them in both 2D and 3D.   
+        </td>             
+        
+        <td>
+          <a href = "https://github.com/AnkitBarik/planetMagFields">
+            <img src="https://img.shields.io/github/stars/AnkitBarik/planetMagFields.svg?style=social">
+          </a?>
+        </td>
+
+        
+        <td>-</td>
+        
+        
+        <td>-</td>        
+          
+      </tr>
+      
+      <tr style="vertical-align:top; text-align:center">
+        <td style="vertical-align:top; text-align:left">
            
             <a href="https://plotnine.readthedocs.io/en/latest">plotnine</a>
           
