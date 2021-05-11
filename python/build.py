@@ -18,19 +18,15 @@ except:
     pass
 packages = glob.glob(os.path.join(here, '../packages/*'))
 
-section_names = {'colormaps and styles': 'Colormaps and styles', 
-           'plotting utilities': 'Plotting utilities',
-           'plot types': 'Plot types', 
-           'gui applications': 'GUI applications', 
-           'backends': 'Rendering backends', 
-           'interactivity': 'Interactivity',
-           'animations': 'Animations',
-           'mapping': 'Mapping', 
-           'domain specific libraries': 'Domain specific libraries', 
-           'documentation': 'Documentation',
-           'miscellaneous': 'Miscellaneous'}
 
 
+print("Opening section names file")
+with open(os.path.join(here, '../section_names.yml')) as f:
+    section_names = safe_load(f)
+
+section_names = section_names['section_names']
+
+print("section_names", section_names)
 packs = dict()
 # divide the yml files into sections based on teh section tag...
 for package in packages:
