@@ -1,0 +1,6 @@
+repo: lukelbd/proplot
+site: https://proplot.readthedocs.io/en/latest/
+keywords: wrapper
+section: plotting utilities
+description: A lightweight matplotlib wrapper for making beautiful, publication-quality graphics.
+conda_channel: conda-forge

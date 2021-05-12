@@ -1,0 +1,6 @@
+repo: pydata/xarray
+site: http://xarray.pydata.org/en/stable/
+keywords: structured data
+section: plot types
+description: Makes multi-dimensional arrays simple, efficient, and fun!
+conda_channel: conda-forge

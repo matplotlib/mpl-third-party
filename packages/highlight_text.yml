@@ -1,0 +1,5 @@
+repo: znstrider/highlight_text
+keywords: text handling
+section: plotting utilities
+description: Make effective annotations easier in matplotlib.
+conda_channel: conda-forge
