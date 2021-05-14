@@ -1,0 +1,4 @@
+repo: arviz-devs/arviz
+section: domain specific libraries
+description: Exploratory analysis of Bayesian models with Python .
+site: https://arviz-devs.github.io/arviz/
