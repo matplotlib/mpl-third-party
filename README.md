@@ -19,7 +19,8 @@ or use the `Add File` button above. Then open a pull request with the new file.
 
 Note: The name of the yml file and the name of the repo should ideally match.
 
-The `section` entry should be one of the sections listed in <./section_names.yml>.
+The `section` entry should be one of the sections listed in 
+[./section_names.yml](https://github.com/matplotlib/mpl-third-party/blob/main/section_names.yml).
 
 ## Development
 
