@@ -8,8 +8,8 @@ To add your package to the list, create a YAML file `your-cool-mpl-package.yml` 
 repo: matplotlib/cmocean
 site: https://matplotlib.org/cmocean/
 section: colormaps
-keywords: colormaps
 description: Perceptually uniform colormaps for commonly-used oceanographic variables
+keywords: optional,
 pypi_name:  # optional, default repo name
 conda_package:  # optional
 conda_channel:  # optional, default conda-forge
