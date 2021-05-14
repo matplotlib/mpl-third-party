@@ -1,0 +1,5 @@
+repo: the-bucketless/hockey_rink
+site: https://github.com/the-bucketless/hockey_rink
+section: domain specific libraries
+keywords: hockey
+description: A Python library for plotting hockey rinks with Matplotlib.
