@@ -642,6 +642,39 @@ Third-party and user-contributed packages
       <tr>
         
         <td style="text-align:left; vertical-align:top;">
+          <a href="https://github.com/SarthakJariwala/seaborn-image">  
+            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td style="text-align:left; vertical-align:top;">
+          <a href="https://pypi.python.org/pypi/seaborn-image">
+            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td style="text-align:left;vertical-align:top; ">
+          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+       
+        <a href="https://seaborn-image.readthedocs.io">seaborn-image</a>
+      
+      </td>
+      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+        High-level API for drawing informative and attractive images.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td style="text-align:left; vertical-align:top;">
           <a href="https://github.com/DistrictDataLabs/yellowbrick">  
             <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
           </a>
