@@ -6,49 +6,49 @@ Third-party and user-contributed packages
 .. raw:: html
 
   <div>
-  <table>
+  <table id="packages">
   
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="animations">
           Animations
           <a class="headerlink" href="#animations" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/t-makaro/animatplot">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/animatplot">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/animatplot">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://animatplot.readthedocs.io/en/latest/index.html">animatplot</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Interactive animated plots.   
       </td>             
       
@@ -57,31 +57,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/maxhumber/gif">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/gif">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/maxhumber/gif">gif</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Ultra lightweight animated gif API.   
       </td>             
       
@@ -90,31 +90,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/WarrenWeckesser/numpngw">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/numpngw">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/WarrenWeckesser/numpngw">numpngw</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Write animated pngs.   
       </td>             
       
@@ -123,46 +123,46 @@ Third-party and user-contributed packages
       
     
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="colormaps-and-styles">
           Colormaps and styles
           <a class="headerlink" href="#colormaps-and-styles" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/1313e/CMasher">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/cmasher">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/cmasher">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://cmasher.readthedocs.io">CMasher</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Scientific colormaps for making accessible, informative and 'cmashing' plots   
       </td>             
       
@@ -171,33 +171,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/matplotlib/cmocean">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/cmocean">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/cmocean">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://matplotlib.org/cmocean">cmocean</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Perceptually uniform colormaps for oceanographic variables.   
       </td>             
       
@@ -206,31 +206,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/dhaitz/mplcyberpunk">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/mplcyberpunk">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/dhaitz/mplcyberpunk">mplcyberpunk</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Cyberpunk / neon-glow look for plots.   
       </td>             
       
@@ -239,33 +239,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/matplotlib/viscm">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/viscm">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/viscm">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/matplotlib/viscm">viscm</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Tool for analyzing colormaps and creating new colormaps.   
       </td>             
       
@@ -274,46 +274,46 @@ Third-party and user-contributed packages
       
     
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="documentation">
           Documentation
           <a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/sphinx-gallery/sphinx-gallery">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/sphinx-gallery">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/sphinx-gallery">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://sphinx-gallery.github.io/stable">sphinx-gallery</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Create matplotlib galleries for your sphinx-built documentation.   
       </td>             
       
@@ -322,44 +322,44 @@ Third-party and user-contributed packages
       
     
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="domain-specific-libraries">
           Domain specific libraries
           <a class="headerlink" href="#domain-specific-libraries" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/dna-features-viewer">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer">DnaFeaturesViewer</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Visualize DNA features, e.g. from GenBank or Gff files, or Biopython SeqRecords.   
       </td>             
       
@@ -368,33 +368,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/arviz-devs/arviz">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/arviz">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/arviz">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://arviz-devs.github.io/arviz">arviz</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Exploratory analysis of Bayesian models with Python .   
       </td>             
       
@@ -403,33 +403,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/astropy/astropy">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/astropy">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/astropy">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://www.astropy.org">astropy</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Astronomy processing and graphics (including mapping).   
       </td>             
       
@@ -438,31 +438,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/the-bucketless/hockey_rink">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/hockey_rink">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://github.com/the-bucketless/hockey_rink">hockey_rink</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         A Python library for plotting hockey rinks with Matplotlib.   
       </td>             
       
@@ -471,33 +471,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/matplotlib/mplfinance">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/mplfinance">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/mplfinance">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/matplotlib/mplfinance">mplfinance</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Utilities for the visual analysis of financial data.   
       </td>             
       
@@ -506,31 +506,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/andrewRowlinson/mplsoccer">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/mplsoccer">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/andrewRowlinson/mplsoccer">mplsoccer</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Plot soccer/football pitches and charts.   
       </td>             
       
@@ -539,29 +539,29 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/AnkitBarik/planetMagFields">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:center; style="vertical-align:top;">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-empty.svg">
+        <td>
+          <img src="_static/badges/pip-empty.svg">
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/AnkitBarik/planetMagFields">planetMagFields</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Routines to easily access information about magnetic fields of planets in our solar system and visualize them in both 2D and 3D.   
       </td>             
       
@@ -570,33 +570,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/has2k1/plotnine">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/plotnine">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/plotnine">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://plotnine.readthedocs.io/en/latest">plotnine</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         a grammar of graphics for Python   
       </td>             
       
@@ -605,33 +605,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/mwaskom/seaborn">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/seaborn">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/seaborn">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://seaborn.pydata.org">seaborn</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         High-level interface for drawing attractive statistical graphics.   
       </td>             
       
@@ -640,31 +640,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/SarthakJariwala/seaborn-image">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/seaborn-image">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://seaborn-image.readthedocs.io">seaborn-image</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         High-level API for drawing informative and attractive images.   
       </td>             
       
@@ -673,33 +673,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/DistrictDataLabs/yellowbrick">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/yellowbrick">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/yellowbrick">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://www.scikit-yb.org/en/latest">yellowbrick</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Visual analysis and diagnostic tools to facilitate machine learning model selection.   
       </td>             
       
@@ -708,44 +708,44 @@ Third-party and user-contributed packages
       
     
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="gui-applications">
           GUI applications
           <a class="headerlink" href="#gui-applications" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/rgerum/pylustrator">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/pylustrator">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://pylustrator.readthedocs.io/en/latest">pylustrator</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Interactive editor to style plots   
       </td>             
       
@@ -754,31 +754,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/SojiroFukuda/sview-gui">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/sviewgui">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/SojiroFukuda/sview-gui">sview-gui</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         PyQt5 GUI for data visualisation of csv file or pandas' DataFrames.   
       </td>             
       
@@ -787,44 +787,44 @@ Third-party and user-contributed packages
       
     
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="interactivity">
           Interactivity
           <a class="headerlink" href="#interactivity" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/ianhi/mpl-interactions">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/mpl-interactions">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://mpl-interactions.readthedocs.io">mpl-interactions</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Interactive widgets for responsive plots.   
       </td>             
       
@@ -833,33 +833,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/anntzer/mplcursors">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/mplcursors">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/mplcursors">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://mplcursors.readthedocs.io">mplcursors</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Interactive data selection cursors.   
       </td>             
       
@@ -868,31 +868,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/joferkington/mpldatacursor">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/mpldatacursor">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/joferkington/mpldatacursor">mpldatacursor</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Interactive data selection cursors.   
       </td>             
       
@@ -901,29 +901,29 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/anntzer/mplinorm">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:center; style="vertical-align:top;">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-empty.svg">
+        <td>
+          <img src="_static/badges/pip-empty.svg">
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/anntzer/mplinorm">mplinorm</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Interactive contrast adjustment for Matplotlib images.   
       </td>             
       
@@ -932,46 +932,46 @@ Third-party and user-contributed packages
       
     
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="mapping">
           Mapping
           <a class="headerlink" href="#mapping" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/SciTools/cartopy">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/cartopy">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/cartopy">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://scitools.org.uk/cartopy/docs/latest">cartopy</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Produce maps and other geospatial data analyses.   
       </td>             
       
@@ -980,33 +980,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/residentmario/geoplot">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/geoplot">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/geoplot">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://residentmario.github.io/geoplot/index.html">geoplot</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         High-level Python geospatial plotting library based on cartopy.   
       </td>             
       
@@ -1015,31 +1015,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/joferkington/mplstereonet">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/mplstereonet">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/joferkington/mplstereonet">mplstereonet</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Lower-hemisphere equal-area and equal-angle stereonets.   
       </td>             
       
@@ -1048,31 +1048,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/ColCarroll/ridge_map">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/ridge_map">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/ColCarroll/ridge_map">ridge_map</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Library for making ridge plots of... ridges.   
       </td>             
       
@@ -1081,44 +1081,44 @@ Third-party and user-contributed packages
       
     
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="plot-types">
           Plot types
           <a class="headerlink" href="#plot-types" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/swfiua/blume">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/blume">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/swfiua/blume">blume</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Alternate table artist.   
       </td>             
       
@@ -1127,33 +1127,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/konstantint/matplotlib-venn">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/matplotlib-venn">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/matplotlib-venn">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/konstantint/matplotlib-venn">matplotlib-venn</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Plotting area-weighted two- and three-circle venn diagrams.   
       </td>             
       
@@ -1162,33 +1162,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/pandas-dev/pandas">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/pandas">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/pandas">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://pandas.pydata.org">pandas</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Data analysis and manipulation tool.   
       </td>             
       
@@ -1197,31 +1197,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/ImSoErgodic/py-upset">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/pyupset">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/ImSoErgodic/py-upset">py-upset</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         UpSet suite of visualization methods.   
       </td>             
       
@@ -1230,33 +1230,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/scls19fr/windrose">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/windrose">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/windrose">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/scls19fr/windrose">windrose</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Create windrose plots.   
       </td>             
       
@@ -1265,33 +1265,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/pydata/xarray">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/xarray">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/xarray">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="http://xarray.pydata.org/en/stable">xarray</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Makes multi-dimensional arrays simple, efficient, and fun!   
       </td>             
       
@@ -1300,33 +1300,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/yt-project/yt">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/yt">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/yt">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://yt-project.org">yt</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Package for analyzing and visualizing volumetric data.   
       </td>             
       
@@ -1335,46 +1335,46 @@ Third-party and user-contributed packages
       
     
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="plotting-utilities">
           Plotting utilities
           <a class="headerlink" href="#plotting-utilities" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/Phlya/adjustText">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/adjustText">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/adjustText">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/Phlya/adjustText">adjustText</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Draw many text artists so that they do not overlap.   
       </td>             
       
@@ -1383,33 +1383,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/bendichter/brokenaxes">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/brokenaxes">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/brokenaxes">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/bendichter/brokenaxes">brokenaxes</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Plots with breaks in the axes.   
       </td>             
       
@@ -1418,31 +1418,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/ebenp/figpager">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/figpager">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/ebenp/figpager">figpager</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Save plots with single or multiple pages.   
       </td>             
       
@@ -1451,33 +1451,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/matplotlib/grid-strategy">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/grid-strategy">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/grid-strategy">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/matplotlib/grid-strategy">grid-strategy</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Create a grid of subplots based on the number of axes to be plotted.   
       </td>             
       
@@ -1486,31 +1486,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/znstrider/highlight_text">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/highlight_text">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/znstrider/highlight_text">highlight_text</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Make effective annotations easier in matplotlib.   
       </td>             
       
@@ -1519,33 +1519,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/ppinard/matplotlib-scalebar">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/matplotlib-scalebar">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/matplotlib-scalebar">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/ppinard/matplotlib-scalebar">matplotlib-scalebar</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Display a scale bar.   
       </td>             
       
@@ -1554,33 +1554,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/matplotlib/mpl-probscale">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/probscale">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/mpl-probscale">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://matplotlib.org/mpl-probscale">mpl-probscale</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Real probability scales for matplotlib.   
       </td>             
       
@@ -1589,29 +1589,29 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/austinorr/mpl-template">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:center; style="vertical-align:top;">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-empty.svg">
+        <td>
+          <img src="_static/badges/pip-empty.svg">
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://austinorr.github.io/mpl-template">mpl-template</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Templating engine for consistent plots.   
       </td>             
       
@@ -1620,33 +1620,33 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/lukelbd/proplot">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/proplot">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://anaconda.org/conda-forge/proplot">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg">
           </a>
         </td>
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://proplot.readthedocs.io/en/latest">proplot</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         A lightweight matplotlib wrapper for making beautiful, publication-quality graphics.   
       </td>             
       
@@ -1655,44 +1655,44 @@ Third-party and user-contributed packages
       
     
     <tr>
-      <td colspan=5 style="height:4em; vertical-align:center">
+      <th colspan=5>
         
         <h3 id="rendering-backends">
           Rendering backends
           <a class="headerlink" href="#rendering-backends" title="Permalink to this headline">¶</a>
         </h3>
         
-      </td>
+      </th>
     </tr>
 
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/jheinen/gr">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/gr">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="https://gr-framework.org/python.html">gr</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Graphic kernel system backend.   
       </td>             
       
@@ -1701,31 +1701,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/matplotlib/mplcairo">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/mplcairo">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
       
         <a href="http://github.com/matplotlib/mplcairo">mplcairo</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Improved backend for cairo.   
       </td>             
       
@@ -1734,31 +1734,31 @@ Third-party and user-contributed packages
       
       <tr>
         
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://github.com/newville/wxmplot">  
-            <img style="text-align:left; height:1.4em; max-width: none;"  src="_static/badges/github-gray.svg">
+            <img src="_static/badges/github-gray.svg">
           </a>
         </td>
 
       
-        <td style="text-align:left; vertical-align:top;">
+        <td>
           <a href="https://pypi.python.org/pypi/wxmplot">
-            <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
         
       
-        <td style="text-align:left;vertical-align:top; ">
-          <img style="text-align:left; height:1.4em; max-width: none;" src="_static/badges/conda-empty.svg">
+        <td>
+          <img src="_static/badges/conda-empty.svg">
         </td>        
         
 
-      <td style="vertical-align:top; text-align:left;cellpadding:0.3em">
+      <td>
        
         <a href="http://newville.github.io/wxmplot">wxmplot</a>
       
       </td>
-      <td style="text-align:left;vertical-align:top;cellpadding:0.3em">  
+      <td>
         Tighter integration with wxPython.   
       </td>             
       
