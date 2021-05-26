@@ -3,31 +3,6 @@ Third-party and user-contributed packages
 
 .. include:: intro.rst
 
-
-.. toctree::
-  
-  Animations  <./index.html#Animations>
-  
-  Colormaps and styles  <./index.html#Colormaps and styles>
-  
-  Documentation  <./index.html#Documentation>
-  
-  Domain specific libraries  <./index.html#Domain specific libraries>
-  
-  GUI applications  <./index.html#GUI applications>
-  
-  Interactivity  <./index.html#Interactivity>
-  
-  Mapping  <./index.html#Mapping>
-  
-  Plot types  <./index.html#Plot types>
-  
-  Plotting utilities  <./index.html#Plotting utilities>
-  
-  Rendering backends  <./index.html#Rendering backends>
-  
-
-
 .. raw:: html
 
   <div>
