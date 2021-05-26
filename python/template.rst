@@ -1,10 +1,3 @@
-
-.. toctree::
-  {% for section in config %}
-  {{ section.name }}  <./index.html#{{ section.name }}>
-  {% endfor %}
-
-
 .. raw:: html
 
   <div>
