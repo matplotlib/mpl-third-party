@@ -1,27 +1,24 @@
 #!/usr/bin/env python
-import os
+
+from pathlib import Path
 import pprint
 
 from jinja2 import Template
 from yaml import safe_load
 from markdown import markdown
-import glob 
 import requests
 
 # concatenate yml files...
 
-here = os.path.abspath(os.path.dirname(__file__))
+here = Path(__file__).parent.resolve()
 
-try:
-    os.remove(os.path.join(here, '../packages/all.yml'))
-except:
-    pass
-packages = glob.glob(os.path.join(here, '../packages/*'))
-
+all_path = here.parent / 'packages/all.yml'
+all_path.unlink(missing_ok=True)
+packages = (here.parent / 'packages').glob('*')
 
 
 print("Opening section names file")
-with open(os.path.join(here, '../section_names.yml')) as f:
+with (here.parent / 'section_names.yml').open() as f:
     section_names = safe_load(f)
 
 section_names = section_names['section_names']
@@ -30,7 +27,7 @@ print("section_names", section_names)
 packs = dict()
 # divide the yml files into sections based on teh section tag...
 for package in packages:
-    with open(package, 'r') as fin:
+    with package.open('r') as fin:
         pack = safe_load(fin)
         if 'section' not in pack:
             pack['section'] = 'miscellaneous'
@@ -41,8 +38,7 @@ for package in packages:
 
 pprint.pprint(packs)
 
-            
-with open(os.path.join(here, '../packages/all.yml'), 'w') as out:
+with all_path.open('w') as out:
     for secname in sorted(packs.keys()):
         packs_sec = sorted(packs[secname], key= lambda i: i['repo'].split('/')[1])
         
@@ -58,7 +54,7 @@ with open(os.path.join(here, '../packages/all.yml'), 'w') as out:
 
 
 print("Opening config file")
-with open(os.path.join(here, '../packages/all.yml')) as f:
+with all_path.open() as f:
     config = safe_load(f)
 pprint.pprint(config)
 print()
@@ -130,14 +126,16 @@ for section in config:
             else:
                 package['site_protocol'], package['site'] = package['site'].rstrip('/').split('://')
 
-template = Template(open(os.path.join(here, 'template.rst'), 'r').read())
+template = Template((here / 'template.rst').read_text())
 
 config = sorted(config, key = lambda i: i['name'])
 
 
-with open(os.path.join(here, '../docs/source/packages.rst'), 'w') as f:
-    f.write("Third-party and user-contributed packages\n")
-    f.write("=========================================\n\n")
-    f.write(".. include:: intro.rst\n\n")
-    # f.write(".. include:: html\n\n")
-    f.write(template.render(config=config))
+(here.parent / 'docs/source/packages.rst').write_text(f"""\
+Third-party and user-contributed packages
+=========================================
+
+.. include:: intro.rst
+
+{template.render(config=config)}
+""")
