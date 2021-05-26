@@ -4,17 +4,19 @@ Run this script at the beginning of each month to build new conda downloads badg
 from the previous month.
 """
 
-import os
-from yaml import safe_load
-import requests
 import datetime
+import os
+from pathlib import Path
+from yaml import safe_load
+
 import intake
+import requests
 import colorcet as cc
 import numpy as np
 
 
-here = os.path.abspath(os.path.dirname(__file__))
-cache_path = os.path.join(here, '..', 'doc', '_static', 'cache')
+here = Path(__file__).parent.resolve()
+cache_path = here.parent / 'doc/_static/cache'
 cat = intake.open_catalog('https://raw.githubusercontent.com/ContinuumIO/anaconda-package-data/master/catalog/anaconda_package_data.yaml')
 
 colors = cc.palette_n.rainbow[-20:80:-1]
@@ -34,8 +36,8 @@ except:
                                                 columns=['pkg_name', 'counts']).to_dask()
 per_package_downloads = monthly.groupby('pkg_name').sum().compute()
 
-if not os.path.exists(cache_path):
-    os.mkdir(cache_path)
+cache_path.mkdir(exist_ok=True)
+
 
 def get_conda_badge(conda_package):
     conda_package = conda_package.lower()
@@ -61,7 +63,7 @@ def get_conda_badge(conda_package):
 
     return  f"https://img.shields.io/badge/conda-{downloads}/month-{color}.svg"
 
-with open(os.path.join(here, 'tools.yml')) as f:
+with (here / 'tools.yml').open() as f:
     config = safe_load(f)
 
 for section in config:
@@ -75,5 +77,5 @@ for section in config:
         url = get_conda_badge(package.get('conda_package', package['name']))
         rendered_url = url
         r = requests.get(rendered_url)
-        with open(os.path.join(cache_path, f"{package['name']}_conda_downloads_badge.svg"), 'wb') as f:
-            f.write(r.content)
+        badge = (cache_path / f"{package['name']}_conda_downloads_badge.svg")
+        badge.write_bytes(r.content)
