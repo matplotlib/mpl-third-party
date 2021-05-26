@@ -10,10 +10,16 @@
   <div>
   <table>
   {% for section in config %}
-      <tr>
-        <td colspan=5 style="height:4em; vertical-align:center">
-        <h3><a name="#{{ section.name }}">{{ section.name }}</a></h3></td>
-      </tr>
+    <tr>
+      <td colspan=5 style="height:4em; vertical-align:center">
+        {% with section_id = section.name | lower | replace(" ", "-") %}
+        <h3 id="{{ section_id }}">
+          {{ section.name }}
+          <a class="headerlink" href="#{{ section_id }}" title="Permalink to this headline">¶</a>
+        </h3>
+        {% endwith %}
+      </td>
+    </tr>
 
       {% for package in section.packages %}
       <tr>
