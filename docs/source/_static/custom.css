@@ -1,0 +1,13 @@
+table#packages tr th {
+	padding-top: 3em;
+	padding-bottom: 1em;
+}
+
+table#packages tr td {
+	vertical-align: top;
+}
+
+table#packages tr td a img {
+	height: 1.4em;
+	max-width: none;
+}

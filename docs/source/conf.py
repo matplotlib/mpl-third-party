@@ -40,6 +40,9 @@ html_theme_options = {
          },
      ],
 }
+html_css_files = [
+    "custom.css",
+]
 html_sidebars = {
     '**': ['localtoc.html']
 }
