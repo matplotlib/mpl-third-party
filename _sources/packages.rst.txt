@@ -402,39 +402,6 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer">  
-            <img src="_static/badges/github-gray.svg">
-          </a>
-        </td>
-
-      
-        <td>
-          <a href="https://pypi.python.org/pypi/dna-features-viewer">
-            <img src="_static/badges/pip-orange.svg">
-          </a>
-        </td>
-        
-      
-        <td>
-          <img src="_static/badges/conda-empty.svg">
-        </td>        
-        
-
-      <td>
-       
-        <a href="https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer">DnaFeaturesViewer</a>
-      
-      </td>
-      <td>
-        Visualize DNA features, e.g. from GenBank or Gff files, or Biopython SeqRecords.   
-      </td>             
-      
-
-      </tr>
-      
-      <tr>
-        
-        <td>
           <a href="https://github.com/arviz-devs/arviz">  
             <img src="_static/badges/github-gray.svg">
           </a>
@@ -497,6 +464,39 @@ Third-party and user-contributed packages
       </td>
       <td>
         Astronomy processing and graphics (including mapping).   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
+          <a href="https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.python.org/pypi/dna-features-viewer">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+       
+        <a href="https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer">DnaFeaturesViewer</a>
+      
+      </td>
+      <td>
+        Visualize DNA features, e.g. from GenBank or Gff files, or Biopython SeqRecords.   
       </td>             
       
 
@@ -788,6 +788,39 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/rgerum/pylustrator">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.python.org/pypi/pylustrator">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+       
+        <a href="https://pylustrator.readthedocs.io/en/latest">pylustrator</a>
+      
+      </td>
+      <td>
+        Interactive editor to style plots   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/PySimpleGUI/PySimpleGUI">  
             <img src="_static/badges/github-gray.svg">
           </a>
@@ -815,39 +848,6 @@ Third-party and user-contributed packages
       </td>
       <td>
         Create custom GUIs quickly & easily on top of tkinter, Qt, WxPython or Remi   
-      </td>             
-      
-
-      </tr>
-      
-      <tr>
-        
-        <td>
-          <a href="https://github.com/rgerum/pylustrator">  
-            <img src="_static/badges/github-gray.svg">
-          </a>
-        </td>
-
-      
-        <td>
-          <a href="https://pypi.python.org/pypi/pylustrator">
-            <img src="_static/badges/pip-orange.svg">
-          </a>
-        </td>
-        
-      
-        <td>
-          <img src="_static/badges/conda-empty.svg">
-        </td>        
-        
-
-      <td>
-       
-        <a href="https://pylustrator.readthedocs.io/en/latest">pylustrator</a>
-      
-      </td>
-      <td>
-        Interactive editor to style plots   
       </td>             
       
 
