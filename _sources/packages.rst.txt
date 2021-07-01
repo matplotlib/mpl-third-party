@@ -935,6 +935,39 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/ianhi/mpl-point-clicker">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.python.org/pypi/mpl-point-clicker">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+       
+        <a href="https://mpl-point-clicker.readthedocs.io">mpl-point-clicker</a>
+      
+      </td>
+      <td>
+        Record click locations on a figure. Supports multiple classes.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/anntzer/mplcursors">  
             <img src="_static/badges/github-gray.svg">
           </a>
