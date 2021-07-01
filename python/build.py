@@ -39,7 +39,7 @@ for package in packages:
 pprint.pprint(packs)
 
 with all_path.open('w') as out:
-    for secname in sorted(packs.keys()):
+    for secname in sorted(packs.keys(), key=lambda x: x.lower()):
         packs_sec = sorted(packs[secname], key= lambda i: i['repo'].split('/')[1])
         
         out.write(f'  - name: {section_names[secname]}\n')
