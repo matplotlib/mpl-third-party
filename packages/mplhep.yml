@@ -1,0 +1,8 @@
+repo: scikit-hep/mplhep
+section: domain specific libraries
+description: Set of helpers for matplotlib to more easily produce plots typically needed in high energy physics
+site: https://mplhep.readthedocs.io/
+keywords: physics, hep, scikit-hep
+pypi_name: mplhep
+conda_package: mplhep
+conda_channel: conda-forge
