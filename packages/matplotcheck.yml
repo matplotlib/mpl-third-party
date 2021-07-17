@@ -1,5 +1,5 @@
 repo: earthlab/matplotcheck
-section: plot testing
+section: miscellaneous
 description: A package designed to test matplotlib plots
 site: https://matplotcheck.readthedocs.io/en/latest/
 keywords:  plot testing
