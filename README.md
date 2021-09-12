@@ -2,7 +2,8 @@
 
 List of matplotlib user-contributed packages.  These are served at http://matplotlib.org/mpl-third-party/.
 
-To add your package to the list, create a YAML file `your-cool-mpl-package.yml` with the following fields:
+To add your package to the list, create a YAML file `your-cool-mpl-package.yml` in the `packages`
+directory. The file must have the following fields:
 
 ```yml
 repo: matplotlib/cmocean
@@ -14,8 +15,8 @@ pypi_name:  # optional, default repo name
 conda_package:  # optional
 conda_channel:  # optional, default conda-forge
 ```
-Either fork this repo and add the new file to the `packages` directory,
-or use the `Add File` button above. Then open a pull request with the new file.
+Either fork this repo and add the new file there, or navigate into the `packages` directory above
+and use the `Add File` button at the top of the page. Then open a pull request with the new file.
 
 Note: The name of the yml file and the name of the repo should ideally match.
 
