@@ -1,0 +1,4 @@
+repo: tomicapretto/flexitext
+keywords: draw formatted text
+section: plotting utilities
+description: Draw text with multiple styles in Matplotlib
