@@ -1803,6 +1803,39 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/tomicapretto/flexitext">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.python.org/pypi/flexitext">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+      
+        <a href="http://github.com/tomicapretto/flexitext">flexitext</a>
+      
+      </td>
+      <td>
+        Draw text with multiple styles in Matplotlib   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/matplotlib/grid-strategy">  
             <img src="_static/badges/github-gray.svg">
           </a>
