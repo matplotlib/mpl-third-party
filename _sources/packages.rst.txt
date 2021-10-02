@@ -1328,7 +1328,9 @@ Third-party and user-contributed packages
 
       
         <td>
-          <img src="_static/badges/pip-empty.svg">
+          <a href="https://pypi.python.org/pypi/prettymaps">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
         </td>
         
       
