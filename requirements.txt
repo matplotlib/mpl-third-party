@@ -1,5 +1,0 @@
-jinja2
-markdown
-pyyaml
-sphinx
-pydata-sphinx-theme

@@ -1,6 +1,6 @@
 import datetime
 
-project = "sample-proj"
+project = "mpl-third-party"
 author = "matplotlib developers"
 
 project = "Matplotlib third-party packages"
@@ -13,10 +13,11 @@ source_suffix = ['.rst']
 templates_path = ["_templates"]
 exclude_patterns = []
 
-html_theme = "pydata_sphinx_theme"
+html_theme = "mpl_sphinx_theme"
 html_static_path = ["./_static"]
 html_logo = "_static/logo2.svg"
 html_theme_options = {
+     "native_site": "False",
      "logo_link": "https://matplotlib.org/stable",
      "icon_links": [
          {
@@ -39,10 +40,13 @@ html_theme_options = {
              "icon":"fab fa-twitter-square",
          },
      ],
+     "navbar_center": ["mpl_nav_bar.html"],
 }
+
 html_css_files = [
     "custom.css",
 ]
+
 html_sidebars = {
     '**': ['localtoc.html']
 }
