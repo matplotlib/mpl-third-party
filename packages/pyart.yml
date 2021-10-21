@@ -1,0 +1,8 @@
+repo: ARM-DOE/pyart
+section: domain specific libraries
+description: The Python ARM Radar toolkit, used to analyze and plot weather radar data.
+site: https://github.com/ARM-DOE/pyart
+keywords: radar, weather, climate, mapping, plotting
+pypi_name: arm_pyart
+conda_package: arm_pyart
+conda_channel: conda-forge
