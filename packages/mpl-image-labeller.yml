@@ -1,0 +1,5 @@
+repo: ianhi/mpl-image-labeller
+keywords: image, classification, label, labeler, labeller
+section: interactivity
+description: Easily (label) annotate images with for training classification models.
+site: https://mpl-image-labeller.readthedocs.io
