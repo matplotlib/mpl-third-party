@@ -1,12 +1,13 @@
 section_names:
+  user apis: User APIs
   colormaps and styles: Colormaps and styles
   plotting utilities: Plotting utilities
   plot types: Plot types
   gui applications: GUI applications
-  backends: Rendering backends 
+  backends: Rendering backends
   interactivity: Interactivity
   animations: Animations
   mapping: Mapping
-  domain specific libraries: Domain specific libraries
+  domain specific libraries: Domain-specific libraries
   documentation: Documentation
   miscellaneous: Miscellaneous
