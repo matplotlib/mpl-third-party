@@ -1,4 +1,4 @@
 repo: mwaskom/seaborn
-section: domain specific libraries
+section: user apis
 description: High-level interface for drawing attractive statistical graphics.
 site: https://seaborn.pydata.org

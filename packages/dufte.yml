@@ -1,3 +1,4 @@
 repo: nschloe/dufte
 section: colormaps and styles
-description: Clean matplotlib style
+description: Clean matplotlib style.
+keywords: [styles, palettes, colormaps]

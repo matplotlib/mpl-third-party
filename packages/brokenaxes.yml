@@ -1,5 +1,5 @@
 repo: bendichter/brokenaxes
-keywords: axes
+keywords: [axes]
 section: plotting utilities
 description: Plots with breaks in the axes.
 conda_channel: conda-forge

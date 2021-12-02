@@ -2,5 +2,5 @@ repo: PySimpleGUI/PySimpleGUI
 section: gui applications
 description: Create custom GUIs quickly & easily on top of tkinter, Qt, WxPython or Remi
 site: http://www.PySimpleGUI.com
-keywords:  GUI tkinter pyside2 WxPython Remi documentation cookbook Trinkets replit
-pypi_name:  PySimpleGUI
+keywords: [GUI, tkinter, pyside2, WxPython, Remi, documentation, cookbook, Trinkets, replit]
+pypi_name: PySimpleGUI
