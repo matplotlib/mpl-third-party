@@ -1,6 +1,6 @@
 repo: matplotlib/mpl-probscale
 site: https://matplotlib.org/mpl-probscale/
-keywords: scales
+keywords: [scales, probability, axes]
 section: plotting utilities
 description: Real probability scales for matplotlib.
 pypi_name: probscale

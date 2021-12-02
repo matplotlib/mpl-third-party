@@ -1,5 +1,4 @@
 repo: konstantint/matplotlib-venn
-keywords: diagrams
+keywords: [diagrams, categories, sets]
 section: plot types
-description: Plotting area-weighted two- and three-circle venn diagrams.
-
+description: Plotting area-weighted two- and three-circle Venn diagrams.

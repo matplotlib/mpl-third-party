@@ -1,6 +1,7 @@
 repo: nschloe/matplotx
 section: miscellaneous
-description: Useful styles and extensions for Matplotlib
+description: Useful styles and extensions for Matplotlib.
+keywords: [styles, palettes, colormaps]
 pypi_name: matplotx
 conda_package: matplotx
 conda_channel: conda-forge

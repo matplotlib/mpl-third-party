@@ -1,4 +1,4 @@
 repo: nschloe/tikzplotlib
-keywords: latex tikz
+keywords: [latex, tikz]
 section: plotting utilities
-description: Save figures as TikZ/PGFplots
+description: Save figures as TikZ/PGFplots.
