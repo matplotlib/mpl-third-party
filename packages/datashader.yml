@@ -1,0 +1,6 @@
+repo: holoviz/datashader
+section: miscellaneous
+site: https://datashader.org
+description: Server-side rendering of large datasets as Matplotlib figures
+keywords: [rasterization, "big data"]
+conda_channel: pyviz

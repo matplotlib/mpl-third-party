@@ -1,0 +1,6 @@
+repo: holoviz/colorcet
+section: colormaps and styles
+description: Perceptually uniform continuous colormaps and perceptually distinct categorical color sets
+site: https://colorcet.holoviz.org
+keywords: [styles, palettes, colormaps, colorblind, cyclic, diverging, categorical, continuous]
+conda_channel: pyviz
