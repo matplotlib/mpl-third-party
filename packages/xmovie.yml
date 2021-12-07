@@ -1,0 +1,8 @@
+repo: jbusecke/xmovie
+section: animations
+description: A simple way of creating beautiful movies from xarray objects.
+site: # optional, default repo site
+keywords:  animations, xarray
+pypi_name:  xmovie
+conda_package:  xmovie
+conda_channel:  # optional, default conda-forge
