@@ -5,4 +5,4 @@ site: # optional, default repo site
 keywords:  xarray
 pypi_name:  xmovie
 conda_package:  xmovie
-conda_channel:  # optional, default conda-forge
+conda_channel:  conda-forge
