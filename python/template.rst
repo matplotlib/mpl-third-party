@@ -16,11 +16,14 @@
 
       {% for package in section.packages %}
       <tr>
-        
         <td>
-          <a href="https://github.com/{{ package.user }}/{{ package.name }}">  
+          {% if 'repo' in package %}
+          <a href="https://github.com/{{ package.repo }}">
             <img src="_static/badges/github-gray.svg">
           </a>
+          {% else %}
+          <img src="_static/badges/pip-empty.svg">
+          {% endif %}
         </td>
 
       {% if 'pypi' in package.badges %}
@@ -43,20 +46,20 @@
       {% else %}
         <td>
           <img src="_static/badges/conda-empty.svg">
-        </td>        
-      {% endif %}  
+        </td>
+      {% endif %}
 
       <td>
-      {% if 'site' in package.badges %} 
+      {% if 'site' in package.badges %}
         <a href="{{ package.site_protocol}}://{{ package.site }}">{{ package.name }}</a>
       {% else %}
         <a href="http://github.com/{{ package.repo }}">{{ package.name }}</a>
       {% endif %}
       </td>
       <td>
-        {{ package.description }}   
-      </td>             
-      
+        {{ package.description }}
+      </td>
+
 
       </tr>
       {% endfor %}
