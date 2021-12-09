@@ -7,8 +7,8 @@ directory. The file must have the following fields:
 
 ```yml
 repo: matplotlib/cmocean
-section: colormaps
-description: Perceptually uniform colormaps for commonly-used oceanographic variables
+section: colormaps and styles
+description: Perceptually uniform colormaps for oceanographic variables.
 site: # optional, default repo site
 keywords:  # optional,
 pypi_name:  # optional, default repo name
