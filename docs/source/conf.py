@@ -16,8 +16,8 @@ exclude_patterns = []
 html_theme = "mpl_sphinx_theme"
 html_static_path = ["./_static"]
 html_theme_options = {
-     "native_site": "False",
      "logo_link": "https://matplotlib.org/stable",
+     "native_site": False,
 }
 
 html_css_files = [
