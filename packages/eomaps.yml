@@ -1,0 +1,8 @@
+repo: raphaelquast/eomaps
+section: mapping
+description: A library to create interactive maps of geographical datasets
+site: https://github.com/raphaelquast/EOmaps
+keywords:  interactive mapping
+pypi_name:  eomaps
+conda_package:  eomaps
+conda_channel:  conda-forge
