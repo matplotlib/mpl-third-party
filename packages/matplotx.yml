@@ -1,0 +1,6 @@
+repo: nschloe/matplotx
+section: miscellaneous
+description: Useful styles and extensions for Matplotlib
+pypi_name: matplotx
+conda_package: matplotx
+conda_channel: conda-forge
