@@ -1,6 +1,6 @@
 repo: pydata/xarray
 site: http://xarray.pydata.org
 keywords: ["structured data", "multi-dimensional arrays", "nD arrays"]
-section: user apis
+section: alternative apis
 description: Makes multi-dimensional arrays simple, efficient, and fun!
 conda_channel: conda-forge
