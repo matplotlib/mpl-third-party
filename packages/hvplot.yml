@@ -1,5 +1,5 @@
 repo: holoviz/hvplot
-section: user apis
+section: alternative apis
 site: https://hvplot.holoviz.org
 description: Composable, interactive pandas and xarray .plot() objects
 keywords: [jupyter, pandas, xarray]
