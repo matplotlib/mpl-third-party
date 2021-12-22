@@ -11,6 +11,124 @@ Third-party and user-contributed packages
     <tr>
       <th colspan=5>
         
+        <h3 id="alternative-apis">
+          Alternative APIs
+          <a class="headerlink" href="#alternative-apis" title="Permalink to this headline">¶</a>
+        </h3>
+        
+      </th>
+    </tr>
+
+      
+      <tr>
+        
+        <td>
+          <a href="https://github.com/pandas-dev/pandas">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.python.org/pypi/pandas">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <a href="https://anaconda.org/conda-forge/pandas">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
+        
+
+      <td>
+       
+        <a href="https://pandas.pydata.org">pandas</a>
+      
+      </td>
+      <td>
+        Data analysis and manipulation tool.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
+          <a href="https://github.com/has2k1/plotnine">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.python.org/pypi/plotnine">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <a href="https://anaconda.org/conda-forge/plotnine">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
+        
+
+      <td>
+       
+        <a href="https://plotnine.readthedocs.io">plotnine</a>
+      
+      </td>
+      <td>
+        a grammar of graphics for Python.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
+          <a href="https://github.com/pydata/xarray">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.python.org/pypi/xarray">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <a href="https://anaconda.org/conda-forge/xarray">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
+        
+
+      <td>
+       
+        <a href="http://xarray.pydata.org">xarray</a>
+      
+      </td>
+      <td>
+        Makes multi-dimensional arrays simple, efficient, and fun!   
+      </td>             
+      
+
+      </tr>
+      
+    
+    <tr>
+      <th colspan=5>
+        
         <h3 id="animations">
           Animations
           <a class="headerlink" href="#animations" title="Permalink to this headline">¶</a>
@@ -45,7 +163,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://animatplot.readthedocs.io/en/latest/index.html">animatplot</a>
+        <a href="https://animatplot.readthedocs.io">animatplot</a>
       
       </td>
       <td>
@@ -82,7 +200,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Matplotlib animations made easy   
+        Matplotlib animations made easy.   
       </td>             
       
 
@@ -115,7 +233,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Ultra lightweight animated gif API.   
+        Ultra-lightweight animated GIF API.   
       </td>             
       
 
@@ -231,7 +349,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Scientific colormaps for making accessible, informative and 'cmashing' plots   
+        Scientific colormaps for making accessible, informative and 'cmashing' plots.   
       </td>             
       
 
@@ -336,7 +454,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Colormaps from the yt project   
+        Colormaps from the yt project.   
       </td>             
       
 
@@ -369,7 +487,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Color palettes inspired by British paint manufacturer Farrow and Ball   
+        Color palettes inspired by British paint manufacturer Farrow and Ball.   
       </td>             
       
 
@@ -481,7 +599,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://sphinx-gallery.github.io/stable">sphinx-gallery</a>
+        <a href="https://sphinx-gallery.github.io">sphinx-gallery</a>
       
       </td>
       <td>
@@ -496,7 +614,7 @@ Third-party and user-contributed packages
       <th colspan=5>
         
         <h3 id="domain-specific-libraries">
-          Domain specific libraries
+          Domain-specific libraries
           <a class="headerlink" href="#domain-specific-libraries" title="Permalink to this headline">¶</a>
         </h3>
         
@@ -533,7 +651,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Exploratory analysis of Bayesian models with Python .   
+        Exploratory analysis of Bayesian models with Python.   
       </td>             
       
 
@@ -601,7 +719,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Tools for color spaces.   
+        Tools for working with colors and color spaces.   
       </td>             
       
 
@@ -770,7 +888,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Set of helpers for matplotlib to more easily produce plots typically needed in high energy physics   
+        Set of helpers for matplotlib to more easily produce plots typically needed in high energy physics.   
       </td>             
       
 
@@ -843,41 +961,6 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/has2k1/plotnine">  
-            <img src="_static/badges/github-gray.svg">
-          </a>
-        </td>
-
-      
-        <td>
-          <a href="https://pypi.python.org/pypi/plotnine">
-            <img src="_static/badges/pip-orange.svg">
-          </a>
-        </td>
-        
-      
-        <td>
-          <a href="https://anaconda.org/conda-forge/plotnine">
-          <img src="_static/badges/conda-blue.svg">
-          </a>
-        </td>
-        
-
-      <td>
-       
-        <a href="https://plotnine.readthedocs.io/en/latest">plotnine</a>
-      
-      </td>
-      <td>
-        a grammar of graphics for Python   
-      </td>             
-      
-
-      </tr>
-      
-      <tr>
-        
-        <td>
           <a href="https://github.com/ARM-DOE/pyart">  
             <img src="_static/badges/github-gray.svg">
           </a>
@@ -937,7 +1020,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Python visualisation for Plutchik annotated corpora   
+        Python visualisation for Plutchik annotated corpora.   
       </td>             
       
 
@@ -1038,7 +1121,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://www.scikit-yb.org/en/latest">yellowbrick</a>
+        <a href="https://www.scikit-yb.org">yellowbrick</a>
       
       </td>
       <td>
@@ -1084,11 +1167,11 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://pylustrator.readthedocs.io/en/latest">pylustrator</a>
+        <a href="https://pylustrator.readthedocs.io">pylustrator</a>
       
       </td>
       <td>
-        Interactive editor to style plots   
+        Interactive editor to style Matplotlib plots.   
       </td>             
       
 
@@ -1156,7 +1239,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        PyQt5 GUI for data visualisation of csv file or pandas' DataFrames.   
+        PyQt5 GUI for data visualisation of CSV file or pandas DataFrames.   
       </td>             
       
 
@@ -1378,7 +1461,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://scitools.org.uk/cartopy/docs/latest">cartopy</a>
+        <a href="https://scitools.org.uk/cartopy">cartopy</a>
       
       </td>
       <td>
@@ -1518,7 +1601,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        minimal Python library to draw customized maps from OpenStreetMap data.   
+        Minimal Python library to draw customized maps from OpenStreetMap data.   
       </td>             
       
 
@@ -1595,11 +1678,11 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://matplotcheck.readthedocs.io/en/latest">matplotcheck</a>
+        <a href="https://matplotcheck.readthedocs.io">matplotcheck</a>
       
       </td>
       <td>
-        A package designed to test matplotlib plots   
+        A package designed to test matplotlib plots.   
       </td>             
       
 
@@ -1634,7 +1717,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Useful styles and extensions for Matplotlib   
+        Useful styles and extensions for Matplotlib.   
       </td>             
       
 
@@ -1715,42 +1798,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Plotting area-weighted two- and three-circle venn diagrams.   
-      </td>             
-      
-
-      </tr>
-      
-      <tr>
-        
-        <td>
-          <a href="https://github.com/pandas-dev/pandas">  
-            <img src="_static/badges/github-gray.svg">
-          </a>
-        </td>
-
-      
-        <td>
-          <a href="https://pypi.python.org/pypi/pandas">
-            <img src="_static/badges/pip-orange.svg">
-          </a>
-        </td>
-        
-      
-        <td>
-          <a href="https://anaconda.org/conda-forge/pandas">
-          <img src="_static/badges/conda-blue.svg">
-          </a>
-        </td>
-        
-
-      <td>
-       
-        <a href="https://pandas.pydata.org">pandas</a>
-      
-      </td>
-      <td>
-        Data analysis and manipulation tool.   
+        Plotting area-weighted two- and three-circle Venn diagrams.   
       </td>             
       
 
@@ -1819,41 +1867,6 @@ Third-party and user-contributed packages
       </td>
       <td>
         Create windrose plots.   
-      </td>             
-      
-
-      </tr>
-      
-      <tr>
-        
-        <td>
-          <a href="https://github.com/pydata/xarray">  
-            <img src="_static/badges/github-gray.svg">
-          </a>
-        </td>
-
-      
-        <td>
-          <a href="https://pypi.python.org/pypi/xarray">
-            <img src="_static/badges/pip-orange.svg">
-          </a>
-        </td>
-        
-      
-        <td>
-          <a href="https://anaconda.org/conda-forge/xarray">
-          <img src="_static/badges/conda-blue.svg">
-          </a>
-        </td>
-        
-
-      <td>
-       
-        <a href="http://xarray.pydata.org/en/stable">xarray</a>
-      
-      </td>
-      <td>
-        Makes multi-dimensional arrays simple, efficient, and fun!   
       </td>             
       
 
@@ -2037,7 +2050,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Draw text with multiple styles in Matplotlib   
+        Draw text with multiple styles in Matplotlib.   
       </td>             
       
 
@@ -2264,8 +2277,10 @@ Third-party and user-contributed packages
         
       
         <td>
-          <img src="_static/badges/conda-empty.svg">
-        </td>        
+          <a href="https://anaconda.org/conda-forge/skunk">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
         
 
       <td>
@@ -2309,7 +2324,7 @@ Third-party and user-contributed packages
       
       </td>
       <td>
-        Save figures as TikZ/PGFplots   
+        Save figures as TikZ/PGFplots.   
       </td>             
       
 
