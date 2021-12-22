@@ -2,5 +2,5 @@ repo: pandas-dev/pandas
 site: https://pandas.pydata.org
 keywords: ["structured data", columnar, tabular, tables]
 section: alternative apis
-description: Data analysis and manipulation tool.
+description: Columnar data analysis and manipulation tool providing a .plot() API for Matplotlib plotting.
 conda_channel: conda-forge
