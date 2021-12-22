@@ -1,6 +1,6 @@
 repo: yt-project/yt
 site: https://yt-project.org
-keywords: volumetric
+keywords: [volumetric]
 section: plot types
 description: Package for analyzing and visualizing volumetric data.
 conda_channel: conda-forge

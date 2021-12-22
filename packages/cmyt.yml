@@ -1,5 +1,5 @@
 repo: yt-project/cmyt
 section: colormaps and styles
-description: Colormaps from the yt project
-keywords: colormaps
+description: Colormaps from the yt project.
+keywords: [styles, palettes, colormaps]
 conda_channel: conda-forge

@@ -1,5 +1,5 @@
 repo: marceloprates/prettymaps
 section: mapping
-description:  minimal Python library to draw customized maps from OpenStreetMap data.
+description: Minimal Python library to draw customized maps from OpenStreetMap data.
 site: https://github.com/marceloprates/prettymaps
-keywords: maps, cartography, matplotlib, OpenStreetMaps
+keywords: [maps, cartography, OpenStreetMaps]

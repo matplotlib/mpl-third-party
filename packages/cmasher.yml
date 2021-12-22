@@ -1,8 +1,8 @@
 repo: 1313e/CMasher
 site: https://cmasher.readthedocs.io
 section: colormaps and styles
-keywords: colormaps
-description: Scientific colormaps for making accessible, informative and 'cmashing' plots
+keywords: [styles, palettes, colormaps]
+description: Scientific colormaps for making accessible, informative and 'cmashing' plots.
 pypi_name: cmasher
 conda_package: cmasher
 conda_channel: conda-forge
