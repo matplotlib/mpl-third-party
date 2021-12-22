@@ -1,6 +1,6 @@
 repo: residentmario/geoplot
 site: https://residentmario.github.io/geoplot/index.html
-keywords: mapping
+keywords: [mapping, geospatial]
 section: mapping
 conda_channel: conda-forge
 description: High-level Python geospatial plotting library based on cartopy.

@@ -1,8 +1,0 @@
-repo: matplotlib/pyplutchik
-section: domain specific libraries
-description: Python visualisation for Plutchik annotated corpora
-site: https://github.com/alfonsosemeraro/pyplutchik
-keywords:  # optional,
-pypi_name:  pyplutchik
-conda_package:  pyplutchik
-conda_channel:  conda-forge

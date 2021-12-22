@@ -1,4 +1,4 @@
 repo: anntzer/mplinorm
-keywords: images, contrast
+keywords: [images, contrast]
 section: interactivity
 description: Interactive contrast adjustment for Matplotlib images.

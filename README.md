@@ -9,11 +9,11 @@ directory. The file must have the following fields:
 repo: matplotlib/cmocean
 section: colormaps and styles
 description: Perceptually uniform colormaps for oceanographic variables.
-site: # optional, default repo site
-keywords:  # optional,
-pypi_name:  # optional, default repo name
-conda_package:  # optional
-conda_channel:  # optional, default conda-forge
+site: https://matplotlib.org/cmocean # optional, default repo site
+keywords: [colormaps, styles] # optional
+pypi_name: # optional, default repo name
+conda_package: # optional
+conda_channel: # optional, default conda-forge
 ```
 Either fork this repo and add the new file there, or navigate into the `packages` directory above
 and use the `Add File` button at the top of the page. Then open a pull request with the new file.

@@ -1,5 +1,5 @@
 repo: t-makaro/animatplot
-keywords: animations
+keywords: [animations, gif, jupyter]
 section: animations
 description: Interactive animated plots.
-site: https://animatplot.readthedocs.io/en/latest/index.html
+site: https://animatplot.readthedocs.io
