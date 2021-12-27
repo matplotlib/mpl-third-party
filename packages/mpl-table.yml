@@ -1,0 +1,5 @@
+repo: geo7/mpl_table
+site: https://github.com/geo7/mpl_table
+keywords: [table, tables, custom, formatting]
+section: plotting utilities
+description: Create custom table using matplotlib.
