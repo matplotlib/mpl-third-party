@@ -1591,8 +1591,10 @@ Third-party and user-contributed packages
         
       
         <td>
-          <img src="_static/badges/conda-empty.svg">
-        </td>        
+          <a href="https://anaconda.org/conda-forge/prettymaps">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
         
 
       <td>
