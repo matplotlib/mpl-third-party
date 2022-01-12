@@ -2263,6 +2263,37 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/ponnhide/patchworklib">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <img src="_static/badges/pip-empty.svg">
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+       
+        <a href="https://github.com/ponnhide/patchworklib">patchworklib</a>
+      
+      </td>
+      <td>
+        A subplot manager for intuitive layouts   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/lukelbd/proplot">  
             <img src="_static/badges/github-gray.svg">
           </a>
