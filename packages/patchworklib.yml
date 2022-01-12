@@ -1,0 +1,4 @@
+repo: ponnhide/patchworklib
+site: https://github.com/ponnhide/patchworklib
+section: plotting utilities
+description: A subplot manager for intuitive layouts 
