@@ -25,7 +25,7 @@
 
       {% if 'pypi' in package.badges %}
         <td>
-          <a href="https://pypi.python.org/pypi/{{ package.pypi_name }}">
+          <a href="https://pypi.org/project/{{ package.pypi_name }}">
             <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
@@ -50,7 +50,7 @@
       {% if 'site' in package.badges %} 
         <a href="{{ package.site_protocol}}://{{ package.site }}">{{ package.name }}</a>
       {% else %}
-        <a href="http://github.com/{{ package.repo }}">{{ package.name }}</a>
+        <a href="https://github.com/{{ package.repo }}">{{ package.name }}</a>
       {% endif %}
       </td>
       <td>
