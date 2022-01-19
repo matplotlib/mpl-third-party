@@ -84,7 +84,7 @@ for section in config:
             needs_newline = True
             print('    pypi: ', end='', flush=True)
             response = requests.get(
-                f"https://pypi.python.org/pypi/{package['pypi_name']}/json/")
+                f"https://pypi.org/pypi/{package['pypi_name']}/json/")
             if response.status_code == 200:
                 print('found')
             else:

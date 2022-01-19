@@ -25,7 +25,7 @@
 
       {% if 'pypi' in package.badges %}
         <td>
-          <a href="https://pypi.python.org/pypi/{{ package.pypi_name }}">
+          <a href="https://pypi.org/project/{{ package.pypi_name }}">
             <img src="_static/badges/pip-orange.svg">
           </a>
         </td>
