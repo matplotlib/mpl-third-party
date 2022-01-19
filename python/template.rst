@@ -50,7 +50,7 @@
       {% if 'site' in package.badges %} 
         <a href="{{ package.site_protocol}}://{{ package.site }}">{{ package.name }}</a>
       {% else %}
-        <a href="http://github.com/{{ package.repo }}">{{ package.name }}</a>
+        <a href="https://github.com/{{ package.repo }}">{{ package.name }}</a>
       {% endif %}
       </td>
       <td>

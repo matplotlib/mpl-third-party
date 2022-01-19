@@ -1,6 +1,7 @@
 # mpl-third-party
 
-List of matplotlib user-contributed packages.  These are served at http://matplotlib.org/mpl-third-party/.
+List of Matplotlib user-contributed packages.  These are served at
+https://matplotlib.org/mpl-third-party/.
 
 To add your package to the list, create a YAML file `your-cool-mpl-package.yml` in the `packages`
 directory. The file must have the following fields:
