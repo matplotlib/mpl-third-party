@@ -1,4 +1,4 @@
-repo: isaacrobinson2000/matplotview
+repo: matplotlib/matplotview
 section: plotting utilities
 description: A library for creating lightweight views of matplotlib axes.
 keywords: [views, axes]
