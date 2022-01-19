@@ -2197,6 +2197,39 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/matplotlib/matplotview">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.python.org/pypi/matplotview">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+      
+        <a href="http://github.com/matplotlib/matplotview">matplotview</a>
+      
+      </td>
+      <td>
+        A library for creating lightweight views of matplotlib axes.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/matplotlib/mpl-probscale">  
             <img src="_static/badges/github-gray.svg">
           </a>
