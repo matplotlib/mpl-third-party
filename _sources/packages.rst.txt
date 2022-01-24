@@ -695,6 +695,39 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/brainglobe/bg-heatmaps">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.org/project/bgheatmap">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+      
+        <a href="https://github.com/brainglobe/bg-heatmaps">bg-heatmaps</a>
+      
+      </td>
+      <td>
+        Brain heatmaps visualization.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/nschloe/colorio">  
             <img src="_static/badges/github-gray.svg">
           </a>
