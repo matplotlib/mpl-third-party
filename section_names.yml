@@ -10,5 +10,5 @@ section_names:
   mapping: Mapping
   domain specific libraries: Domain-specific libraries
   documentation: Documentation
-  exprimental: Experimental projects that may be merged upstream eventually
+  experimental: Experimental projects that may be merged upstream eventually
   miscellaneous: Miscellaneous
