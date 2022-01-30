@@ -1,5 +1,5 @@
 repo: holoviz/datashader
-section: miscellaneous
+section: plot types
 site: https://datashader.org
 description: Server-side rendering of large datasets as Matplotlib figures
 keywords: [rasterization, "big data"]
