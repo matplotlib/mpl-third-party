@@ -1,0 +1,6 @@
+repo: holoviz/holoviews
+section: alternative apis
+site: https://holoviews.org
+description: High-level API providing composable multidimensional or columnar data objects that visualize themselves.
+keywords: [jupyter, columnar, multidimensional]
+conda_channel: pyviz

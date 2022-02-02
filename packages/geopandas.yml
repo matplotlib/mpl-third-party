@@ -1,0 +1,4 @@
+repo: geopandas/geopandas
+section: mapping
+site: https://geopandas.org
+description: Pandas extended to support geographical data and algorithms.

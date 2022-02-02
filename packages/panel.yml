@@ -1,0 +1,6 @@
+repo: holoviz/panel
+section: interactivity
+site: https://panel.holoviz.org
+description: Dashboards and web apps using Matplotlib and other figures.
+keywords: [jupyter, html, web]
+conda_channel: pyviz

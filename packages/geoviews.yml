@@ -1,0 +1,6 @@
+repo: holoviz/geoviews
+section: mapping
+site: https://geoviews.org
+description: High-level geographic plotting built on Cartopy and Matplotlib.
+keywords: [mapping, projection, geospatial, choropleth, jupyter]
+conda_channel: pyviz
