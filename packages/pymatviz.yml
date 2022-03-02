@@ -1,0 +1,6 @@
+repo: janosh/pymatviz
+section: domain specific libraries
+description: A toolkit for visualizations in materials informatics.
+site: https://github.com/janosh/pymatviz
+keywords: [materials informatics, materials discovery, uncertainty-calibration, data viz]
+pypi_name: pymatviz
