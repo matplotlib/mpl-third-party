@@ -1,0 +1,6 @@
+repo: guiwitz/microfilm
+section: domain specific libraries
+description: 2D image plots and animations for multi-channel microscopy data.
+site: https://guiwitz.github.io/microfilm
+keywords: [microscopy, animations, composite] # optional
+pypi_name: microfilm
