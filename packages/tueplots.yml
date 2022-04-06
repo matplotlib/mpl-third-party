@@ -1,0 +1,6 @@
+repo: pnkraemer/tueplots
+section: colormaps and styles
+description: Light-weight matplotlib styles for figures used in scientific publications .
+site: https://tueplots.readthedocs.io/en/latest/ # optional, default repo site
+keywords: [styles] 
+pypi_name: tueplots 
