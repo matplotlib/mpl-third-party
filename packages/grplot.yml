@@ -1,0 +1,5 @@
+repo: ghiffaryr/grplot
+section: domain specific libraries
+description: lazy statistical data visualization.
+site: https: https://github.com/ghiffaryr/grplot
+pypi_name: grplot
