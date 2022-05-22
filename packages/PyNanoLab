@@ -1,0 +1,8 @@
+repo: matplotlib/PyNanoLab
+section: gui applications
+description:  PySide6 GUI for data analysis and visualisation with matplotlib and pandas.
+site: https://pynanolab.com
+keywords: [GUI, PySide6,matplotlib, pandas, data analysis] # optional
+pypi_name: # optional, default repo name
+conda_package: # optional
+conda_channel: # optional, default conda-forge
