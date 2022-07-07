@@ -14,10 +14,18 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
-      - name: Make docs builds
-        uses: ammaraskar/sphinx-action@master
+      - name: Install Python
+        uses: actions/setup-python@v4
         with:
-          docs-folder: "docs/"
+          python-version: '3.x'
+
+      - name: Install documentation requirements
+        run: |
+          pip install -r docs/requirements.txt
+
+      - name: Make docs builds
+        run: |
+          make -C docs html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
