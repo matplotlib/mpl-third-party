@@ -2,4 +2,5 @@ jinja2
 markdown
 pyyaml
 sphinx
+pydata-sphinx-theme<0.9.0
 mpl-sphinx-theme
