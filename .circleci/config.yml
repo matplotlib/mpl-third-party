@@ -1,17 +1,19 @@
 version: 2.1
 
 orbs:
-  python: circleci/python@0.2.1
+  python: circleci/python@1.2.1
 
 jobs:
   build_docs:
     executor: python/default
     steps:
       - checkout
-      - python/install-deps
+      - python/install-packages:
+          pkg-manager: pip
+          pip-dependency-file: docs/requirements.txt
       - run:
           name: Build docs
-          command: cd docs/ && make html
+          command: make -C docs html
       - persist_to_workspace:
           root: docs/build/html
           paths: .
