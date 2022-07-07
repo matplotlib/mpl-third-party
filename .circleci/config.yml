@@ -8,7 +8,9 @@ jobs:
     executor: python/default
     steps:
       - checkout
-      - python/install-packages
+      - python/install-packages:
+          pkg-manager: pip
+          pip-dependency-file: docs/requirements.txt
       - run:
           name: Build docs
           command: make -C docs html
