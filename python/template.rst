@@ -23,28 +23,20 @@
           </a>
         </td>
 
-      {% if 'pypi' in package.badges %}
         <td>
+        {% if 'pypi' in package.badges %}
           <a href="https://pypi.org/project/{{ package.pypi_name }}">
             <img src="_static/badges/pip-orange.svg">
           </a>
-        </td>
-        {% else %}
-        <td>
-          <img src="_static/badges/pip-empty.svg">
-        </td>
         {% endif %}
-      {% if 'conda' in package.badges %}
+        </td>
         <td>
+        {% if 'conda' in package.badges %}
           <a href="https://anaconda.org/{{ package.conda_channel }}/{{ package.conda_package }}">
           <img src="_static/badges/conda-blue.svg">
           </a>
-        </td>
-      {% else %}
-        <td>
-          <img src="_static/badges/conda-empty.svg">
+        {% endif %}
         </td>        
-      {% endif %}  
 
       <td>
       {% if 'site' in package.badges %} 
