@@ -260,8 +260,10 @@ Third-party and user-contributed packages
         
       
         <td>
-          <img src="_static/badges/conda-empty.svg">
-        </td>        
+          <a href="https://anaconda.org/conda-forge/celluloid">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
         
 
       <td>
@@ -568,6 +570,39 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/alan-turing-institute/distinctipy">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.org/project/distinctipy">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+       
+        <a href="https://distinctipy.readthedocs.io/en/latest">distinctipy</a>
+      
+      </td>
+      <td>
+        Qualitative colormaps of any length, generated to be maximally distinct.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/vork/farrowandball">  
             <img src="_static/badges/github-gray.svg">
           </a>
@@ -626,6 +661,39 @@ Third-party and user-contributed packages
       </td>
       <td>
         Cyberpunk / neon-glow look for plots.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
+          <a href="https://github.com/pnkraemer/tueplots">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.org/project/tueplots">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+       
+        <a href="https://tueplots.readthedocs.io/en/latest">tueplots</a>
+      
+      </td>
+      <td>
+        Light-weight matplotlib styles for figures used in scientific publications.   
       </td>             
       
 
@@ -932,6 +1000,39 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/ghiffaryr/grplot">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.org/project/grplot">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+       
+        <a href="https://github.com/ghiffaryr/grplot">grplot</a>
+      
+      </td>
+      <td>
+        Complete and attractive statistical graphs in one function.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/the-bucketless/hockey_rink">  
             <img src="_static/badges/github-gray.svg">
           </a>
@@ -957,6 +1058,41 @@ Third-party and user-contributed packages
       </td>
       <td>
         A Python library for plotting hockey rinks with Matplotlib.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
+          <a href="https://github.com/guiwitz/microfilm">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.org/project/microfilm">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <a href="https://anaconda.org/conda-forge/microfilm">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
+        
+
+      <td>
+       
+        <a href="https://guiwitz.github.io/microfilm">microfilm</a>
+      
+      </td>
+      <td>
+        2D image plots and animations for multi-channel microscopy data.   
       </td>             
       
 
@@ -1696,8 +1832,10 @@ Third-party and user-contributed packages
         
       
         <td>
-          <img src="_static/badges/conda-empty.svg">
-        </td>        
+          <a href="https://anaconda.org/conda-forge/mpl-point-clicker">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
         
 
       <td>
@@ -2051,8 +2189,10 @@ Third-party and user-contributed packages
         
       
         <td>
-          <img src="_static/badges/conda-empty.svg">
-        </td>        
+          <a href="https://anaconda.org/conda-forge/mplstereonet">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
         
 
       <td>
