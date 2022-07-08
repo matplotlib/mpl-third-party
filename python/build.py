@@ -8,6 +8,7 @@ from yaml import safe_load
 from markdown import markdown
 import requests
 
+
 # concatenate yml files...
 
 here = Path(__file__).parent.resolve()
@@ -32,25 +33,54 @@ for package in packages:
         if 'section' not in pack:
             pack['section'] = 'miscellaneous'
         if pack['section'] in packs:
-            packs[pack['section']] += [pack]   
+            packs[pack['section']] += [pack]
         else:
             packs[pack['section']] = [pack]
 
 pprint.pprint(packs)
 
+def _get_name(package):
+    """
+    In order:
+        - try name
+        - try repo user/name
+        - error
+    """
+    name = None
+    _name = None
+    user = None
+    if 'name' in package:
+        name = package['name']
+    if 'repo' in package and package['repo'] is not None:
+        user, _name = package['repo'].split('/')
+
+    if name is None:
+        name = _name
+    if name is None:
+        raise ValueError(f'package must specify name, or repo: {package}')
+    return name, user
+
+
+def _sort_key(i):
+    name, user = _get_name(i)
+    return name
+
 with all_path.open('w') as out:
     for secname in sorted(packs.keys()):
-        packs_sec = sorted(packs[secname], key=lambda i: i['repo'].split('/')[1].lower())
-        
+
+        packs_sec = sorted(packs[secname], key=_sort_key)
+
         out.write(f'  - name: {section_names[secname]}\n')
-        out.write(f'    packages:\n\n')
+        out.write(f'    packages:\n')
         for pack in packs_sec:
-            out.write(f'    - repo: {pack["repo"]}\n')
+            if 'repo' in pack:
+                out.write(f'    - repo: {pack["repo"]}\n')
+            else:
+                out.write(f'    - repo: \n')
             for k, v in pack.items():
                 if k != 'repo':
                     out.write(f'      {k}: {v}\n')
         out.write('\n')
-                     
 
 
 print("Opening config file")
@@ -60,16 +90,20 @@ pprint.pprint(config)
 print()
 
 for section in config:
-    print(section.get('name', ''))
+    print('\n', section.get('name', ''))
     if section.get('intro'):
         section['intro'] = markdown(section['intro'])
     for package in section['packages']:
-        print(f"  {package['repo']}")
-        try:
-            package['user'], package['name'] = package['repo'].split('/')
-        except:
-            raise Warning('Package.repo is not in correct format', package)
-            continue
+        # strip "None" strings
+        pack = {}
+        keys = [k for k in package.keys()]
+        for k in keys:
+            if package[k] == 'None' or package[k] is None:
+                package.pop(k)
+
+        package['name'], package['user'] = _get_name(package)
+        print(package['name'])
+
         package['conda_package'] = package.get('conda_package', package['name'])
         package['pypi_name'] = package.get('pypi_name', package['name'])
 
@@ -114,7 +148,6 @@ for section in config:
             package['badges'].append('site')
         if package.get('dormant') and 'dormant' not in package['badges']:
             package['badges'].append('dormant')
-        
 
         if 'rtd' in package['badges'] and 'rtd_name' not in package:
             package['rtd_name'] = package['name']
@@ -125,6 +158,8 @@ for section in config:
                 package['site_protocol'] = 'https'
             else:
                 package['site_protocol'], package['site'] = package['site'].rstrip('/').split('://')
+
+pprint.pprint(config)
 
 template = Template((here / 'template.rst').read_text())
 
