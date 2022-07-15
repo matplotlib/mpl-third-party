@@ -1,0 +1,8 @@
+repo: craffel/mir_eval
+section: domain specific libraries
+description: Evaluation tools and display helpers for audio annotations
+site: https://craffel.github.io/mir_eval/
+keywords: [music, audio, annotation]
+pypi_name: mir_eval
+conda_package: mir_eval
+conda_channel: conda-forge
