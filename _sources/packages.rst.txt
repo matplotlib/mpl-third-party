@@ -1101,6 +1101,41 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/Unidata/MetPy">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.org/project/MetPy">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <a href="https://anaconda.org/conda-forge/MetPy">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
+        
+
+      <td>
+       
+        <a href="https://unidata.github.io/MetPy">MetPy</a>
+      
+      </td>
+      <td>
+        A Python toolkit for meteorological applications   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/guiwitz/microfilm">  
             <img src="_static/badges/github-gray.svg">
           </a>
