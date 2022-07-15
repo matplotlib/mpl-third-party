@@ -1,0 +1,5 @@
+repo: Unidata/MetPy
+site: https://unidata.github.io/MetPy
+section: domain specific libraries
+keywords: [meteorology, atmospheric science]
+description: A Python toolkit for meteorological applications
