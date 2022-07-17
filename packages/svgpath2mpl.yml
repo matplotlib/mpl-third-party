@@ -1,0 +1,5 @@
+repo: nvictus/svgpath2mpl
+section: plotting utilities
+description: Parse SVG paths into Matplotlib Path objects for plotting.
+site: https://github.com/nvictus/svgpath2mpl
+keywords: [svg, path, parser]
