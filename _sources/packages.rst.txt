@@ -3207,6 +3207,41 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/nvictus/svgpath2mpl">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.org/project/svgpath2mpl">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <a href="https://anaconda.org/conda-forge/svgpath2mpl">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
+        
+
+      <td>
+       
+        <a href="https://github.com/nvictus/svgpath2mpl">svgpath2mpl</a>
+      
+      </td>
+      <td>
+        Parse SVG paths into Matplotlib Path objects for plotting.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/nschloe/tikzplotlib">  
             <img src="_static/badges/github-gray.svg">
           </a>
