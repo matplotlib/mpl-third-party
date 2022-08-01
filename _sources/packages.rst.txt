@@ -1443,6 +1443,41 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/moshi4/pyGenomeViz">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.org/project/pygenomeviz">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <a href="https://anaconda.org/bioconda/pygenomeviz">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
+        
+
+      <td>
+       
+        <a href="https://moshi4.github.io/pyGenomeViz">pyGenomeViz</a>
+      
+      </td>
+      <td>
+        A genome visualization python package for comparative genomics   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/janosh/pymatviz">  
             <img src="_static/badges/github-gray.svg">
           </a>
