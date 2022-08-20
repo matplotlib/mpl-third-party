@@ -1,0 +1,6 @@
+repo: astromancer/mpl-multitab
+section: gui applications
+description: Tabbed figure manager for matplotlib using pyQt.
+site: https://github.com/astromancer/mpl-multitab
+keywords: [figure manager, tabs] # optional
+pypi_name: mpl-multitab
