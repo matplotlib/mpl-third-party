@@ -24,6 +24,9 @@ Note: The name of the yml file and the name of the repo should ideally match.
 The `section` entry should be one of the sections listed in 
 [./section_names.yml](https://github.com/matplotlib/mpl-third-party/blob/main/section_names.yml).
 
+### PyPI Classifier
+Please add the `Framework :: Matplotlib` PyPI Trove classifier to your package's [setup configuration](https://packaging.python.org/en/latest/tutorials/packaging-projects/#configuring-metadata) to be included in a listing of [Matplotlib related projects](https://pypi.org/search/?c=Framework+%3A%3A+Matplotlib) on PyPI, 
+
 ## Development
 
 The list of yml files in `packages/` is parsed by `python/build.py` using `template.rst` and
