@@ -12,5 +12,4 @@ where we give you a template to make it easy!
 
 You can find more packages at 
 `PyPI <https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Matplotlib>`_ 
-if package maintainers have added the ``Framework :: Matplotlib`` 
-in the classifier list in the ``setup.py`` file of their package.
+using the ``Framework :: Matplotlib`` trove classifier.
