@@ -1356,6 +1356,39 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/toshiakiasakura/myforestplot">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+      
+        <td>
+          <a href="https://pypi.org/project/myforestplot">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        
+      
+        <td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
+        
+
+      <td>
+       
+        <a href="https://toshiakiasakura.github.io/myforestplot">myforestplot</a>
+      
+      </td>
+      <td>
+        A flexibly customizable Python tool to create a forest plot   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/networkx/networkx">  
             <img src="_static/badges/github-gray.svg">
           </a>
