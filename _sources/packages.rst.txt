@@ -2664,10 +2664,8 @@ Third-party and user-contributed packages
         
       
         <td>
-          <a href="https://anaconda.org/conda-forge/matplotlib-venn">
-          <img src="_static/badges/conda-blue.svg">
-          </a>
-        </td>
+          <img src="_static/badges/conda-empty.svg">
+        </td>        
         
 
       <td>
@@ -2753,7 +2751,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/scls19fr/windrose">  
+          <a href="https://github.com/python-windrose/windrose">  
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2775,7 +2773,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/scls19fr/windrose">windrose</a>
+        <a href="https://github.com/python-windrose/windrose">windrose</a>
       
       </td>
       <td>
