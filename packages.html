@@ -1,184 +1,342 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
     <title>Third-party and user-contributed packages &#8212; Matplotlib third-party packages  documentation</title>
-    
+  <script>
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  <link href="_static/styles/theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
 
-    
+  
   <link rel="stylesheet"
-    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+    href="_static/vendor/fontawesome/6.1.2/css/all.min.css">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+    href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+    href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/style.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    
+  
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'packages';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="docsearch:language" content="en">
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-    
-    <div class="container-fluid" id="banner"></div>
+  
+  
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
 
-    
-    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+  
+  <input type="checkbox" class="sidebar-toggle" name="__primary" id="__primary">
+  <label class="overlay overlay-primary" for="__primary"></label>
 
+  
+  <input type="checkbox" class="sidebar-toggle" name="__secondary" id="__secondary">
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+      
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+    </div>
+  </div>
+
+  
+  <nav class="bd-header navbar navbar-expand-lg bd-navbar" id="navbar-main"><div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+      <span class="fas fa-bars"></span>
+  </label>
   <div id="navbar-start">
     
     
+   
 
-<a class="navbar-brand" href="https://matplotlib.org/stable">
-  <img src="_static/images/logo2.svg" class="logo" alt="logo">
+
+<a class="navbar-brand logo" href="https://matplotlib.org/stable">
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <img src="_static/images/logo2.svg" class="logo__image only-light" alt="Logo image">
+    <img src="_static/images/logo_dark.svg" class="logo__image only-dark" alt="Logo image">
+  
+  
 </a>
-
-
     
   </div>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
   
-  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+  <div class="col-lg-9 navbar-header-items">
     <div id="navbar-center" class="mr-auto">
       
       <div class="navbar-center-item">
-        
-<ul id="navbar-main-elements" class="navbar-nav">
+        <ul id="navbar-main-elements" class="navbar-nav">
   <li class="nav-item">
-    <a class="reference internal nav-link" href="https://matplotlib.org/stable/plot_types/index">Plot types</a>
+    <a class="reference internal nav-link" href="plot_types/index.html">Plot types</a>
   </li>
   <li class="nav-item">
-    <a class="reference internal nav-link" href="https://matplotlib.org/stable/gallery/index">Examples</a>
+    <a class="reference internal nav-link" href="gallery/index.html">Examples</a>
   </li>
   <li class="nav-item">
-    <a class="reference internal nav-link" href="https://matplotlib.org/stable/tutorials/index">Tutorials</a>
+    <a class="reference internal nav-link" href="tutorials/index.html">Tutorials</a>
   </li>
   <li class="nav-item">
-    <a class="reference internal nav-link" href="https://matplotlib.org/stable/api/index">Reference</a>
+    <a class="reference internal nav-link" href="api/index.html">Reference</a>
   </li>
   <li class="nav-item">
-    <a class="reference internal nav-link" href="https://matplotlib.org/stable/users/index">Usage guide</a>
+    <a class="reference internal nav-link" href="users/index.html">User guide</a>
   </li>
   <li class="nav-item">
-    <a class="reference internal nav-link" href="https://matplotlib.org/stable/devel/index">Develop</a>
+    <a class="reference internal nav-link" href="devel/index.html">Develop</a>
   </li>
   <li class="nav-item">
-    <a class="reference internal nav-link" href="https://matplotlib.org/stable/users/release_notes">Release notes</a>
+    <a class="reference internal nav-link" href="users/release_notes.html">Release notes</a>
   </li>
 </ul>
-
       </div>
       
     </div>
 
     <div id="navbar-end">
+      <div class="navbar-end-item navbar-end__search-button-container">
+        
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search">
+  <i class="fas fa-search"></i>
+</button>
+      </div>
       
       <div class="navbar-end-item">
-        
-      <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <span class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle">
+    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
+    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
+    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
+</span>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
         <li class="nav-item">
-          <a class="nav-link" href="https://gitter.im/matplotlib" rel="noopener" target="_blank" title="gitter">
-            <span><i class="fab fa-gitter"></i></span>
-            <label class="sr-only">gitter</label>
-          </a>
+          
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/matplotlib" title="Gitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-gitter"></i></span>
+            <label class="sr-only">Gitter</label></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://discourse.matplotlib.org" rel="noopener" target="_blank" title="discourse">
-            <span><i class="fab fa-discourse"></i></span>
-            <label class="sr-only">discourse</label>
-          </a>
+          
+          
+          
+          
+          
+          
+          <a href="https://discourse.matplotlib.org" title="Discourse" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-discourse"></i></span>
+            <label class="sr-only">Discourse</label></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/matplotlib/matplotlib" rel="noopener" target="_blank" title="GitHub">
-            <span><i class="fab fa-github-square"></i></span>
-            <label class="sr-only">GitHub</label>
-          </a>
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/matplotlib/matplotlib" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github"></i></span>
+            <label class="sr-only">GitHub</label></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/matplotlib/" rel="noopener" target="_blank" title="twitter">
-            <span><i class="fab fa-twitter-square"></i></span>
-            <label class="sr-only">twitter</label>
-          </a>
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/matplotlib/" title="Twitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-twitter"></i></span>
+            <label class="sr-only">Twitter</label></a>
         </li>
       </ul>
       </div>
       
     </div>
   </div>
+
+
+  
+  <div class="search-button-container--mobile">
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search">
+  <i class="fas fa-search"></i>
+</button>
+  </div>
+
+  
+
 </div>
-    </nav>
+  </nav>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+  <li class="nav-item">
+    <a class="reference internal nav-link" href="plot_types/index.html">Plot types</a>
+  </li>
+  <li class="nav-item">
+    <a class="reference internal nav-link" href="gallery/index.html">Examples</a>
+  </li>
+  <li class="nav-item">
+    <a class="reference internal nav-link" href="tutorials/index.html">Tutorials</a>
+  </li>
+  <li class="nav-item">
+    <a class="reference internal nav-link" href="api/index.html">Reference</a>
+  </li>
+  <li class="nav-item">
+    <a class="reference internal nav-link" href="users/index.html">User guide</a>
+  </li>
+  <li class="nav-item">
+    <a class="reference internal nav-link" href="devel/index.html">Develop</a>
+  </li>
+  <li class="nav-item">
+    <a class="reference internal nav-link" href="users/release_notes.html">Release notes</a>
+  </li>
+</ul>
+      </div>
+      
+      </div>
     
 
-    <div class="container-xl">
-      <div class="row">
+    
+    
+    <div class="sidebar-header-items__end">
+      
+      <div class="navbar-end-item">
+        <span class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle">
+    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
+    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
+    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
+</span>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
           
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/matplotlib" title="Gitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-gitter"></i></span>
+            <label class="sr-only">Gitter</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://discourse.matplotlib.org" title="Discourse" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-discourse"></i></span>
+            <label class="sr-only">Discourse</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/matplotlib/matplotlib" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/matplotlib/" title="Twitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-twitter"></i></span>
+            <label class="sr-only">Twitter</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+  <div class="sidebar-start-items sidebar-primary__section">
+    <div class="sidebar-start-items__item">
+    </div>
+  </div>
+  
+
+  
+  <div class="sidebar-end-items sidebar-primary__section">
+    <div class="sidebar-end-items__item">
+    </div>
+  </div>
+
+      </div>
+      <main class="bd-main">
+        
+        
+        <div class="bd-content">
+          <div class="bd-article-container">
             
-            <!-- Only show if we have sidebars configured, else just a small margin  -->
-            <div class="col-12 col-md-3 bd-sidebar">
-              <div class="sidebar-start-items">
-              </div>
-              <div class="sidebar-end-items">
-              </div>
+            <div class="bd-header-article">
+                
             </div>
             
-          
-
-          
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
             
+            <article class="bd-article" role="main">
               
-              <div class="toc-item">
-                
-
-<nav id="bd-toc-nav">
-    
-</nav>
-              </div>
-              
-              <div class="toc-item">
-                
-              </div>
-              
-            
-          </div>
-          
-
-          
-          
-            
-          
-          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
-              
-              <div>
-                
   <section id="third-party-and-user-contributed-packages">
-<h1>Third-party and user-contributed packages<a class="headerlink" href="#third-party-and-user-contributed-packages" title="Permalink to this headline">#</a></h1>
+<h1>Third-party and user-contributed packages<a class="headerlink" href="#third-party-and-user-contributed-packages" title="Permalink to this heading">#</a></h1>
 <p>A list of packages that extend Matplotlib.  These are maintained
 and distributed independently from Matplotlib so go to the website
 listed for instructions.</p>
@@ -215,20 +373,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/holoviews">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/pyviz/holoviews">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -250,20 +408,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/hvplot">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/pyviz/hvplot">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -285,20 +443,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/pandas">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/pandas">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -320,20 +478,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/plotnine">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/plotnine">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -355,20 +513,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/xarray">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/xarray">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -403,20 +561,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/animatplot">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/animatplot">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -438,20 +596,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/celluloid">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/celluloid">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -473,20 +631,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/gif">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/gif">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -508,20 +666,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/numpngw">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/numpngw">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -543,20 +701,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/xmovie">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/xmovie">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -591,18 +749,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/aquarel">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -624,20 +780,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/cmasher">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/cmasher">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -659,20 +815,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/cmcrameri">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/cmcrameri">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -694,20 +850,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/cmocean">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/cmocean">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -729,20 +885,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/cmyt">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/cmyt">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -764,20 +920,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/colorcet">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/pyviz/colorcet">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -799,20 +955,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/distinctipy">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/distinctipy">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -834,18 +990,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/farrow-and-ball">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -867,18 +1021,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mplcyberpunk">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -900,18 +1052,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/tueplots">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -933,20 +1083,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/viscm">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/viscm">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -981,20 +1131,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/sphinx-gallery">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/sphinx-gallery">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1029,20 +1179,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/arviz">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/arviz">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1064,20 +1214,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/astropy">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/astropy">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1099,18 +1249,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/bgheatmap">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -1132,18 +1280,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/colorio">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -1165,20 +1311,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/cplot">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/cplot">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1200,18 +1346,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/dna-features-viewer">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -1233,20 +1377,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/grplot">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/grplot">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1268,20 +1412,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/hockey_rink">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/hockey_rink">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1303,20 +1447,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/librosa">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/librosa">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1338,20 +1482,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/MetPy">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/MetPy">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1373,20 +1517,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/microfilm">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/microfilm">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1408,20 +1552,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mir_eval">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mir_eval">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1443,20 +1587,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mplfinance">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mplfinance">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1478,20 +1622,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mplhep">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mplhep">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1513,20 +1657,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mplsoccer">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mplsoccer">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1548,18 +1692,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/myforestplot">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -1581,20 +1723,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/networkx">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/networkx">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1616,16 +1758,12 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
-        <img src="_static/badges/pip-empty.svg">
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -1647,20 +1785,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/arm_pyart">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/arm_pyart">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1682,18 +1820,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/python-circos">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -1715,20 +1851,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/pygenomeviz">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/bioconda/pygenomeviz">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1750,20 +1886,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/pymatviz">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/pymatviz">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1785,18 +1921,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/pyplutchik">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -1818,20 +1952,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/seaborn">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/seaborn">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1853,20 +1987,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/seaborn-image">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/seaborn-image">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1888,20 +2022,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/yellowbrick">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/yellowbrick">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1936,20 +2070,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpl-gui">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mpl-gui">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -1971,18 +2105,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpl-qtthread">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2017,18 +2149,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/glue">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2050,20 +2180,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/lumen">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/pyviz/lumen">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2085,18 +2215,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpl-multitab">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2118,18 +2246,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/pylustrator">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2151,16 +2277,12 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
-        <img src="_static/badges/pip-empty.svg">
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2182,20 +2304,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/PySimpleGUI">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/PySimpleGUI">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2217,18 +2339,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/sviewgui">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2263,18 +2383,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpl-image-labeller">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2296,20 +2414,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpl-interactions">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mpl-interactions">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2331,20 +2449,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpl-point-clicker">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mpl-point-clicker">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2366,20 +2484,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mplcursors">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mplcursors">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2401,20 +2519,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpldatacursor">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mpldatacursor">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2436,16 +2554,12 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
-        <img src="_static/badges/pip-empty.svg">
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2467,20 +2581,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/panel">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/pyviz/panel">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2515,20 +2629,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/cartopy">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/cartopy">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2550,20 +2664,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/eomaps">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/eomaps">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2585,20 +2699,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/geopandas">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/geopandas">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2620,20 +2734,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/geoplot">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/geoplot">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2655,20 +2769,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/geoviews">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/pyviz/geoviews">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2690,20 +2804,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mplstereonet">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mplstereonet">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2725,20 +2839,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/prettymaps">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/prettymaps">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2760,18 +2874,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/ridge_map">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2806,20 +2918,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/matplotcheck">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/matplotcheck">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2841,20 +2953,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/matplotx">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/matplotx">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2889,18 +3001,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/blume">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -2922,20 +3032,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/datashader">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/pyviz/datashader">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2957,20 +3067,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/matplotlib-venn">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/matplotlib-venn">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -2992,20 +3102,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpl-scatter-density">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mpl-scatter-density">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3027,18 +3137,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/pyupset">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -3060,20 +3168,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/windrose">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/windrose">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3095,20 +3203,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/yt">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/yt">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3143,20 +3251,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/adjustText">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/adjustText">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3178,20 +3286,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/brokenaxes">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/brokenaxes">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3213,20 +3321,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/figpager">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/figpager">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3248,20 +3356,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/flexitext">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/flexitext">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3283,20 +3391,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/grid-strategy">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/grid-strategy">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3318,20 +3426,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/highlight_text">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/highlight_text">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3353,20 +3461,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/matplotlib-scalebar">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/matplotlib-scalebar">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3388,20 +3496,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/matplotview">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/matplotview">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3423,20 +3531,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/probscale">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mpl-probscale">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3458,18 +3566,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpl-template">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -3491,20 +3597,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mpl_table">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/mpl_table">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3526,18 +3632,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/patchworklib">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -3559,20 +3663,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/proplot">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/proplot">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3594,20 +3698,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/skunk">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/skunk">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3629,20 +3733,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/svgpath2mpl">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/svgpath2mpl">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3664,20 +3768,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/tikzplotlib">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/tikzplotlib">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3712,18 +3816,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/gr">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -3745,18 +3847,16 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/mplcairo">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
-        <img src="_static/badges/conda-empty.svg">
-      </td>
 
+      </td>
 
     <td>
 
@@ -3778,20 +3878,20 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
         </a>
       </td>
 
-
       <td>
+
         <a href="https://pypi.org/project/wxmplot">
           <img src="_static/badges/pip-orange.svg">
         </a>
+
       </td>
-
-
       <td>
+
         <a href="https://anaconda.org/conda-forge/wxmplot">
         <img src="_static/badges/conda-blue.svg">
         </a>
-      </td>
 
+      </td>
 
     <td>
 
@@ -3810,37 +3910,58 @@ in the classifier list in the <code class="docutils literal notranslate"><span c
   </div></section>
 
 
-              </div>
-              
-              
-              <!-- Previous / next buttons -->
+            </article>
+            
+            
+            
+            <footer class="bd-footer-article">
+                <!-- Previous / next buttons -->
 <div class='prev-next-area'>
 </div>
-              
-          </main>
+            </footer>
+            
+          </div>
           
-
-      </div>
+          
+          
+          
+        </div>
+        <footer class="bd-footer-content">
+          <div class="bd-footer-content__inner">
+            
+          </div>
+        </footer>
+        
+      </main>
     </div>
-  
-  <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
-<footer class="footer mt-5 mt-md-0">
-  <div class="container">
-    
-    <div class="footer-item">
-      <p class="copyright">
-    &copy; Copyright 2012 - 2022 The Matplotlib development team.<br>
-</p>
-    </div>
-    
-    <div class="footer-item">
-      <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
-</p>
-    </div>
-    
   </div>
-</footer>
+
+  
+    
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b"></script>
+
+  <footer class="bd-footer"><div class="bd-footer__inner container">
+  
+  <div class="footer-item">
+    
+<p class="copyright">
+
+    &copy; Copyright 2012 - 2022 The Matplotlib development team.<br>
+
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+<p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.1.<br>
+</p>
+
+  </div>
+  
+</div>
+  </footer>
   </body>
 </html>
