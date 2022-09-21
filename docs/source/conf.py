@@ -22,6 +22,7 @@ html_theme_options = {
         "image_dark": "images/logo_dark.svg",
     },
     "navbar_links": "internal",
+    "page_sidebar_items": "page-toc.html",
 }
 
 html_css_files = [
