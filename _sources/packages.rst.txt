@@ -1484,6 +1484,10 @@ Third-party and user-contributed packages
         </td>
         <td>
         
+          <a href="https://anaconda.org/conda-forge/pyCircos">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        
         </td>        
 
       <td>
@@ -2126,6 +2130,33 @@ Third-party and user-contributed packages
       </td>
       <td>
         Record click locations on a figure. Supports multiple classes.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
+          <a href="https://github.com/leejjoon/mpl_widget_box">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+        <td>
+        
+        </td>
+        <td>
+        
+        </td>        
+
+      <td>
+       
+        <a href="https://mpl-widget-box.readthedocs.io">mpl_widget_box</a>
+      
+      </td>
+      <td>
+        GUI-neutral widgets for Matplotlib, with legend-like layout and more.   
       </td>             
       
 
@@ -3229,6 +3260,10 @@ Third-party and user-contributed packages
         
         </td>
         <td>
+        
+          <a href="https://anaconda.org/conda-forge/mpl-template">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
         
         </td>        
 
