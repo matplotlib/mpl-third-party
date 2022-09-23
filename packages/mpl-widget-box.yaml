@@ -1,5 +1,5 @@
 repo: leejjoon/mpl_widget_box
 keywords: [widgets]
 section: interactivity
-description: GUI-neutral widgets for Matplotlib w/ legend-like layout and more
+description: GUI-neutral widgets for Matplotlib, with legend-like layout and more.
 site: https://mpl-widget-box.readthedocs.io
