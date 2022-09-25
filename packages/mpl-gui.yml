@@ -1,4 +1,5 @@
+name: mpl-gui
 repo: tacaswell/mpl-gui
 section: experimental
 description: Prototype for a pyplot alternative
-site: https://tacaswell.github.io/mpl-gui/
+site: https://matplotlib.org/mpl-gui/

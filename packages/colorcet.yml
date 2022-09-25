@@ -1,3 +1,4 @@
+name: Colorcet
 repo: holoviz/colorcet
 section: colormaps and styles
 description: Perceptually uniform continuous colormaps and perceptually distinct categorical color sets.

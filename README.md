@@ -7,6 +7,7 @@ To add your package to the list, create a YAML file `your-cool-mpl-package.yml` 
 directory. The file must have the following fields:
 
 ```yml
+name: cmocean
 repo: matplotlib/cmocean
 section: colormaps and styles
 description: Perceptually uniform colormaps for oceanographic variables.

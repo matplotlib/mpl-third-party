@@ -1,3 +1,4 @@
+name: matplotlib-scalebar
 repo: ppinard/matplotlib-scalebar
 section: plotting utilities
 description: Display a scale bar.

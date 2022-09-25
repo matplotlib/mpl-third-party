@@ -1,3 +1,4 @@
+name: xmovie
 repo: jbusecke/xmovie
 section: animations
 description: A simple way of creating beautiful movies from xarray objects.

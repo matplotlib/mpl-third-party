@@ -1,3 +1,4 @@
+name: mpl-probscale
 repo: matplotlib/mpl-probscale
 site: https://matplotlib.org/mpl-probscale/
 keywords: [scales, probability, axes]

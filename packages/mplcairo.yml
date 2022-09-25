@@ -1,3 +1,4 @@
+name: mplcairo
 repo: matplotlib/mplcairo
 section: backends
 description: Improved backend for cairo.

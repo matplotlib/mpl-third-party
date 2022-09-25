@@ -1,3 +1,4 @@
+name: Windrose
 repo: python-windrose/windrose
 section: plot types
 description: Create windrose plots.

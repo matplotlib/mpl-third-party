@@ -1,3 +1,4 @@
+name: MetPy
 repo: Unidata/MetPy
 site: https://unidata.github.io/MetPy
 section: domain specific libraries

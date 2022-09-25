@@ -1,3 +1,4 @@
+name: PyUpSet
 repo: ImSoErgodic/py-upset
 section: plot types
 description: UpSet suite of visualization methods.

@@ -1,3 +1,4 @@
+name: gr
 repo: jheinen/gr
 section: backends
 description: Graphic kernel system backend.

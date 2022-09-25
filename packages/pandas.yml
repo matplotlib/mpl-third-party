@@ -1,3 +1,4 @@
+name: pandas
 repo: pandas-dev/pandas
 site: https://pandas.pydata.org
 keywords: ["structured data", columnar, tabular, tables]

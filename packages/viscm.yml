@@ -1,3 +1,4 @@
+name: viscm
 repo: matplotlib/viscm
 section: colormaps and styles
 description: Tool for analyzing colormaps and creating new colormaps.

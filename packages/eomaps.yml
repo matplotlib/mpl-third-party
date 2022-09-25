@@ -1,3 +1,4 @@
+name: EOmaps
 repo: raphaelquast/eomaps
 section: mapping
 description: A library to create interactive maps of geographical datasets.

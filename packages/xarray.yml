@@ -1,3 +1,4 @@
+name: Xarray
 repo: pydata/xarray
 site: https://xarray.pydata.org
 keywords: ["structured data", "multi-dimensional arrays", "nD arrays"]

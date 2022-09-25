@@ -1,3 +1,4 @@
+name: FigPager
 repo: ebenp/figpager
 section: plotting utilities
 description: Save plots with single or multiple pages.

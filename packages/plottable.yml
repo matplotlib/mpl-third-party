@@ -1,3 +1,4 @@
+name: plottable
 repo: znstrider/plottable
 section: plot types
 description: Beautifully customized tables with matplotlib.

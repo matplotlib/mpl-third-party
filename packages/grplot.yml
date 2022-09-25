@@ -1,3 +1,4 @@
+name: grplot
 repo: 'ghiffaryr/grplot'
 section: 'domain specific libraries'
 description: 'Complete and attractive statistical graphs in one function.'

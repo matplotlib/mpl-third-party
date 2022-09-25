@@ -1,3 +1,4 @@
+name: tikzplotlib
 repo: nschloe/tikzplotlib
 keywords: [latex, tikz]
 section: plotting utilities

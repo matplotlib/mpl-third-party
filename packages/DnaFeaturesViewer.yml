@@ -1,3 +1,4 @@
+name: DNA Features Viewer
 repo: Edinburgh-Genome-Foundry/DnaFeaturesViewer
 section: domain specific libraries
 description: Visualize DNA features, e.g. from GenBank or Gff files, or Biopython SeqRecords.
