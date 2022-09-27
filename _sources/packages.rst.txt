@@ -1773,6 +1773,10 @@ Third-party and user-contributed packages
         </td>
         <td>
         
+          <a href="https://anaconda.org/conda-forge/mpl-qtthread">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        
         </td>        
 
       <td>
@@ -1883,6 +1887,10 @@ Third-party and user-contributed packages
         </td>
         <td>
         
+          <a href="https://anaconda.org/conda-forge/mpl-multitab">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        
         </td>        
 
       <td>
@@ -1913,6 +1921,10 @@ Third-party and user-contributed packages
         
         </td>
         <td>
+        
+          <a href="https://anaconda.org/conda-forge/pylustrator">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
         
         </td>        
 
