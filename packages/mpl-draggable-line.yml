@@ -1,0 +1,5 @@
+repo: ianhi/mpl-draggable-line
+keywords: widget, draggable, draggable-line
+section: interactivity
+description: A Draggable line widget for Matplotlib.
+site: https://mpl-draggable-line.readthedocs.io
