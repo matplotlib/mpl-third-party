@@ -2861,6 +2861,37 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
+          <a href="https://github.com/znstrider/plottable">  
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+        <td>
+        
+          <a href="https://pypi.org/project/plottable">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        
+        </td>
+        <td>
+        
+        </td>        
+
+      <td>
+       
+        <a href="https://github.com/znstrider/plottable">plottable</a>
+      
+      </td>
+      <td>
+        Beautifully customized tables with matplotlib.   
+      </td>             
+      
+
+      </tr>
+      
+      <tr>
+        
+        <td>
           <a href="https://github.com/ImSoErgodic/py-upset">  
             <img src="_static/badges/github-gray.svg">
           </a>
