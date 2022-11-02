@@ -23,7 +23,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/holoviz/holoviews">  
+          <a href="https://github.com/holoviz/holoviews">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -45,7 +45,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://holoviews.org">holoviews</a>
+        <a href="https://holoviews.org">HoloViews</a>
       
       </td>
       <td>
@@ -58,7 +58,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/holoviz/hvplot">  
+          <a href="https://github.com/holoviz/hvplot">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -80,7 +80,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://hvplot.holoviz.org">hvplot</a>
+        <a href="https://hvplot.holoviz.org">hvPlot</a>
       
       </td>
       <td>
@@ -93,7 +93,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/pandas-dev/pandas">  
+          <a href="https://github.com/pandas-dev/pandas">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -128,7 +128,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/has2k1/plotnine">  
+          <a href="https://github.com/has2k1/plotnine">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -163,7 +163,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/pydata/xarray">  
+          <a href="https://github.com/pydata/xarray">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -185,7 +185,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://xarray.pydata.org">xarray</a>
+        <a href="https://xarray.pydata.org">Xarray</a>
       
       </td>
       <td>
@@ -211,7 +211,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/t-makaro/animatplot">  
+          <a href="https://github.com/t-makaro/animatplot">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -246,7 +246,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/jwkvam/celluloid">  
+          <a href="https://github.com/jwkvam/celluloid">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -281,7 +281,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/maxhumber/gif">  
+          <a href="https://github.com/maxhumber/gif">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -316,7 +316,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/WarrenWeckesser/numpngw">  
+          <a href="https://github.com/WarrenWeckesser/numpngw">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -351,7 +351,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/jbusecke/xmovie">  
+          <a href="https://github.com/jbusecke/xmovie">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -399,7 +399,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/lgienapp/aquarel">  
+          <a href="https://github.com/lgienapp/aquarel">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -417,7 +417,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://github.com/lgienapp/aquarel">aquarel</a>
+        <a href="https://github.com/lgienapp/aquarel">Aquarel</a>
       
       </td>
       <td>
@@ -430,7 +430,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/1313e/CMasher">  
+          <a href="https://github.com/1313e/CMasher">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -465,7 +465,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/callumrollo/cmcrameri">  
+          <a href="https://github.com/callumrollo/cmcrameri">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -500,7 +500,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/matplotlib/cmocean">  
+          <a href="https://github.com/matplotlib/cmocean">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -535,7 +535,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/yt-project/cmyt">  
+          <a href="https://github.com/yt-project/cmyt">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -570,7 +570,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/holoviz/colorcet">  
+          <a href="https://github.com/holoviz/colorcet">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -592,7 +592,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://colorcet.holoviz.org">colorcet</a>
+        <a href="https://colorcet.holoviz.org">Colorcet</a>
       
       </td>
       <td>
@@ -605,7 +605,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/alan-turing-institute/distinctipy">  
+          <a href="https://github.com/alan-turing-institute/distinctipy">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -640,7 +640,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/vork/farrowandball">  
+          <a href="https://github.com/vork/farrowandball">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -658,7 +658,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/vork/farrowandball">farrowandball</a>
+        <a href="https://github.com/vork/farrowandball">Farrow&Ball Matplotlib</a>
       
       </td>
       <td>
@@ -671,7 +671,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/dhaitz/mplcyberpunk">  
+          <a href="https://github.com/dhaitz/mplcyberpunk">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -702,7 +702,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/pnkraemer/tueplots">  
+          <a href="https://github.com/pnkraemer/tueplots">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -720,7 +720,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://tueplots.readthedocs.io/en/latest">tueplots</a>
+        <a href="https://tueplots.readthedocs.io/en/latest">TUEplots</a>
       
       </td>
       <td>
@@ -733,7 +733,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/matplotlib/viscm">  
+          <a href="https://github.com/matplotlib/viscm">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -781,7 +781,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/sphinx-gallery/sphinx-gallery">  
+          <a href="https://github.com/sphinx-gallery/sphinx-gallery">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -803,7 +803,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://sphinx-gallery.github.io">sphinx-gallery</a>
+        <a href="https://sphinx-gallery.github.io">Sphinx-Gallery</a>
       
       </td>
       <td>
@@ -829,7 +829,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/arviz-devs/arviz">  
+          <a href="https://github.com/arviz-devs/arviz">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -851,7 +851,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://arviz-devs.github.io/arviz">arviz</a>
+        <a href="https://arviz-devs.github.io/arviz">ArviZ</a>
       
       </td>
       <td>
@@ -864,7 +864,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/astropy/astropy">  
+          <a href="https://github.com/astropy/astropy">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -886,7 +886,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://www.astropy.org">astropy</a>
+        <a href="https://www.astropy.org">Astropy</a>
       
       </td>
       <td>
@@ -899,7 +899,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/brainglobe/bg-heatmaps">  
+          <a href="https://github.com/brainglobe/bg-heatmaps">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -917,7 +917,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/brainglobe/bg-heatmaps">bg-heatmaps</a>
+        <a href="https://github.com/brainglobe/bg-heatmaps">BG Heatmaps</a>
       
       </td>
       <td>
@@ -930,7 +930,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/nschloe/colorio">  
+          <a href="https://github.com/nschloe/colorio">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -961,7 +961,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/nschloe/cplot">  
+          <a href="https://github.com/nschloe/cplot">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -996,7 +996,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer">  
+          <a href="https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1014,7 +1014,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer">DnaFeaturesViewer</a>
+        <a href="https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer">DNA Features Viewer</a>
       
       </td>
       <td>
@@ -1027,7 +1027,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ghiffaryr/grplot">  
+          <a href="https://github.com/ghiffaryr/grplot">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1062,7 +1062,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/the-bucketless/hockey_rink">  
+          <a href="https://github.com/the-bucketless/hockey_rink">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1084,7 +1084,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://github.com/the-bucketless/hockey_rink">hockey_rink</a>
+        <a href="https://github.com/the-bucketless/hockey_rink">Hockey Rink</a>
       
       </td>
       <td>
@@ -1097,7 +1097,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/librosa/librosa">  
+          <a href="https://github.com/librosa/librosa">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1132,7 +1132,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/Unidata/MetPy">  
+          <a href="https://github.com/Unidata/MetPy">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1167,7 +1167,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/guiwitz/microfilm">  
+          <a href="https://github.com/guiwitz/microfilm">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1202,7 +1202,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/craffel/mir_eval">  
+          <a href="https://github.com/craffel/mir_eval">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1237,7 +1237,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/matplotlib/mplfinance">  
+          <a href="https://github.com/matplotlib/mplfinance">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1272,7 +1272,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/scikit-hep/mplhep">  
+          <a href="https://github.com/scikit-hep/mplhep">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1307,7 +1307,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/andrewRowlinson/mplsoccer">  
+          <a href="https://github.com/andrewRowlinson/mplsoccer">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1342,7 +1342,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/toshiakiasakura/myforestplot">  
+          <a href="https://github.com/toshiakiasakura/myforestplot">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1360,7 +1360,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://toshiakiasakura.github.io/myforestplot">myforestplot</a>
+        <a href="https://toshiakiasakura.github.io/myforestplot">MyForestPlot</a>
       
       </td>
       <td>
@@ -1373,7 +1373,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/networkx/networkx">  
+          <a href="https://github.com/networkx/networkx">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1395,7 +1395,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://networkx.org">networkx</a>
+        <a href="https://networkx.org">NetworkX</a>
       
       </td>
       <td>
@@ -1408,7 +1408,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/AnkitBarik/planetMagFields">  
+          <a href="https://github.com/AnkitBarik/planetMagFields">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1435,7 +1435,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ARM-DOE/pyart">  
+          <a href="https://github.com/ARM-DOE/pyart">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1457,7 +1457,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://github.com/ARM-DOE/pyart">pyart</a>
+        <a href="https://github.com/ARM-DOE/pyart">Py-ART</a>
       
       </td>
       <td>
@@ -1470,7 +1470,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ponnhide/pyCircos">  
+          <a href="https://github.com/ponnhide/pyCircos">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1505,7 +1505,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/moshi4/pyGenomeViz">  
+          <a href="https://github.com/moshi4/pyGenomeViz">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1540,7 +1540,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/janosh/pymatviz">  
+          <a href="https://github.com/janosh/pymatviz">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1575,7 +1575,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/matplotlib/pyplutchik">  
+          <a href="https://github.com/matplotlib/pyplutchik">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1593,7 +1593,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://github.com/alfonsosemeraro/pyplutchik">pyplutchik</a>
+        <a href="https://github.com/alfonsosemeraro/pyplutchik">PyPlutchik</a>
       
       </td>
       <td>
@@ -1606,7 +1606,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/mwaskom/seaborn">  
+          <a href="https://github.com/mwaskom/seaborn">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1641,7 +1641,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/SarthakJariwala/seaborn-image">  
+          <a href="https://github.com/SarthakJariwala/seaborn-image">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1676,7 +1676,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/DistrictDataLabs/yellowbrick">  
+          <a href="https://github.com/DistrictDataLabs/yellowbrick">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1698,7 +1698,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://www.scikit-yb.org">yellowbrick</a>
+        <a href="https://www.scikit-yb.org">Yellowbrick</a>
       
       </td>
       <td>
@@ -1724,7 +1724,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/tacaswell/mpl-gui">  
+          <a href="https://github.com/tacaswell/mpl-gui">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1746,7 +1746,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://tacaswell.github.io/mpl-gui">mpl-gui</a>
+        <a href="https://matplotlib.org/mpl-gui">mpl-gui</a>
       
       </td>
       <td>
@@ -1759,7 +1759,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/tacaswell/mpl-qtthread">  
+          <a href="https://github.com/tacaswell/mpl-qtthread">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1807,7 +1807,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/glue-viz/glue">  
+          <a href="https://github.com/glue-viz/glue">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1825,7 +1825,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="http://docs.glueviz.org">glue</a>
+        <a href="http://docs.glueviz.org">Glue</a>
       
       </td>
       <td>
@@ -1838,7 +1838,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/holoviz/lumen">  
+          <a href="https://github.com/holoviz/lumen">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1860,7 +1860,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://lumen.holoviz.org">lumen</a>
+        <a href="https://lumen.holoviz.org">Lumen</a>
       
       </td>
       <td>
@@ -1873,7 +1873,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/astromancer/mpl-multitab">  
+          <a href="https://github.com/astromancer/mpl-multitab">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1908,7 +1908,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/rgerum/pylustrator">  
+          <a href="https://github.com/rgerum/pylustrator">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1930,7 +1930,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://pylustrator.readthedocs.io">pylustrator</a>
+        <a href="https://pylustrator.readthedocs.io">Pylustrator</a>
       
       </td>
       <td>
@@ -1943,7 +1943,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/decacent/PyNanoLab">  
+          <a href="https://github.com/decacent/PyNanoLab">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -1970,7 +1970,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/PySimpleGUI/PySimpleGUI">  
+          <a href="https://github.com/PySimpleGUI/PySimpleGUI">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2005,7 +2005,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/SojiroFukuda/sview-gui">  
+          <a href="https://github.com/SojiroFukuda/sview-gui">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2049,7 +2049,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ianhi/mpl-draggable-line">  
+          <a href="https://github.com/ianhi/mpl-draggable-line">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2080,7 +2080,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ianhi/mpl-image-labeller">  
+          <a href="https://github.com/ianhi/mpl-image-labeller">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2111,7 +2111,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ianhi/mpl-interactions">  
+          <a href="https://github.com/ianhi/mpl-interactions">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2146,7 +2146,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ianhi/mpl-point-clicker">  
+          <a href="https://github.com/ianhi/mpl-point-clicker">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2168,7 +2168,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://mpl-point-clicker.readthedocs.io">mpl-point-clicker</a>
+        <a href="https://mpl-point-clicker.readthedocs.io">mpl_point_clicker</a>
       
       </td>
       <td>
@@ -2181,7 +2181,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/leejjoon/mpl_widget_box">  
+          <a href="https://github.com/leejjoon/mpl_widget_box">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2208,7 +2208,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/anntzer/mplcursors">  
+          <a href="https://github.com/anntzer/mplcursors">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2243,7 +2243,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/joferkington/mpldatacursor">  
+          <a href="https://github.com/joferkington/mpldatacursor">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2278,7 +2278,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/anntzer/mplinorm">  
+          <a href="https://github.com/anntzer/mplinorm">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2305,7 +2305,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/holoviz/panel">  
+          <a href="https://github.com/holoviz/panel">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2327,7 +2327,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://panel.holoviz.org">panel</a>
+        <a href="https://panel.holoviz.org">Panel</a>
       
       </td>
       <td>
@@ -2353,7 +2353,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/SciTools/cartopy">  
+          <a href="https://github.com/SciTools/cartopy">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2388,7 +2388,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/raphaelquast/eomaps">  
+          <a href="https://github.com/raphaelquast/eomaps">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2410,7 +2410,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://raphaelquast.github.io/EOmaps">eomaps</a>
+        <a href="https://raphaelquast.github.io/EOmaps">EOmaps</a>
       
       </td>
       <td>
@@ -2423,7 +2423,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/geopandas/geopandas">  
+          <a href="https://github.com/geopandas/geopandas">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2445,7 +2445,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://geopandas.org">geopandas</a>
+        <a href="https://geopandas.org">GeoPandas</a>
       
       </td>
       <td>
@@ -2458,7 +2458,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/residentmario/geoplot">  
+          <a href="https://github.com/residentmario/geoplot">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2493,7 +2493,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/holoviz/geoviews">  
+          <a href="https://github.com/holoviz/geoviews">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2515,7 +2515,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://geoviews.org">geoviews</a>
+        <a href="https://geoviews.org">GeoViews</a>
       
       </td>
       <td>
@@ -2528,7 +2528,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/joferkington/mplstereonet">  
+          <a href="https://github.com/joferkington/mplstereonet">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2550,7 +2550,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/joferkington/mplstereonet">mplstereonet</a>
+        <a href="https://github.com/joferkington/mplstereonet">mplsteronet</a>
       
       </td>
       <td>
@@ -2563,7 +2563,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/marceloprates/prettymaps">  
+          <a href="https://github.com/marceloprates/prettymaps">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2598,7 +2598,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ColCarroll/ridge_map">  
+          <a href="https://github.com/ColCarroll/ridge_map">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2642,7 +2642,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/earthlab/matplotcheck">  
+          <a href="https://github.com/earthlab/matplotcheck">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2677,7 +2677,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/nschloe/matplotx">  
+          <a href="https://github.com/nschloe/matplotx">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2725,7 +2725,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/swfiua/blume">  
+          <a href="https://github.com/swfiua/blume">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2743,7 +2743,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/swfiua/blume">blume</a>
+        <a href="https://github.com/swfiua/blume">Blume</a>
       
       </td>
       <td>
@@ -2756,7 +2756,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/holoviz/datashader">  
+          <a href="https://github.com/holoviz/datashader">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2778,7 +2778,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://datashader.org">datashader</a>
+        <a href="https://datashader.org">Datashader</a>
       
       </td>
       <td>
@@ -2791,7 +2791,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/konstantint/matplotlib-venn">  
+          <a href="https://github.com/konstantint/matplotlib-venn">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2826,7 +2826,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/astrofrog/mpl-scatter-density">  
+          <a href="https://github.com/astrofrog/mpl-scatter-density">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2861,7 +2861,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/znstrider/plottable">  
+          <a href="https://github.com/znstrider/plottable">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2892,7 +2892,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ImSoErgodic/py-upset">  
+          <a href="https://github.com/ImSoErgodic/py-upset">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2910,7 +2910,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/ImSoErgodic/py-upset">py-upset</a>
+        <a href="https://github.com/ImSoErgodic/py-upset">PyUpSet</a>
       
       </td>
       <td>
@@ -2923,7 +2923,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/python-windrose/windrose">  
+          <a href="https://github.com/python-windrose/windrose">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -2945,7 +2945,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/python-windrose/windrose">windrose</a>
+        <a href="https://github.com/python-windrose/windrose">Windrose</a>
       
       </td>
       <td>
@@ -2958,7 +2958,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/yt-project/yt">  
+          <a href="https://github.com/yt-project/yt">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3006,7 +3006,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/Phlya/adjustText">  
+          <a href="https://github.com/Phlya/adjustText">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3041,7 +3041,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/bendichter/brokenaxes">  
+          <a href="https://github.com/bendichter/brokenaxes">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3076,7 +3076,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ebenp/figpager">  
+          <a href="https://github.com/ebenp/figpager">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3098,7 +3098,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/ebenp/figpager">figpager</a>
+        <a href="https://github.com/ebenp/figpager">FigPager</a>
       
       </td>
       <td>
@@ -3111,7 +3111,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/tomicapretto/flexitext">  
+          <a href="https://github.com/tomicapretto/flexitext">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3133,7 +3133,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/tomicapretto/flexitext">flexitext</a>
+        <a href="https://github.com/tomicapretto/flexitext">Flexitext</a>
       
       </td>
       <td>
@@ -3146,7 +3146,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/matplotlib/grid-strategy">  
+          <a href="https://github.com/matplotlib/grid-strategy">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3181,7 +3181,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/znstrider/highlight_text">  
+          <a href="https://github.com/znstrider/highlight_text">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3203,7 +3203,7 @@ Third-party and user-contributed packages
 
       <td>
       
-        <a href="https://github.com/znstrider/highlight_text">highlight_text</a>
+        <a href="https://github.com/znstrider/highlight_text">HighlightText</a>
       
       </td>
       <td>
@@ -3216,7 +3216,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ppinard/matplotlib-scalebar">  
+          <a href="https://github.com/ppinard/matplotlib-scalebar">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3251,7 +3251,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/matplotlib/matplotview">  
+          <a href="https://github.com/matplotlib/matplotview">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3286,7 +3286,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/matplotlib/mpl-probscale">  
+          <a href="https://github.com/matplotlib/mpl-probscale">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3321,7 +3321,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/austinorr/mpl-template">  
+          <a href="https://github.com/austinorr/mpl-template">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3356,7 +3356,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/geo7/mpl_table">  
+          <a href="https://github.com/geo7/mpl_table">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3378,7 +3378,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://github.com/geo7/mpl_table">mpl_table</a>
+        <a href="https://github.com/geo7/mpl_table">MPL Table</a>
       
       </td>
       <td>
@@ -3391,7 +3391,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/ponnhide/patchworklib">  
+          <a href="https://github.com/ponnhide/patchworklib">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3422,7 +3422,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/lukelbd/proplot">  
+          <a href="https://github.com/lukelbd/proplot">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3444,7 +3444,7 @@ Third-party and user-contributed packages
 
       <td>
        
-        <a href="https://proplot.readthedocs.io/en/latest">proplot</a>
+        <a href="https://proplot.readthedocs.io/en/latest">ProPlot</a>
       
       </td>
       <td>
@@ -3457,7 +3457,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/whitead/skunk">  
+          <a href="https://github.com/whitead/skunk">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3492,7 +3492,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/nvictus/svgpath2mpl">  
+          <a href="https://github.com/nvictus/svgpath2mpl">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3527,7 +3527,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/nschloe/tikzplotlib">  
+          <a href="https://github.com/nschloe/tikzplotlib">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3575,7 +3575,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/jheinen/gr">  
+          <a href="https://github.com/jheinen/gr">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3606,7 +3606,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/matplotlib/mplcairo">  
+          <a href="https://github.com/matplotlib/mplcairo">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
@@ -3637,7 +3637,7 @@ Third-party and user-contributed packages
       <tr>
         
         <td>
-          <a href="https://github.com/newville/wxmplot">  
+          <a href="https://github.com/newville/wxmplot">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>
