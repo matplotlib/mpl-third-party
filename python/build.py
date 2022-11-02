@@ -66,12 +66,12 @@ for section in config:
     for package in section['packages']:
         print(f"  {package['repo']}")
         try:
-            package['user'], package['name'] = package['repo'].split('/')
+            package['user'], package['repo_name'] = package['repo'].split('/')
         except:
             raise Warning('Package.repo is not in correct format', package)
             continue
-        package['conda_package'] = package.get('conda_package', package['name'])
-        package['pypi_name'] = package.get('pypi_name', package['name'])
+        package['conda_package'] = package.get('conda_package', package['repo_name'])
+        package['pypi_name'] = package.get('pypi_name', package['repo_name'])
 
         package['section'] = section_names[package['section'].lower()]
         if package.get('badges'):
@@ -117,11 +117,11 @@ for section in config:
         
 
         if 'rtd' in package['badges'] and 'rtd_name' not in package:
-            package['rtd_name'] = package['name']
+            package['rtd_name'] = package['repo_name']
 
         if 'site' in package['badges']:
             if 'site' not in package:
-                package['site'] = '{}.org'.format(package['name'])
+                package['site'] = '{}.org'.format(package['repo_name'])
                 package['site_protocol'] = 'https'
             else:
                 package['site_protocol'], package['site'] = package['site'].rstrip('/').split('://')

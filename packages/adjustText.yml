@@ -1,3 +1,4 @@
+name: adjustText
 repo: Phlya/adjustText
 section: plotting utilities
 description: Draw many text artists so that they do not overlap.

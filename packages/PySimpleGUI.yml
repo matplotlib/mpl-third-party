@@ -1,3 +1,4 @@
+name: PySimpleGUI
 repo: PySimpleGUI/PySimpleGUI
 section: gui applications
 description: Create custom GUIs quickly & easily on top of tkinter, Qt, WxPython or Remi.

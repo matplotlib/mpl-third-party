@@ -1,3 +1,4 @@
+name: grid-strategy
 repo: matplotlib/grid-strategy
 section: plotting utilities
 description: Create a grid of subplots based on the number of axes to be plotted.

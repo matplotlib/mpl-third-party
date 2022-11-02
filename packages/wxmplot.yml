@@ -1,3 +1,4 @@
+name: wxmplot
 repo: newville/wxmplot
 section: backends
 description: Tighter integration with wxPython.

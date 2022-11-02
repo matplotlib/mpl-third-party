@@ -1,3 +1,4 @@
+name: celluloid
 repo: jwkvam/celluloid
 section: animations
 description: Matplotlib animations made easy.

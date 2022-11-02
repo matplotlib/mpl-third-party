@@ -1,3 +1,4 @@
+name: mpl-qtthread
 repo: tacaswell/mpl-qtthread
 section: experimental
 description: Prototype for an approximatly thread-safe Qt backend

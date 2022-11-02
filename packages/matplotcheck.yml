@@ -1,3 +1,4 @@
+name: matplotcheck
 repo: earthlab/matplotcheck
 section: miscellaneous
 description: A package designed to test matplotlib plots.

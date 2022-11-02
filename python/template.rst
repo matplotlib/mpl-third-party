@@ -18,7 +18,7 @@
       <tr>
         
         <td>
-          <a href="https://github.com/{{ package.user }}/{{ package.name }}">  
+          <a href="https://github.com/{{ package.repo }}">
             <img src="_static/badges/github-gray.svg">
           </a>
         </td>

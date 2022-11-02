@@ -1,3 +1,4 @@
+name: sview-gui
 repo: SojiroFukuda/sview-gui
 section: gui applications
 description: PyQt5 GUI for data visualisation of CSV file or pandas DataFrames.

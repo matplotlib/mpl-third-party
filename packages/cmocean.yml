@@ -1,3 +1,4 @@
+name: cmocean
 repo: matplotlib/cmocean
 site: https://matplotlib.org/cmocean/
 keywords: [styles, palettes, colormaps]

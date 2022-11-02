@@ -70,12 +70,12 @@ for section in config:
     print(f"Building conda downloads badge for: {section['name']}")
     for package in section['packages']:
         try:
-            package['user'], package['name'] = package['repo'].split('/')
+            package['user'], package['repo_name'] = package['repo'].split('/')
         except:
             raise Warning('Package.repo is not in correct format', package)
             continue
-        url = get_conda_badge(package.get('conda_package', package['name']))
+        url = get_conda_badge(package.get('conda_package', package['repo_name']))
         rendered_url = url
         r = requests.get(rendered_url)
-        badge = (cache_path / f"{package['name']}_conda_downloads_badge.svg")
+        badge = (cache_path / f"{package['repo_name']}_conda_downloads_badge.svg")
         badge.write_bytes(r.content)

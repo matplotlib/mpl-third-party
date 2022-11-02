@@ -1,3 +1,4 @@
+name: distinctipy
 repo: alan-turing-institute/distinctipy
 section: colormaps and styles
 description: Qualitative colormaps of any length, generated to be maximally distinct.
