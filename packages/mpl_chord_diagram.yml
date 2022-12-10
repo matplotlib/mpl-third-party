@@ -1,0 +1,7 @@
+name: mpl_chord_diagram
+repo: https://codeberg.org/tfardet/mpl_chord_diagram
+section: plot types
+description: Drawing chord diagrams with matplotlib.
+site: https://codeberg.org/tfardet/mpl_chord_diagram # optional, default repo site
+keywords: [chord, diagrams, chord diagram] # optional
+pypi_name: mpl-chord-diagram # optional, default repo name
