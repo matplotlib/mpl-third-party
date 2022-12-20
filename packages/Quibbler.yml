@@ -2,8 +2,6 @@ name: Quibbler
 repo: Technion-Kishony-lab/quibbler
 section: interactivity
 description: Effortlessly make your matplotlib graphics interactive.
-site: https://github.com/Technion-Kishony-lab/quibbler # optional, default repo site
-keywords: [data, visualization, interactive, save, data analysis, matplotlib, plot, picker] # optional
+site: https://github.com/Technion-Kishony-lab/quibbler
+keywords: [data, visualization, interactive, save, data analysis, matplotlib, plot, picker]
 pypi_name: pyquibbler
-conda_package: # optional
-conda_channel: # optional, default conda-forge
