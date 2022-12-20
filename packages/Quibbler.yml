@@ -1,6 +1,6 @@
 name: Quibbler
 repo: Technion-Kishony-lab/quibbler
-section: Interactivity
+section: interactivity
 description: Effortlessly make your matplotlib graphics interactive.
 site: # optional, default repo site
 keywords: [data, visualization, interactive, save, data analysis, matplotlib, plot, picker] # optional
