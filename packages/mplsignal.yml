@@ -1,0 +1,6 @@
+name: mplsignal
+repo: oscargus/mplsignal
+section: domain specific libraries
+description: Utility functions for signal processing plots.
+site: https://mplsignal.readthedocs.io/en/stable/
+keywords: [signal processing, freqz, zplane, splane]
