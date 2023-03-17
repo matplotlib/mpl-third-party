@@ -1348,6 +1348,10 @@ Third-party and user-contributed packages
         </td>
         <td>
         
+          <a href="https://anaconda.org/conda-forge/mplsignal">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        
         </td>        
 
       <td>
