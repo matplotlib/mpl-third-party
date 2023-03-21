@@ -1,5 +1,5 @@
 name: mpl-interactions
-repo: ianhi/mpl-interactions
+repo: mpl-extensions/mpl-interactions
 keywords: [widgets]
 section: interactivity
 description: Interactive widgets for responsive plots.
