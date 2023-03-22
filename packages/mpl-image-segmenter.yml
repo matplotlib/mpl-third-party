@@ -2,5 +2,5 @@ name: mpl-image-segmenter
 repo: mpl-extensions/mpl-image-segmenter
 keywords: image, segment, segmentation
 section: interactivity
-description: Manually segment images with matplotlib.
+description: Manually segment images with Matplotlib.
 site: https://mpl-image-segmenter.readthedocs.io
