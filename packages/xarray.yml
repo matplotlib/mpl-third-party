@@ -3,5 +3,7 @@ repo: pydata/xarray
 site: https://xarray.pydata.org
 keywords: ["structured data", "multi-dimensional arrays", "nD arrays"]
 section: alternative apis
-description: Multi-dimensional data analysis and manipulation tool providing a .plot() API for Matplotlib plotting.
+description: >-
+  Multi-dimensional data analysis and manipulation tool providing a .plot() API for
+  Matplotlib plotting.
 conda_channel: conda-forge

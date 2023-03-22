@@ -2,4 +2,6 @@ name: planetMagFields
 repo: AnkitBarik/planetMagFields
 section: domain specific libraries
 keywords: ["magnetic field", "planetary science", "solar system"]
-description: Routines to easily access information about magnetic fields of planets in our solar system and visualize them in both 2D and 3D.
+description: >-
+  Routines to easily access information about magnetic fields of planets in our solar
+  system and visualize them in both 2D and 3D.

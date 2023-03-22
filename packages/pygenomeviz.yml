@@ -1,7 +1,7 @@
 name: pyGenomeViz
 repo: moshi4/pyGenomeViz
 section: domain specific libraries
-description: A genome visualization python package for comparative genomics
+description: A genome visualization python package for comparative genomics.
 site: https://moshi4.github.io/pyGenomeViz/
 keywords: [bioinformatics, genomics]
 pypi_name: pygenomeviz

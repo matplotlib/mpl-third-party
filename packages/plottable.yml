@@ -1,6 +1,6 @@
 name: plottable
 repo: znstrider/plottable
 section: plot types
-description: Beautifully customized tables with matplotlib.
+description: Beautifully customized tables with Matplotlib.
 site: https://github.com/znstrider/plottable
 keywords: [table, tables, custom, styling, formatting, presentation]

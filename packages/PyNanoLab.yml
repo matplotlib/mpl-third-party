@@ -1,6 +1,6 @@
 name: PyNanoLab
 repo: decacent/PyNanoLab
 section: gui applications
-description:  PySide6 GUI for data analysis and visualisation with matplotlib and pandas.
+description: PySide6 GUI for data analysis and visualisation with Matplotlib and Pandas.
 site: https://pynanolab.com
-keywords: [GUI, PySide6,matplotlib, pandas, data analysis] # optional
+keywords: [GUI, PySide6, matplotlib, pandas, data analysis]

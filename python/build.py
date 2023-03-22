@@ -6,8 +6,8 @@ import pprint
 import warnings
 
 from jinja2 import Template
-from yaml import safe_load
 import requests
+from yaml import safe_load
 
 
 here = Path(__file__).parent.resolve()
@@ -56,9 +56,9 @@ for path in (here.parent / 'packages').glob('*'):
     if 'conda' in package['badges']:
         needs_newline = True
         print('    conda: ', end='')
-        response = requests.get(
-            f"https://anaconda.org/{package['conda_channel']}/{package['conda_package']}/",
-            allow_redirects=False)
+        response = requests.get(f"https://anaconda.org/{package['conda_channel']}/"
+                                f"{package['conda_package']}/",
+                                allow_redirects=False)
         if response.status_code == 200:
             print('found', end='')
         else:

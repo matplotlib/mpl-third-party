@@ -3,4 +3,4 @@ repo: matplotlib/cmocean
 site: https://matplotlib.org/cmocean/
 keywords: [styles, palettes, colormaps]
 section: colormaps and styles
-description:  Perceptually uniform colormaps for oceanographic variables.
+description: Perceptually uniform colormaps for oceanographic variables.

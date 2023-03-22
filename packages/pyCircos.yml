@@ -2,5 +2,5 @@ name: pyCircos
 repo: ponnhide/pyCircos
 site: https://github.com/ponnhide/pycircos
 section: domain specific libraries
-description: A visualization tool for designing circos plots 
+description: A visualization tool for designing circos plots.
 pypi_name: python-circos

@@ -2,4 +2,5 @@ name: Yellowbrick
 repo: DistrictDataLabs/yellowbrick
 section: domain specific libraries
 site: https://www.scikit-yb.org
-description: Visual analysis and diagnostic tools to facilitate machine learning model selection.
+description: >-
+  Visual analysis and diagnostic tools to facilitate machine learning model selection.
