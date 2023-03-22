@@ -125,7 +125,8 @@ for section in config:
             else:
                 package['site'] = package['site'].rstrip('/')
 
-template = Template((here / 'template.rst').read_text())
+template = Template((here / 'template.rst').read_text(),
+                    lstrip_blocks=True, trim_blocks=True)
 
 config = sorted(config, key = lambda i: i['name'])
 
