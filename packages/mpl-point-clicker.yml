@@ -1,5 +1,5 @@
-name: mpl_point_clicker
-repo: ianhi/mpl-point-clicker
+name: mpl-point-clicker
+repo: mpl-extensions/mpl-point-clicker
 keywords: [widgets]
 section: interactivity
 description: Record click locations on a figure. Supports multiple classes.

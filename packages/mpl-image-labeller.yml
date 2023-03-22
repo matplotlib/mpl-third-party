@@ -1,5 +1,5 @@
 name: mpl-image-labeller
-repo: ianhi/mpl-image-labeller
+repo: mpl-extensions/mpl-image-labeller
 keywords: image, classification, label, labeler, labeller
 section: interactivity
 description: Easily apply classification labels to images.
