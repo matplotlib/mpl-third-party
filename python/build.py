@@ -35,9 +35,9 @@ for path in (here.parent / 'packages').glob('*'):
     package.setdefault('pypi_name', package['repo_name'])
 
     if package.get('badges'):
-        package['badges'] = [x.strip() for x in package['badges'].split(',')]
+        package['badges'] = {x.strip() for x in package['badges'].split(',')}
     else:
-        package['badges'] = ['pypi', 'conda']
+        package['badges'] = {'pypi', 'conda'}
 
     needs_newline = False
     if 'pypi' in package['badges']:
@@ -49,8 +49,8 @@ for path in (here.parent / 'packages').glob('*'):
         else:
             print('not found')
             package['badges'].remove('pypi')
-    if package.get('conda_channel') and 'conda' not in package['badges']:
-        package['badges'].append('conda')
+    if package.get('conda_channel'):
+        package['badges'].add('conda')
     package.setdefault('conda_channel', 'conda-forge')
     if 'conda' in package['badges']:
         needs_newline = True
@@ -66,12 +66,12 @@ for path in (here.parent / 'packages').glob('*'):
     if needs_newline:
         print()
 
-    if package.get('sponsors') and 'sponsor' not in package['badges']:
-        package['badges'].append('sponsor')
-    if package.get('site') and 'site' not in package['badges'] and 'rtd' not in package['badges']:
-        package['badges'].append('site')
-    if package.get('dormant') and 'dormant' not in package['badges']:
-        package['badges'].append('dormant')
+    if package.get('sponsors'):
+        package['badges'].add('sponsor')
+    if package.get('site') and package['badges'].isdisjoint({'site', 'rtd'}):
+        package['badges'].add('site')
+    if package.get('dormant'):
+        package['badges'].add('dormant')
 
     if 'rtd' in package['badges']:
         package.setdefault('rtd_name', package['repo_name'])
