@@ -2,19 +2,19 @@
 
   <div>
     <table id="packages">
-      {% for section in config %}
+      {% for section, packages in config | dictsort %}
       <tr>
         <th colspan=5>
-          {% with section_id = section.name | lower | replace(" ", "-") %}
+          {% with section_id = section | lower | replace(" ", "-") %}
           <h3 id="{{ section_id }}">
-            {{ section.name }}
+            {{ section }}
             <a class="headerlink" href="#{{ section_id }}" title="Permalink to this headline">#</a>
           </h3>
           {% endwith %}
         </th>
       </tr>
 
-      {% for package in section.packages %}
+      {% for package in packages | sort(attribute="repo_name") %}
       <tr>
         <td>
           <a href="https://github.com/{{ package.repo }}">

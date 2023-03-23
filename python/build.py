@@ -1,21 +1,15 @@
 #!/usr/bin/env python
 
+from collections import defaultdict
 from pathlib import Path
 import pprint
 
 from jinja2 import Template
 from yaml import safe_load
-from markdown import markdown
 import requests
 
-# concatenate yml files...
 
 here = Path(__file__).parent.resolve()
-
-all_path = here.parent / 'packages/all.yml'
-all_path.unlink(missing_ok=True)
-packages = (here.parent / 'packages').glob('*')
-
 
 print("Opening section names file")
 with (here.parent / 'section_names.yml').open() as f:
@@ -24,47 +18,17 @@ with (here.parent / 'section_names.yml').open() as f:
 section_names = section_names['section_names']
 
 print("section_names", section_names)
-packs = dict()
-# divide the yml files into sections based on teh section tag...
-for package in packages:
-    with package.open('r') as fin:
-        pack = safe_load(fin)
-        if 'section' not in pack:
-            pack['section'] = 'miscellaneous'
-        if pack['section'] in packs:
-            packs[pack['section']] += [pack]   
-        else:
-            packs[pack['section']] = [pack]
+config = defaultdict(list)
+for path in (here.parent / 'packages').glob('*'):
+    with path.open('r') as fin:
+        package = safe_load(fin)
 
-pprint.pprint(packs)
+        # Divide the yml files into sections based on the section tag...
+        if 'section' not in package:
+            package['section'] = 'miscellaneous'
+        package['section'] = section_names[package['section'].lower()]
 
-with all_path.open('w') as out:
-    for secname in sorted(packs.keys()):
-        packs_sec = sorted(packs[secname], key=lambda i: i['repo'].split('/')[1].lower())
-        
-        out.write(f'  - name: {section_names[secname]}\n')
-        out.write(f'    packages:\n\n')
-        for pack in packs_sec:
-            out.write(f'    - repo: {pack["repo"]}\n')
-            for k, v in pack.items():
-                if k != 'repo':
-                    out.write(f'      {k}: {v}\n')
-        out.write('\n')
-                     
-
-
-print("Opening config file")
-with all_path.open() as f:
-    config = safe_load(f)
-pprint.pprint(config)
-print()
-
-for section in config:
-    print(section.get('name', ''))
-    if section.get('intro'):
-        section['intro'] = markdown(section['intro'])
-    for package in section['packages']:
-        print(f"  {package['repo']}")
+        print(f"  {package['repo']} -> {package['section']}")
         try:
             package['user'], package['repo_name'] = package['repo'].split('/')
         except:
@@ -73,7 +37,6 @@ for section in config:
         package['conda_package'] = package.get('conda_package', package['repo_name'])
         package['pypi_name'] = package.get('pypi_name', package['repo_name'])
 
-        package['section'] = section_names[package['section'].lower()]
         if package.get('badges'):
             package['badges'] = [x.strip() for x in package['badges'].split(',')]
         else:
@@ -125,11 +88,14 @@ for section in config:
             else:
                 package['site'] = package['site'].rstrip('/')
 
+    config[package['section']].append(package)
+
+# Turn defaultdict into plain dict.
+config = {**config}
+pprint.pprint(config)
+
 template = Template((here / 'template.rst').read_text(),
                     lstrip_blocks=True, trim_blocks=True)
-
-config = sorted(config, key = lambda i: i['name'])
-
 
 (here.parent / 'docs/source/packages.rst').write_text(f"""\
 Third-party and user-contributed packages
