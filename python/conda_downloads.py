@@ -8,6 +8,7 @@ import datetime
 import os
 from pathlib import Path
 from yaml import safe_load
+import warnings
 
 import intake
 import requests
@@ -71,8 +72,8 @@ for section in config:
     for package in section['packages']:
         try:
             package['user'], package['repo_name'] = package['repo'].split('/')
-        except:
-            raise Warning('Package.repo is not in correct format', package)
+        except ValueError:
+            warnings.warn(f'Package.repo is not in correct format: {package}')
             continue
         url = get_conda_badge(package.get('conda_package', package['repo_name']))
         rendered_url = url

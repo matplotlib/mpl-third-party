@@ -3,6 +3,7 @@
 from collections import defaultdict
 from pathlib import Path
 import pprint
+import warnings
 
 from jinja2 import Template
 from yaml import safe_load
@@ -28,8 +29,8 @@ for path in (here.parent / 'packages').glob('*'):
     print(f"  {package['repo']} -> {package['section']}")
     try:
         package['user'], package['repo_name'] = package['repo'].split('/')
-    except:
-        raise Warning('Package.repo is not in correct format', package)
+    except ValueError:
+        warnings.warn(f'Package.repo is not in correct format: {package}')
         continue
     package.setdefault('conda_package', package['repo_name'])
     package.setdefault('pypi_name', package['repo_name'])
