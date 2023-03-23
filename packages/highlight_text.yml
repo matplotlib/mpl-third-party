@@ -2,5 +2,5 @@ name: HighlightText
 repo: znstrider/highlight_text
 keywords: ["text handling", annotations]
 section: plotting utilities
-description: Make effective annotations easier in matplotlib.
+description: Make effective annotations easier in Matplotlib.
 conda_channel: conda-forge
