@@ -23,10 +23,7 @@ for path in (here.parent / 'packages').glob('*'):
     with path.open('r') as fin:
         package = safe_load(fin)
 
-    # Divide the yml files into sections based on the section tag...
-    if 'section' not in package:
-        package['section'] = 'miscellaneous'
-    package['section'] = section_names[package['section'].lower()]
+    package['section'] = section_names[package.get('section', 'miscellaneous').lower()]
 
     print(f"  {package['repo']} -> {package['section']}")
     try:
@@ -34,8 +31,8 @@ for path in (here.parent / 'packages').glob('*'):
     except:
         raise Warning('Package.repo is not in correct format', package)
         continue
-    package['conda_package'] = package.get('conda_package', package['repo_name'])
-    package['pypi_name'] = package.get('pypi_name', package['repo_name'])
+    package.setdefault('conda_package', package['repo_name'])
+    package.setdefault('pypi_name', package['repo_name'])
 
     if package.get('badges'):
         package['badges'] = [x.strip() for x in package['badges'].split(',')]
@@ -54,8 +51,7 @@ for path in (here.parent / 'packages').glob('*'):
             package['badges'].remove('pypi')
     if package.get('conda_channel') and 'conda' not in package['badges']:
         package['badges'].append('conda')
-    if 'conda_channel' not in package:
-        package['conda_channel'] = 'conda-forge'
+    package.setdefault('conda_channel', 'conda-forge')
     if 'conda' in package['badges']:
         needs_newline = True
         print('    conda: ', end='')
@@ -77,8 +73,8 @@ for path in (here.parent / 'packages').glob('*'):
     if package.get('dormant') and 'dormant' not in package['badges']:
         package['badges'].append('dormant')
 
-    if 'rtd' in package['badges'] and 'rtd_name' not in package:
-        package['rtd_name'] = package['repo_name']
+    if 'rtd' in package['badges']:
+        package.setdefault('rtd_name', package['repo_name'])
 
     if 'site' in package['badges']:
         if 'site' not in package:
@@ -86,6 +82,7 @@ for path in (here.parent / 'packages').glob('*'):
         else:
             package['site'] = package['site'].rstrip('/')
 
+    # Divide the yml files into sections based on the section tag...
     config[package['section']].append(package)
 
 # Turn defaultdict into plain dict.
