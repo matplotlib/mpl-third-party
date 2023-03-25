@@ -13,7 +13,7 @@ Third-party and user-contributed packages
         
         <h3 id="alternative-apis">
           Alternative APIs
-          <a class="headerlink" href="#alternative-apis" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#alternative-apis" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -201,7 +201,7 @@ Third-party and user-contributed packages
         
         <h3 id="animations">
           Animations
-          <a class="headerlink" href="#animations" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#animations" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -416,7 +416,7 @@ Third-party and user-contributed packages
         
         <h3 id="colormaps-and-styles">
           Colormaps and styles
-          <a class="headerlink" href="#colormaps-and-styles" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#colormaps-and-styles" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -798,7 +798,7 @@ Third-party and user-contributed packages
         
         <h3 id="documentation">
           Documentation
-          <a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#documentation" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -846,7 +846,7 @@ Third-party and user-contributed packages
         
         <h3 id="domain-specific-libraries">
           Domain-specific libraries
-          <a class="headerlink" href="#domain-specific-libraries" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#domain-specific-libraries" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -1776,7 +1776,7 @@ Third-party and user-contributed packages
         
         <h3 id="experimental-projects-that-may-be-merged-upstream-eventually">
           Experimental projects that may be merged upstream eventually
-          <a class="headerlink" href="#experimental-projects-that-may-be-merged-upstream-eventually" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#experimental-projects-that-may-be-merged-upstream-eventually" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -1859,7 +1859,7 @@ Third-party and user-contributed packages
         
         <h3 id="gui-applications">
           GUI applications
-          <a class="headerlink" href="#gui-applications" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#gui-applications" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -2101,7 +2101,7 @@ Third-party and user-contributed packages
         
         <h3 id="interactivity">
           Interactivity
-          <a class="headerlink" href="#interactivity" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#interactivity" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -2467,7 +2467,7 @@ Third-party and user-contributed packages
         
         <h3 id="mapping">
           Mapping
-          <a class="headerlink" href="#mapping" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#mapping" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -2756,7 +2756,7 @@ Third-party and user-contributed packages
         
         <h3 id="miscellaneous">
           Miscellaneous
-          <a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#miscellaneous" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -2839,7 +2839,7 @@ Third-party and user-contributed packages
         
         <h3 id="plot-types">
           Plot types
-          <a class="headerlink" href="#plot-types" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#plot-types" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -3124,7 +3124,7 @@ Third-party and user-contributed packages
         
         <h3 id="plotting-utilities">
           Plotting utilities
-          <a class="headerlink" href="#plotting-utilities" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#plotting-utilities" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
@@ -3697,7 +3697,7 @@ Third-party and user-contributed packages
         
         <h3 id="rendering-backends">
           Rendering backends
-          <a class="headerlink" href="#rendering-backends" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#rendering-backends" title="Permalink to this headline">#</a>
         </h3>
         
       </th>
