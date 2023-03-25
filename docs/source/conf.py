@@ -16,7 +16,7 @@ exclude_patterns = []
 html_theme = "mpl_sphinx_theme"
 html_static_path = ["./_static"]
 html_theme_options = {
-    "navbar_links": "server-stable",
+    "navbar_links": ("absolute", "server-stable"),
     "secondary_sidebar_items": "page-toc.html",
 }
 

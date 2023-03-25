@@ -1,3 +1,4 @@
+---
 name: GitHub Pages
 
 on:
@@ -25,7 +26,7 @@ jobs:
 
       - name: Make docs builds
         run: |
-          make -C docs html
+          make -C docs html O="-t release"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
