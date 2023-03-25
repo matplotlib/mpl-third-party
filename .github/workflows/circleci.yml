@@ -1,6 +1,11 @@
+---
+name: "CircleCI artifact handling"
 on: [status]
 jobs:
   circleci_artifacts_redirector_job:
+    if: "${{ github.event.context == 'ci/circleci: build_docs' }}"
+    permissions:
+      statuses: write
     runs-on: ubuntu-latest
     name: Run CircleCI artifacts redirector
     steps:
@@ -10,3 +15,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           artifact-path: 0/docs/build/html/index.html
           circleci-jobs: build_docs
+          job-title: View the built docs

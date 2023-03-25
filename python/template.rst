@@ -8,7 +8,7 @@
         {% with section_id = section.name | lower | replace(" ", "-") %}
         <h3 id="{{ section_id }}">
           {{ section.name }}
-          <a class="headerlink" href="#{{ section_id }}" title="Permalink to this headline">¶</a>
+          <a class="headerlink" href="#{{ section_id }}" title="Permalink to this headline">#</a>
         </h3>
         {% endwith %}
       </th>
