@@ -2,4 +2,4 @@ name: patchworklib
 repo: ponnhide/patchworklib
 site: https://github.com/ponnhide/patchworklib
 section: plotting utilities
-description: A subplot manager for intuitive layouts 
+description: A subplot manager for intuitive layouts.

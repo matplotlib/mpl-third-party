@@ -1,5 +1,5 @@
 name: manimplotlib
 repo: kolibril13/manimplotlib
 section: animations
-description: Collection of scripts to animate matplotlib plots with manim.
+description: Collection of scripts to animate Matplotlib plots with manim.
 site: https://manimplotlib.readthedocs.io/en/latest/

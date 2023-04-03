@@ -4,5 +4,5 @@ section: domain specific libraries
 description: Python visualisation for Plutchik annotated corpora.
 site: https://github.com/alfonsosemeraro/pyplutchik
 pypi_name: pyplutchik
-conda_package:  pyplutchik
-conda_channel:  conda-forge
+conda_package: pyplutchik
+conda_channel: conda-forge

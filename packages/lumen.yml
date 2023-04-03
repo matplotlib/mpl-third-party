@@ -2,6 +2,8 @@ name: Lumen
 repo: holoviz/lumen
 section: gui applications
 site: https://lumen.holoviz.org
-description: Declarative YAML or GUI specification for apps/dashboards with Matplotlib and other plots.
+description: >-
+  Declarative YAML or GUI specification for apps/dashboards with Matplotlib and other
+  plots.
 keywords: [dashboard, app]
 conda_channel: pyviz

@@ -1,7 +1,9 @@
 name: skunk
 repo: whitead/skunk
 section: plotting utilities
-description: Insert SVG images into matplotlib elements. Can be used to also compose matplotlib plots by nesting them.
+description: >-
+  Insert SVG images into Matplotlib elements. Can be used to also compose Matplotlib
+  plots by nesting them.
 site: https://github.com/whitead/skunk/
 keywords: [SVG]
 pypi_name: skunk

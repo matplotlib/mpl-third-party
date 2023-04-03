@@ -2,6 +2,6 @@ name: hvPlot
 repo: holoviz/hvplot
 section: alternative apis
 site: https://hvplot.holoviz.org
-description: Composable, interactive pandas and xarray .plot() objects.
+description: Composable, interactive Pandas and Xarray .plot() objects.
 keywords: [jupyter, pandas, xarray]
 conda_channel: pyviz

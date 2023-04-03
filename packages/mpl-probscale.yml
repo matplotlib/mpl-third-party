@@ -3,6 +3,6 @@ repo: matplotlib/mpl-probscale
 site: https://matplotlib.org/mpl-probscale/
 keywords: [scales, probability, axes]
 section: plotting utilities
-description: Real probability scales for matplotlib.
+description: Real probability scales for Matplotlib.
 pypi_name: probscale
 conda_channel: conda-forge

@@ -1,7 +1,7 @@
 name: MyForestPlot
 repo: toshiakiasakura/myforestplot
 section: domain specific libraries
-description: A flexibly customizable Python tool to create a forest plot
+description: A flexibly-customizable Python tool to create a forest plot.
 site: https://toshiakiasakura.github.io/myforestplot/
 keywords: [forestplot]
 pypi_name: myforestplot

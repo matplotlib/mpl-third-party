@@ -1,6 +1,6 @@
 name: mpl-image-labeller
 repo: mpl-extensions/mpl-image-labeller
-keywords: image, classification, label, labeler, labeller
+keywords: [image, classification, label, labeler, labeller]
 section: interactivity
 description: Easily apply classification labels to images.
 site: https://mpl-image-labeller.readthedocs.io

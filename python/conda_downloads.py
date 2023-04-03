@@ -5,35 +5,39 @@ from the previous month.
 """
 
 import datetime
-import os
 from pathlib import Path
-from yaml import safe_load
+import warnings
 
-import intake
-import requests
 import colorcet as cc
+import intake
 import numpy as np
+import requests
+from yaml import safe_load
 
 
 here = Path(__file__).parent.resolve()
 cache_path = here.parent / 'doc/_static/cache'
-cat = intake.open_catalog('https://raw.githubusercontent.com/ContinuumIO/anaconda-package-data/master/catalog/anaconda_package_data.yaml')
+cat = intake.open_catalog(
+    'https://raw.githubusercontent.com/ContinuumIO/anaconda-package-data/'
+    'master/catalog/anaconda_package_data.yaml')
 
 colors = cc.palette_n.rainbow[-20:80:-1]
 top_of_colormap = 1e6
-step = len(colors) /np.log10(top_of_colormap)
+step = len(colors) / np.log10(top_of_colormap)
 
 today = datetime.date.today()
 first = today.replace(day=1)
 last_month = first - datetime.timedelta(days=1)
 try:
-    monthly = cat.anaconda_package_data_by_month(year=last_month.year, month=last_month.month,
-                                                 columns=['pkg_name', 'counts']).to_dask()
-except:
+    monthly = cat.anaconda_package_data_by_month(
+        year=last_month.year, month=last_month.month,
+        columns=['pkg_name', 'counts']).to_dask()
+except Exception:
     # if the last month isn't available, get the month before
     month_before = last_month.replace(day=1) - datetime.timedelta(days=1)
-    monthly = cat.anaconda_package_data_by_month(year=month_before.year, month=month_before.month,
-                                                columns=['pkg_name', 'counts']).to_dask()
+    monthly = cat.anaconda_package_data_by_month(
+        year=month_before.year, month=month_before.month,
+        columns=['pkg_name', 'counts']).to_dask()
 per_package_downloads = monthly.groupby('pkg_name').sum().compute()
 
 cache_path.mkdir(exist_ok=True)
@@ -61,7 +65,8 @@ def get_conda_badge(conda_package):
     else:
         downloads = int(downloads)
 
-    return  f"https://img.shields.io/badge/conda-{downloads}/month-{color}.svg"
+    return f"https://img.shields.io/badge/conda-{downloads}/month-{color}.svg"
+
 
 with (here / 'tools.yml').open() as f:
     config = safe_load(f)
@@ -71,8 +76,8 @@ for section in config:
     for package in section['packages']:
         try:
             package['user'], package['repo_name'] = package['repo'].split('/')
-        except:
-            raise Warning('Package.repo is not in correct format', package)
+        except ValueError:
+            warnings.warn(f'Package.repo is not in correct format: {package}')
             continue
         url = get_conda_badge(package.get('conda_package', package['repo_name']))
         rendered_url = url

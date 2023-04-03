@@ -1,9 +1,9 @@
 name: librosa
 repo: librosa/librosa
 section: domain specific libraries
-description: Audio signal processing with waveform and spectrogram displays
-site: https://librosa.org/ # optional, default repo site
-keywords: [signals, spectrograms] # optional
+description: Audio signal processing with waveform and spectrogram displays.
+site: https://librosa.org/
+keywords: [signals, spectrograms]
 pypi_name: librosa
 conda_package: librosa
 conda_channel: conda-forge

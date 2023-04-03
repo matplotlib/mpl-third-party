@@ -1,5 +1,5 @@
 name: Glue
 repo: glue-viz/glue
 section: gui applications
-site: http://docs.glueviz.org
+site: https://docs.glueviz.org
 description: Easily linking visualizations of scientific datasets across many files.

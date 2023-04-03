@@ -1,9 +1,9 @@
 name: matplotcheck
 repo: earthlab/matplotcheck
 section: miscellaneous
-description: A package designed to test matplotlib plots.
+description: A package designed to test Matplotlib plots.
 site: https://matplotcheck.readthedocs.io
-keywords:  ["plot testing"]
-pypi_name:  matplotcheck
-conda_package:  matplotcheck
-conda_channel:  conda-forge
+keywords: ["plot testing"]
+pypi_name: matplotcheck
+conda_package: matplotcheck
+conda_channel: conda-forge

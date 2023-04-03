@@ -1,5 +1,5 @@
 name: Sphinx-Gallery
 repo: sphinx-gallery/sphinx-gallery
 section: documentation
-description: Create matplotlib galleries for your sphinx-built documentation.
+description: Create Matplotlib galleries for your sphinx-built documentation.
 site: https://sphinx-gallery.github.io

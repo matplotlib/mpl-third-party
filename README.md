@@ -22,7 +22,7 @@ and use the `Add File` button at the top of the page. Then open a pull request w
 
 Note: The name of the yml file and the name of the repo should ideally match.
 
-The `section` entry should be one of the sections listed in 
+The `section` entry should be one of the sections listed in
 [./section_names.yml](https://github.com/matplotlib/mpl-third-party/blob/main/section_names.yml).
 
 ### PyPI Classifier

@@ -1,6 +1,6 @@
 name: BG Heatmaps
 repo: brainglobe/bg-heatmaps
 section: domain specific libraries
-description: Brain heatmaps visualization.
-keywords: [neuroscience, heatmaps, 3D] # optional
-pypi_name: bgheatmap # optional, default repo name
+description: Brain heatmap visualizations.
+keywords: [neuroscience, heatmaps, 3D]
+pypi_name: bgheatmap
