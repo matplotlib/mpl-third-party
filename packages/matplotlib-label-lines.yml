@@ -1,0 +1,7 @@
+name: matplotlib-label-lines
+repo: cphyc/matplotlib-label-lines
+site: https://github.com/cphyc/matplotlib-label-lines
+keywords: [label, annotation]
+section: plotting utilities
+description: Label line using matplotlib.
+pypi_name: matplotlib-label-lines
