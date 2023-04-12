@@ -2477,6 +2477,32 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://github.com/cphyc/matplotlib-label-lines">
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/matplotlib-label-lines">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/conda-forge/matplotlib-label-lines">
+          <img src="_static/badges/conda-blue.svg">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://github.com/cphyc/matplotlib-label-lines">matplotlib-label-lines</a>
+        </td>
+        <td>
+          Label line using matplotlib.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/ppinard/matplotlib-scalebar">
             <img src="_static/badges/github-gray.svg">
           </a>
