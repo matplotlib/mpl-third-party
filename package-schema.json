@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://matplotlib.org/mpl-third-party/schema.yml",
+  "type": "object",
+  "required": ["name", "repo", "section", "description"],
+  "properties": {
+    "name": {"type": "string"},
+    "repo": {
+      "type": "string",
+      "pattern": "^[^/]+/[^/]+$"
+    },
+    "section": {"type": "string"},
+    "description": {
+      "type": "string",
+      "pattern": "^.+\\.$"
+    },
+
+    "badges": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "conda_channel": {"type": "string"},
+    "conda_package": {"type": "string"},
+    "keywords": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "pypi_name": {"type": "string"},
+    "site": {"type": "string"}
+  },
+  "additionalProperties": false
+}
