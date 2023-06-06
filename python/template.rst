@@ -17,22 +17,22 @@
       {% for package in packages | sort(attribute="repo_name") %}
       <tr>
         <td>
-          <a href="https://github.com/{{ package.repo }}">
-            <img src="_static/badges/github-gray.svg">
+          <a href="{{ package.repo }}">
+            <img src="_static/badges/code-gray.svg" alt="code badge">
           </a>
         </td>
 
         <td>
         {% if 'pypi' in package.badges %}
           <a href="https://pypi.org/project/{{ package.pypi_name }}">
-            <img src="_static/badges/pip-orange.svg">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge">
           </a>
         {% endif %}
         </td>
         <td>
         {% if 'conda' in package.badges %}
           <a href="https://anaconda.org/{{ package.conda_channel }}/{{ package.conda_package }}">
-          <img src="_static/badges/conda-blue.svg">
+          <img src="_static/badges/conda-blue.svg" alt="conda badge">
           </a>
         {% endif %}
         </td>
@@ -41,7 +41,7 @@
         {% if 'site' in package.badges %}
           <a href="{{ package.site }}">{{ package.name }}</a>
         {% else %}
-          <a href="https://github.com/{{ package.repo }}">{{ package.name }}</a>
+          <a href="{{ package.repo }}">{{ package.name }}</a>
         {% endif %}
         </td>
         <td>

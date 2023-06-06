@@ -27,11 +27,18 @@ for path in (here.parent / 'packages').glob('*'):
     package['section'] = section_names[package.get('section', 'miscellaneous').lower()]
 
     print(f"  {package['repo']} -> {package['section']}")
-    try:
-        package['user'], package['repo_name'] = package['repo'].split('/')
-    except ValueError:
-        warnings.warn(f'Package.repo is not in correct format: {package}')
-        continue
+
+    if not package['repo'].startswith("http"):
+        try:
+            # try outdated GitHub user/repo_name format
+            _, package['repo_name'] = package['repo'].split('/')
+            # set proper repository URL
+            package['repo'] = f"https://github.com/{package['repo']}"
+        except ValueError:
+            warnings.warn(f'Package.repo is not in correct format: {package}')
+            continue
+
+    package.setdefault('repo_name', package['name'])
     package.setdefault('conda_package', package['repo_name'])
     package.setdefault('pypi_name', package['repo_name'])
 
@@ -79,7 +86,7 @@ for path in (here.parent / 'packages').glob('*'):
 
     if 'site' in package['badges']:
         if 'site' not in package:
-            package['site'] = f'https://{package["repo_name"]}.org'
+            package['site'] = package["repo"]
         else:
             package['site'] = package['site'].rstrip('/')
 
