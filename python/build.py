@@ -3,6 +3,7 @@
 from collections import defaultdict
 from pathlib import Path
 import pprint
+import re
 import warnings
 
 from jinja2 import Template
@@ -28,7 +29,11 @@ for path in (here.parent / 'packages').glob('*'):
 
     print(f"  {package['repo']} -> {package['section']}")
 
+    repo_is_url = True
+
     if not package['repo'].startswith("http"):
+        repo_is_url = False
+
         try:
             # try outdated GitHub user/repo_name format
             _, package['repo_name'] = package['repo'].split('/')
@@ -37,6 +42,10 @@ for path in (here.parent / 'packages').glob('*'):
         except ValueError:
             warnings.warn(f'Package.repo is not in correct format: {package}')
             continue
+
+    if not re.match(r'^[\w-]+$', package['name']) and repo_is_url:
+        raise ValueError('If `repo:` is a URL please use the Python package name '
+                         'as the `name:` field.')
 
     package.setdefault('repo_name', package['name'])
     package.setdefault('conda_package', package['repo_name'])
