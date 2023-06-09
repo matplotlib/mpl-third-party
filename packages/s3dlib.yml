@@ -1,0 +1,9 @@
+name: S3Dlib
+repo: fzaverl/s3dlib
+section: Plot types
+description: 3D surface and line object classes
+site: https://s3dlib.org
+keywords: [3D-visualization, surface, lines, colormaps]
+pypi_name: s3dlib
+conda_package:
+conda_channel:
