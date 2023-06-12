@@ -2260,6 +2260,29 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://github.com/fzaverl/s3dlib">
+            <img src="_static/badges/github-gray.svg">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/s3dlib">
+            <img src="_static/badges/pip-orange.svg">
+          </a>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://s3dlib.org">S3Dlib</a>
+        </td>
+        <td>
+          3D surface and line object classes.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/python-windrose/windrose">
             <img src="_static/badges/github-gray.svg">
           </a>
