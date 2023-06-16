@@ -3,6 +3,7 @@
 from collections import defaultdict
 from pathlib import Path
 import pprint
+import re
 import warnings
 
 from jinja2 import Template
@@ -27,11 +28,26 @@ for path in (here.parent / 'packages').glob('*'):
     package['section'] = section_names[package.get('section', 'miscellaneous').lower()]
 
     print(f"  {package['repo']} -> {package['section']}")
-    try:
-        package['user'], package['repo_name'] = package['repo'].split('/')
-    except ValueError:
-        warnings.warn(f'Package.repo is not in correct format: {package}')
-        continue
+
+    repo_is_url = True
+
+    if not package['repo'].startswith("http"):
+        repo_is_url = False
+
+        try:
+            # try outdated GitHub user/repo_name format
+            _, package['repo_name'] = package['repo'].split('/')
+            # set proper repository URL
+            package['repo'] = f"https://github.com/{package['repo']}"
+        except ValueError:
+            warnings.warn(f'Package.repo is not in correct format: {package}')
+            continue
+
+    if not re.match(r'^[\w-]+$', package['name']) and repo_is_url:
+        raise ValueError('If `repo:` is a URL please use the Python package name '
+                         'as the `name:` field.')
+
+    package.setdefault('repo_name', package['name'])
     package.setdefault('conda_package', package['repo_name'])
     package.setdefault('pypi_name', package['repo_name'])
 
@@ -79,7 +95,7 @@ for path in (here.parent / 'packages').glob('*'):
 
     if 'site' in package['badges']:
         if 'site' not in package:
-            package['site'] = f'https://{package["repo_name"]}.org'
+            package['site'] = package["repo"]
         else:
             package['site'] = package['site'].rstrip('/')
 
