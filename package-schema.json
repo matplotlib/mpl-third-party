@@ -7,7 +7,7 @@
     "name": {"type": "string"},
     "repo": {
       "type": "string",
-      "pattern": "^[^/]+/[^/]+$"
+      "pattern": "(^[^/]+/[^/]+$)|(^(https://))"
     },
     "section": {"type": "string"},
     "description": {
