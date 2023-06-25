@@ -1492,9 +1492,6 @@ Third-party and user-contributed packages
         </td>
 
         <td>
-          <a href="https://pypi.org/project/PyNanoLab">
-            <img src="_static/badges/pip-orange.svg" alt="pypi badge">
-          </a>
         </td>
         <td>
         </td>
