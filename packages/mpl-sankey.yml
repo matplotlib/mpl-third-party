@@ -1,0 +1,7 @@
+name: mpl-sankey
+repo: toobaz/mpl_sankey
+section: Plot types
+description: Sankey "alluvial" diagrams, with a data-centric API.
+site: https://github.com/toobaz/mpl_sankey/
+keywords: [sankey, alluvial, flows, data, nodes]
+pypi_name: mpl-sankey
