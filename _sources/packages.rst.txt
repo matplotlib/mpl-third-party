@@ -292,6 +292,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/xmovie">
+          <img src="_static/badges/conda-blue.svg" alt="conda badge">
+          </a>
         </td>
 
         <td>
@@ -841,6 +844,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/librosa">
+          <img src="_static/badges/conda-blue.svg" alt="conda badge">
+          </a>
         </td>
 
         <td>
@@ -968,6 +974,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mplhep">
+          <img src="_static/badges/conda-blue.svg" alt="conda badge">
+          </a>
         </td>
 
         <td>
@@ -1112,6 +1121,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/arm_pyart">
+          <img src="_static/badges/conda-blue.svg" alt="conda badge">
+          </a>
         </td>
 
         <td>
@@ -1837,6 +1849,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/cartopy">
+          <img src="_static/badges/conda-blue.svg" alt="conda badge">
+          </a>
         </td>
 
         <td>
@@ -2158,6 +2173,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/matplotlib-venn">
+          <img src="_static/badges/conda-blue.svg" alt="conda badge">
+          </a>
         </td>
 
         <td>
@@ -2568,6 +2586,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/matplotlib-scalebar">
+          <img src="_static/badges/conda-blue.svg" alt="conda badge">
+          </a>
         </td>
 
         <td>
