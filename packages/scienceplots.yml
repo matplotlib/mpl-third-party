@@ -1,0 +1,8 @@
+name: SciencePlots
+repo: garrettj403/SciencePlots
+section: colormaps and styles
+description: >-
+  Matplotlib styles for scientific figures.
+site: https://github.com/garrettj403/SciencePlots
+keywords: [styles, latex, science]
+pypi_name: SciencePlots
