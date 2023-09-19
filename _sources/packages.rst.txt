@@ -1471,9 +1471,6 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
-          <a href="https://anaconda.org/conda-forge/mpl-multitab">
-          <img src="_static/badges/conda-blue.svg" alt="conda badge">
-          </a>
         </td>
 
         <td>
