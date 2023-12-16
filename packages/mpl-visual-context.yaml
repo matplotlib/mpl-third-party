@@ -2,6 +2,6 @@ name: mpl-visual-context
 repo: leejjoon/mpl-visual-context
 keywords: [styles]
 section: colormaps and styles
-description: collection of patheffects and more
+description: Collection of patheffects and more
 site: https://github.com/leejjoon/mpl-visual-context
 pypi_name: mpl-visual-context
