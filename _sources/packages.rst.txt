@@ -518,6 +518,29 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://github.com/leejjoon/mpl-visual-context">
+            <img src="_static/badges/code-gray.svg" alt="code badge">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/mpl-visual-context">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge">
+          </a>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://github.com/leejjoon/mpl-visual-context">mpl-visual-context</a>
+        </td>
+        <td>
+          Collection of patheffects and more
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/dhaitz/mplcyberpunk">
             <img src="_static/badges/code-gray.svg" alt="code badge">
           </a>
