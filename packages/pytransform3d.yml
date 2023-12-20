@@ -1,0 +1,7 @@
+name: pytransform3d
+repo: dfki-ric/pytransform3d
+section: domain specific libraries
+description: Work with, plot, and animate rigid transformations in 3D.
+site: https://dfki-ric.github.io/pytransform3d/index.html
+pypi_name: pytransform3d
+conda_package: pytransform3d
