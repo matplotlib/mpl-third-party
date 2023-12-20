@@ -1,7 +1,9 @@
 name: mpl-animators
 repo: sunpy/mpl-animators
 section: animations
-description: Create interactive animations of N-dimensional data, and of World Coordinate System (WCS) objects from Astropy.
+description: >-
+  Create interactive animations of N-dimensional data,
+  and of World Coordinate System (WCS) objects from Astropy.
 site: https://docs.sunpy.org/projects/mpl-animators/en/stable/
 pypi_name: mpl-animators
 conda_package: mpl_animators
