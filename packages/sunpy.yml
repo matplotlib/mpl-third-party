@@ -1,0 +1,7 @@
+name: sunpy
+repo: sunpy/sunpy
+section: domain specific libraries
+description: Solar physics processing, plotting, and colormaps.
+site: https://sunpy.org/
+pypi_name: sunpy
+conda_package: sunpy
