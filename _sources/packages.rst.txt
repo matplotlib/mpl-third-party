@@ -255,6 +255,32 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://github.com/sunpy/mpl-animators">
+            <img src="_static/badges/code-gray.svg" alt="code badge">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/mpl-animators">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/conda-forge/mpl_animators">
+          <img src="_static/badges/conda-blue.svg" alt="conda badge">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://docs.sunpy.org/projects/mpl-animators/en/stable">mpl-animators</a>
+        </td>
+        <td>
+          Create interactive animations of N-dimensional data, and of World Coordinate System (WCS) objects from Astropy.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/WarrenWeckesser/numpngw">
             <img src="_static/badges/code-gray.svg" alt="code badge">
           </a>
