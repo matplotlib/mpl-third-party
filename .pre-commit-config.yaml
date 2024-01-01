@@ -3,7 +3,7 @@ ci:
   autoupdate_schedule: 'quarterly'
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: check-added-large-files
       - id: check-docstring-first
@@ -26,11 +26,11 @@ repos:
         files: ^.*\.(py|c|cpp|h|m|md|rst|yml)$
         args: ["--ignore-words", "ci/codespell-ignore-words.txt"]
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.32.0
+    rev: v1.33.0
     hooks:
       - id: yamllint
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.27.0
+    rev: 0.27.3
     hooks:
       - id: check-jsonschema
         files: ^packages/.*\.yml$
