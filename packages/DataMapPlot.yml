@@ -1,0 +1,6 @@
+name: datamapplot
+repo: TutteInstitute/datamapplot
+section: domain specific libraries
+description: Plotting clustered and labelled data maps.
+site: https://datamapplot.readthedocs.io/
+keywords: [datamap, topic modelling, embedding, umap, tsne]
