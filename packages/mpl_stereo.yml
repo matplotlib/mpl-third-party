@@ -1,5 +1,5 @@
 name: mpl_stereo
 repo: scottshambaugh/mpl_stereo
 section: plot types
-description: See your data in 3D by making stereograms.
+description: See your data in 3D by making stereograms and anaglyphs.
 pypi_name: mpl_stereo
