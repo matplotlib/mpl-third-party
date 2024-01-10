@@ -2430,7 +2430,7 @@ Third-party and user-contributed packages
           <a href="https://github.com/scottshambaugh/mpl_stereo">mpl_stereo</a>
         </td>
         <td>
-          See your data in 3D by making stereograms.
+          See your data in 3D by making stereograms and anaglyphs.
         </td>
 
       </tr>
