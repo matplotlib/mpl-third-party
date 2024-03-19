@@ -2,8 +2,8 @@ name: HyperSpy
 repo: hyperspy/hyperspy
 section: domain specific libraries
 description: Multidimensional data analysis, e.g. hyperspectral imaging.
-site: https://hyperspy.org # optional, default repo site
-keywords: [spectrum images, multidimensional data] # optional
-pypi_name: hyperspy # optional, default repo name
-conda_package: hyperspy # optional
-conda_channel: conda-forge # optional, default conda-forge
+site: https://hyperspy.org
+keywords: [spectrum images, multidimensional data]
+pypi_name: hyperspy
+conda_package: hyperspy
+conda_channel: conda-forge
