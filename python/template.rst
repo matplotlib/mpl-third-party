@@ -18,21 +18,21 @@
       <tr>
         <td>
           <a href="{{ package.repo }}">
-            <img src="_static/badges/code-gray.svg" alt="code badge">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
         </td>
 
         <td>
         {% if 'pypi' in package.badges %}
           <a href="https://pypi.org/project/{{ package.pypi_name }}">
-            <img src="_static/badges/pip-orange.svg" alt="pypi badge">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
           </a>
         {% endif %}
         </td>
         <td>
         {% if 'conda' in package.badges %}
           <a href="https://anaconda.org/{{ package.conda_channel }}/{{ package.conda_package }}">
-          <img src="_static/badges/conda-blue.svg" alt="conda badge">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
           </a>
         {% endif %}
         </td>
