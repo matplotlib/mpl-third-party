@@ -454,9 +454,6 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
-          <a href="https://anaconda.org/conda-forge/cmyt">
-            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
-          </a>
         </td>
 
         <td>
@@ -650,9 +647,6 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
-          <a href="https://anaconda.org/conda-forge/viscm">
-            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
-          </a>
         </td>
 
         <td>
@@ -1101,9 +1095,6 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
-          <a href="https://anaconda.org/conda-forge/mplhep">
-            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
-          </a>
         </td>
 
         <td>
