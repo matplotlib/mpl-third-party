@@ -15,7 +15,7 @@ repos:
       - id: trailing-whitespace
         exclude_types: [svg]
   - repo: https://github.com/pycqa/flake8
-    rev: 6.1.0
+    rev: 7.0.0
     hooks:
       - id: flake8
         additional_dependencies: [flake8-force]
@@ -26,11 +26,11 @@ repos:
         files: ^.*\.(py|c|cpp|h|m|md|rst|yml)$
         args: ["--ignore-words", "ci/codespell-ignore-words.txt"]
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.33.0
+    rev: v1.35.1
     hooks:
       - id: yamllint
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.27.3
+    rev: 0.28.1
     hooks:
       - id: check-jsonschema
         files: ^packages/.*\.yml$
