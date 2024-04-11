@@ -1,5 +1,5 @@
 name: legendkit
 repo: Marsilea-viz/legendkit
-section: alternative apis
+section: plotting utilities
 description: Legend made easy for matplotlib.
 keywords: [legend]
