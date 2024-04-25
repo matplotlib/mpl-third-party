@@ -1,0 +1,5 @@
+name: marsilea
+repo: Marsilea-viz/marsilea
+section: domain specific libraries
+description: Declarative creation of composable visualization.
+keywords: [framework]
