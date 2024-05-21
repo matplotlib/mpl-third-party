@@ -2,4 +2,4 @@ jinja2
 markdown
 pyyaml
 sphinx
-mpl-sphinx-theme~=3.8.0
+mpl-sphinx-theme~=3.9.0
