@@ -3,4 +3,4 @@ repo: openradar/cmweather
 site: https://cmweather.readthedocs.io
 keywords: [styles, palettes, colormaps, accessibility]
 section: colormaps and styles
-description: Perceptually uniform and other colormaps for weather/climate variables.
+description: Color vision deficiency friendly colormaps for weather/climate variables.
