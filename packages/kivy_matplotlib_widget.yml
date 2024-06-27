@@ -1,0 +1,5 @@
+name: kivy_matplotlib_widget
+repo: mp-007/kivy_matplotlib_widget
+keywords: [interactive graph, cursor]
+section: Interactivity
+description: Convert your matplotlib graph into full interactive graph.
