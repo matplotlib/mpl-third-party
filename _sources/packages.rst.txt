@@ -1821,6 +1821,29 @@ Third-party and user-contributed packages
 
       <tr>
         <td>
+          <a href="https://github.com/mp-007/kivy_matplotlib_widget">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/kivy_matplotlib_widget">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://github.com/mp-007/kivy_matplotlib_widget">kivy_matplotlib_widget</a>
+        </td>
+        <td>
+          Convert your matplotlib graph into full interactive graph.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/mpl-extensions/mpl-draggable-line">
             <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
