@@ -2860,6 +2860,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/legendkit">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
