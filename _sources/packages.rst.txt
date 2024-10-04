@@ -1546,6 +1546,29 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://bitbucket.org/elaplace/tulips/src/master/">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/astro-tulips">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://astro-tulips.readthedocs.io/en/latest">TULIPS</a>
+        </td>
+        <td>
+          Visualization of the physics of stars.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/DistrictDataLabs/yellowbrick">
             <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
