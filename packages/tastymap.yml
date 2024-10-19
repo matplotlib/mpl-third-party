@@ -1,0 +1,9 @@
+name: tastymap
+repo: ahuang11/tastymap
+section: colormaps and styles
+description: colormaps cooked for your palate
+site: https://ahuang11.github.io/tastymap/
+keywords: [colormaps, styles, palette, colorbar, cmap, customize]
+pypi_name: tastymap
+conda_package: tastymap
+conda_channel: conda-forge
