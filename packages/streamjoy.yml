@@ -1,0 +1,7 @@
+name: streamjoy
+repo: ahuang11/streamjoy
+section: animations
+description: Enjoy animating images into GIFs and MP4s in parallel!
+site: https://ahuang11.github.io/streamjoy/
+keywords: [mp4, pandas, gif, xarray, imageio, animate, holoviews]
+pypi_name: streamjoy
