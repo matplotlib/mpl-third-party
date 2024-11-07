@@ -1,0 +1,9 @@
+name: Jupyter Notebook
+repo: jupyter/notebook
+section: ides
+description: >-
+  Web-based interactive development environment for notebooks, code, and data.
+site: https://jupyter-notebook.readthedocs.io/en/stable/ # optional, default repo site
+keywords: [ides, interactive] # optional
+pypi_name: notebook
+conda_package: notebook

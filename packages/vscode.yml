@@ -1,0 +1,8 @@
+name: vscode
+repo: microsoft/vscode
+section: ides
+description: >-
+  Streamlined code editor with support for development operations like debugging,
+  task running, and version control.
+site: https://code.visualstudio.com/
+keywords: [ides, interactivity]

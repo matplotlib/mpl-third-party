@@ -1,0 +1,9 @@
+name: JupyterLab
+repo: jupyterlab/jupyterlab
+section: ides
+description: >-
+  Web-based interactive development environment for notebooks, code, and data.
+site: https://jupyterlab.readthedocs.io/en/stable/ # optional, default repo site
+keywords: [ides, interactive] # optional
+pypi_name: jupyterlab
+conda_package: jupyterlab
