@@ -11,4 +11,5 @@ section_names:
   domain specific libraries: Domain-specific libraries
   documentation: Documentation
   experimental: Experimental projects that may be merged upstream eventually
+  ides: Development tools with built-in Matplotlib rendering
   miscellaneous: Miscellaneous

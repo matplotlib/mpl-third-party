@@ -1,0 +1,8 @@
+name: spyder
+repo: spyder-ide/spyder
+section: ides
+description: >-
+  Open source, community-developed scientific environment and IDE written in Python,
+  for Python.
+site: https://www.spyder-ide.org/ # optional, default repo site
+keywords: [ides, interactivity]

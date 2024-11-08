@@ -1,0 +1,6 @@
+name: pycharm
+repo: https://www.jetbrains.com/pycharm/
+section: ides
+description: Python IDE for data science and web development.
+site: https://www.jetbrains.com/pycharm/ # optional, default repo site
+keywords: [ide, interactivity] # optional
