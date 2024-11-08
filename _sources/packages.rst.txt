@@ -763,6 +763,133 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <th colspan=5>
+          <h3 id="development-tools-with-built-in-matplotlib-rendering">
+            Development tools with built-in Matplotlib rendering
+            <a class="headerlink" href="#development-tools-with-built-in-matplotlib-rendering" title="Permalink to this headline">#</a>
+          </h3>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <a href="https://github.com/jupyterlab/jupyterlab">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/jupyterlab">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/conda-forge/jupyterlab">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://jupyterlab.readthedocs.io/en/stable">JupyterLab</a>
+        </td>
+        <td>
+          Web-based interactive development environment for notebooks, code, and data.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <a href="https://github.com/jupyter/notebook">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/notebook">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/conda-forge/notebook">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://jupyter-notebook.readthedocs.io/en/stable">Jupyter Notebook</a>
+        </td>
+        <td>
+          Web-based interactive development environment for notebooks, code, and data.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <a href="https://www.jetbrains.com/pycharm/">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://www.jetbrains.com/pycharm">pycharm</a>
+        </td>
+        <td>
+          Python IDE for data science and web development.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <a href="https://github.com/spyder-ide/spyder">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/spyder">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/conda-forge/spyder">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://www.spyder-ide.org">spyder</a>
+        </td>
+        <td>
+          Open source, community-developed scientific environment and IDE written in Python, for Python.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <a href="https://github.com/microsoft/vscode">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://code.visualstudio.com">vscode</a>
+        </td>
+        <td>
+          Streamlined code editor with support for development operations like debugging, task running, and version control.
+        </td>
+
+      </tr>
+      <tr>
+        <th colspan=5>
           <h3 id="documentation">
             Documentation
             <a class="headerlink" href="#documentation" title="Permalink to this headline">#</a>
