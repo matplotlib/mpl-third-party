@@ -2,7 +2,7 @@ name: marimo
 repo: marimo-team/marimo
 section: ides
 description: >-
-  Open source reactive notebook for Python — run reproducible experiments, execute as a script, deploy as an app, and version with git.
+  Open source reactive notebook that can be deployed as an app
 site: https://docs.marimo.io/
 keywords: [ides, interactivity]
 pypi_name: marimo
