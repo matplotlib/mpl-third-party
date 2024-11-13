@@ -1,0 +1,8 @@
+name: marimo
+repo: marimo-team/marimo
+section: ides
+description: Open source reactive notebook that can be deployed as an app.
+site: https://docs.marimo.io/
+keywords: [ides, interactivity]
+pypi_name: marimo
+conda_package: marimo
