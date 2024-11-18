@@ -2152,9 +2152,6 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
-          <a href="https://anaconda.org/conda-forge/mpl-interactions">
-            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
-          </a>
         </td>
 
         <td>
@@ -3036,9 +3033,6 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
-          <a href="https://anaconda.org/conda-forge/grid-strategy">
-            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
-          </a>
         </td>
 
         <td>
