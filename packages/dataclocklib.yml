@@ -1,0 +1,7 @@
+name: dataclocklib
+repo: https://github.com/andyrids/dataclocklib
+section: plot types
+description: Data clock charts using matplotlib.
+site: https://andyrids.github.io/dataclocklib/
+keywords: [data clock, circle graph, temporal]
+pypi_name: dataclocklib
