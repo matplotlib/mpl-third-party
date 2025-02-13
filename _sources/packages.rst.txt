@@ -451,9 +451,6 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
-          <a href="https://anaconda.org/conda-forge/cmocean">
-            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
-          </a>
         </td>
 
         <td>
@@ -1531,9 +1528,6 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
-          <a href="https://anaconda.org/conda-forge/arm_pyart">
-            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
-          </a>
         </td>
 
         <td>
