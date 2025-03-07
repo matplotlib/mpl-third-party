@@ -1,7 +1,7 @@
 name: plot_phylo
 repo: KatyBrown/plot_phylo
 section: domain specific libraries
-description: Perceptually uniform colormaps for oceanographic variables.
+description: Plot phylogenetic trees on an existing matplotlib axis
 site: https://plot-phylo.readthedocs.io
 keywords: [phylogeny, dendrogram, cladogram, clustering]
 pypi_name: plot-phylo
