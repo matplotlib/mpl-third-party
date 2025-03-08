@@ -1543,6 +1543,29 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://github.com/KatyBrown/plot_phylo">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/plot-phylo">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://plot-phylo.readthedocs.io">plot_phylo</a>
+        </td>
+        <td>
+          Plot phylogenetic trees on an existing matplotlib axis.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/ARM-DOE/pyart">
             <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
