@@ -3504,6 +3504,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mplcairo">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
