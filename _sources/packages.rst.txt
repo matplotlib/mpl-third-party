@@ -3201,6 +3201,29 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://github.com/moss-xyz/matplotlib-map-utils">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/matplotlib-map-utils">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://github.com/moss-xyz/matplotlib-map-utils">matplotlib-map-utils</a>
+        </td>
+        <td>
+          Create common elements such as north arrows, scale bars, and inset maps.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/ppinard/matplotlib-scalebar">
             <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
