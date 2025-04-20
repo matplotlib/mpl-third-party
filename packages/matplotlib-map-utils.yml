@@ -1,0 +1,5 @@
+name: matplotlib-map-utils
+repo: moss-xyz/matplotlib-map-utils
+section: plotting utilities
+description: Create common elements such as north arrows, scale bars, and inset maps.
+keywords: [geo, geography, map]
