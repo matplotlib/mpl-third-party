@@ -24,6 +24,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/holoviews">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/pyviz/holoviews">
@@ -47,6 +50,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/hvplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/pyviz/hvplot">
@@ -70,6 +76,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/pandas">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/pandas">
@@ -93,6 +102,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/plotnine">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/plotnine">
@@ -116,6 +128,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/xarray">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/xarray">
@@ -148,6 +163,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/animatplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/animatplot">
@@ -171,6 +189,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/celluloid">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/celluloid">
@@ -194,6 +215,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/gif">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/gif">
@@ -237,6 +261,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-animators">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl_animators">
@@ -260,6 +287,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/numpngw">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/numpngw">
@@ -283,6 +313,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/streamjoy">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -303,6 +336,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/xmovie">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/xmovie">
@@ -335,6 +371,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/aquarel">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -355,6 +394,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/cmasher">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/cmasher">
@@ -378,6 +420,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/cmcrameri">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/cmcrameri">
@@ -401,6 +446,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/cmocean">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/cmocean">
@@ -424,6 +472,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/cmweather">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/cmweather">
@@ -447,6 +498,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/cmyt">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/cmyt">
@@ -470,6 +524,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/colorcet">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/pyviz/colorcet">
@@ -493,6 +550,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/distinctipy">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/distinctipy">
@@ -516,6 +576,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/farrow-and-ball">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -536,6 +599,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/morethemes">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/morethemes">
@@ -559,6 +625,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-visual-context">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -579,6 +648,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mplcyberpunk">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -599,6 +671,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/pypalettes">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/pypalettes">
@@ -622,6 +697,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/SciencePlots">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/SciencePlots">
@@ -645,6 +723,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/tastymap">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/tastymap">
@@ -668,6 +749,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/tueplots">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -688,6 +772,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/viscm">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/viscm">
@@ -720,6 +807,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/jupyterlab">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/jupyterlab">
@@ -743,6 +833,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/marimo">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/marimo">
@@ -766,6 +859,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/notebook">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/notebook">
@@ -809,6 +905,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/spyder">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/spyder">
@@ -861,6 +960,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/sphinx-gallery">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/sphinx-gallery">
@@ -893,6 +995,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/arviz">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/arviz">
@@ -916,6 +1021,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/astropy">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/astropy">
@@ -939,6 +1047,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/bgheatmap">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -959,6 +1070,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/colorio">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -979,6 +1093,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/cplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/cplot">
@@ -1002,6 +1119,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/datamapplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/datamapplot">
@@ -1025,6 +1145,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/dna-features-viewer">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1045,6 +1168,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/grplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/grplot">
@@ -1068,6 +1194,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/hockey_rink">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/hockey_rink">
@@ -1091,6 +1220,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/hyperspy">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/hyperspy">
@@ -1114,6 +1246,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/librosa">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/librosa">
@@ -1137,6 +1272,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/marsilea">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/marsilea">
@@ -1160,6 +1298,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/MetPy">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/MetPy">
@@ -1183,6 +1324,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/microfilm">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/microfilm">
@@ -1206,6 +1350,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mir_eval">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mir_eval">
@@ -1229,6 +1376,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mplfinance">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mplfinance">
@@ -1252,6 +1402,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mplhep">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mplhep">
@@ -1275,6 +1428,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mplsignal">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mplsignal">
@@ -1298,6 +1454,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mplsoccer">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mplsoccer">
@@ -1321,6 +1480,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/myforestplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1341,6 +1503,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/networkx">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/networkx">
@@ -1364,6 +1529,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/planetMagFields">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1384,6 +1552,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/plot-phylo">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1404,6 +1575,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/arm_pyart">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/arm_pyart">
@@ -1427,6 +1601,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/python-circos">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/pyCircos">
@@ -1450,6 +1627,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/pygenomeviz">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/bioconda/pygenomeviz">
@@ -1473,6 +1653,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/pymatviz">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/pymatviz">
@@ -1496,6 +1679,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/pyplutchik">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1516,6 +1702,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/pytransform3d">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/pytransform3d">
@@ -1539,6 +1728,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/seaborn">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/seaborn">
@@ -1562,6 +1754,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/seaborn-image">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/seaborn-image">
@@ -1585,6 +1780,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/sunpy">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/sunpy">
@@ -1608,6 +1806,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/astro-tulips">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1628,6 +1829,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/yellowbrick">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/yellowbrick">
@@ -1660,6 +1864,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-gui">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-gui">
@@ -1683,6 +1890,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-qtthread">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-qtthread">
@@ -1715,6 +1925,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/glue">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1735,6 +1948,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/lumen">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/pyviz/lumen">
@@ -1758,6 +1974,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-multitab">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-multitab">
@@ -1781,6 +2000,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/pylustrator">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/pylustrator">
@@ -1804,6 +2026,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/PyNanoLab">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1824,6 +2049,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/PySimpleGUI">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/PySimpleGUI">
@@ -1847,6 +2075,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/sviewgui">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1876,6 +2107,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/kivy_matplotlib_widget">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1896,6 +2130,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-draggable-line">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1916,6 +2153,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-image-labeller">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1936,6 +2176,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-image-segmenter">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -1956,6 +2199,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-interactions">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-interactions">
@@ -1979,6 +2225,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-point-clicker">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-point-clicker">
@@ -2022,6 +2271,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mplcursors">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mplcursors">
@@ -2045,6 +2297,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpldatacursor">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpldatacursor">
@@ -2088,6 +2343,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/panel">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/pyviz/panel">
@@ -2111,6 +2369,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/pyquibbler">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2140,6 +2401,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/cartopy">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/cartopy">
@@ -2163,6 +2427,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/eomaps">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/eomaps">
@@ -2186,6 +2453,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/geopandas">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/geopandas">
@@ -2209,6 +2479,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/geoplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/geoplot">
@@ -2232,6 +2505,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/geoviews">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/pyviz/geoviews">
@@ -2255,6 +2531,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mplstereonet">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mplstereonet">
@@ -2278,6 +2557,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/prettymaps">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/prettymaps">
@@ -2301,6 +2583,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/ridge_map">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2330,6 +2615,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/matplotcheck">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/matplotcheck">
@@ -2353,6 +2641,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/matplotx">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/matplotx">
@@ -2385,6 +2676,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/blume">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2405,6 +2699,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/dataclocklib">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2425,6 +2722,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/datashader">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/pyviz/datashader">
@@ -2448,6 +2748,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/matplotlib-venn">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/matplotlib-venn">
@@ -2471,6 +2774,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-scatter-density">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-scatter-density">
@@ -2494,6 +2800,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-chord-diagram">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2514,6 +2823,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-sankey">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2534,6 +2846,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl_stereo">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2554,6 +2869,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/plottable">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/plottable">
@@ -2577,6 +2895,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/pyupset">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2597,6 +2918,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/s3dlib">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2617,6 +2941,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/windrose">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/windrose">
@@ -2640,6 +2967,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/yt">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/yt">
@@ -2672,6 +3002,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/adjustText">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/adjustText">
@@ -2695,6 +3028,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/brokenaxes">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/brokenaxes">
@@ -2718,6 +3054,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/figpager">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/figpager">
@@ -2741,6 +3080,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/flexitext">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/flexitext">
@@ -2764,6 +3106,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/grid-strategy">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/grid-strategy">
@@ -2787,6 +3132,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/highlight_text">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/highlight_text">
@@ -2810,6 +3158,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/legendkit">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/legendkit">
@@ -2833,6 +3184,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/matplotlib-label-lines">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/matplotlib-label-lines">
@@ -2856,6 +3210,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/matplotlib-map-utils">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -2876,6 +3233,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/matplotlib-scalebar">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/matplotlib-scalebar">
@@ -2899,6 +3259,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/matplotview">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/matplotview">
@@ -2922,6 +3285,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/probscale">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-probscale">
@@ -2945,6 +3311,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl-template">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl-template">
@@ -2968,6 +3337,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mpl_table">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mpl_table">
@@ -2991,6 +3363,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/patchworklib">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/patchworklib">
@@ -3014,6 +3389,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/proplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/proplot">
@@ -3037,6 +3415,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/skunk">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/skunk">
@@ -3060,6 +3441,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/svgpath2mpl">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/svgpath2mpl">
@@ -3083,6 +3467,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/tikzplotlib">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/tikzplotlib">
@@ -3115,6 +3502,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/gr">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
         </td>
@@ -3135,6 +3525,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/mplcairo">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/mplcairo">
@@ -3158,6 +3551,9 @@ Third-party and user-contributed packages
         </td>
 
         <td>
+          <a href="https://pypi.org/project/wxmplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
         </td>
         <td>
           <a href="https://anaconda.org/conda-forge/wxmplot">
