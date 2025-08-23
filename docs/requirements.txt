@@ -3,3 +3,4 @@ markdown
 pyyaml
 sphinx
 mpl-sphinx-theme~=3.9.0
+pydata-sphinx-theme~=0.15.0
