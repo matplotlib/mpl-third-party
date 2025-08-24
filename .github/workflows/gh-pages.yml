@@ -6,8 +6,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 9 * * *'
 
 jobs:
   deploy:
@@ -21,7 +19,7 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install documentation requirements
         run: |
