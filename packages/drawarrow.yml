@@ -1,0 +1,6 @@
+name: drawarrow
+repo: y-sunflower/drawarrow
+section: plotting utilities
+description: Drawing arrows for matplotlib made easy
+site: https://y-sunflower.github.io/drawarrow/
+keywords: ["arrow", "customization"]

@@ -1,6 +1,6 @@
 name: morethemes
-repo: JosephBARBIERDARNAL/morethemes
+repo: y-sunflower/morethemes
 section: colormaps and styles
 description: More (polished) themes for Matplotlib.
-site: https://josephbarbierdarnal.github.io/morethemes/
-keywords: [styles]
+site: https://y-sunflower.github.io/morethemes/
+keywords: [styles, theme]
