@@ -1,0 +1,6 @@
+name: pyfonts
+repo: y-sunflower/pyfonts
+section: plotting utilities
+description: A simple and reproducible way of using fonts in matplotlib
+site: https://y-sunflower.github.io/pyfonts/
+keywords: [font, google, reproductibility]
