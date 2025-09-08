@@ -1,0 +1,5 @@
+name: break_axes
+repo: wuyao1997/break_axes
+section: plotting utilities
+description: A Matplotlib-based utility module for creating broken axes.
+keywords: [axes]
