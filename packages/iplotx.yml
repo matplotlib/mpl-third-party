@@ -1,6 +1,6 @@
 name: iplotx
 repo: fabilab/iplotx
-section: networks
-description: Visualise networks and trees in Python, with style.
+section: domain specific libraries
+description: Visualise networks and trees, with style.
 site: https://iplotx.readthedocs.io
 keywords: [networks, graphs, trees, phylogeny, 3D] 
