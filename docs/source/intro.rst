@@ -1,6 +1,6 @@
 A list of packages that extend Matplotlib.  These are maintained
-and distributed independently from Matplotlib so go to the website
-listed for instructions.
+and distributed independently from Matplotlib so go to each listed
+website for instructions.
 
 Please contribute your package by opening a pull-request at
 https://github.com/matplotlib/mpl-third-party using the template in the
