@@ -1,5 +1,5 @@
 A list of packages that extend Matplotlib.  These are maintained
-and distributed independently from Matplotlib so go to each listed
+and distributed independently from Matplotlib, so go to each listed
 website for instructions.
 
 Please contribute your package by opening a pull-request at
