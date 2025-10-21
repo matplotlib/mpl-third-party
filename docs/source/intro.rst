@@ -1,4 +1,4 @@
-This page lists independently developed and distrubted packages that extend 
+This page lists independently developed and distributed packages that extend
 Matplotlib. Please go to the linked project websites for further information.
 
 Please contribute your package by opening a pull-request at
