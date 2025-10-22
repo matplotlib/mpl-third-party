@@ -14,15 +14,15 @@ html[data-theme="dark"] {
 }
 
 :root {
---pst-color-link-hover: var(--pst-color-secondary);
+  --pst-color-link-hover: var(--pst-color-secondary);
 }
 
-.sidebar-cheatsheets, .sidebar-donate {
-  margin: 2.75rem 0;
+.sidebar-donate > .sd-btn {
+  width: 100%;
 }
 
 #navbar-icon-links {
-    margin-left: 1.5em;
+  margin-left: 1.5em;
 }
 
 #navbar-icon-links .nav-link {
@@ -33,3 +33,10 @@ html[data-theme="dark"] {
   color: var(--pst-color-primary);
 }
 
+/* reduce height of nav bar when items don't fit in one line
+   See https://github.com/pydata/pydata-sphinx-theme/pull/2117
+ */
+.navbar-item {
+  height: unset !important;
+  margin: 0.25rem 0;
+}

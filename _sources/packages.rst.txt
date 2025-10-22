@@ -593,7 +593,7 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
-          <a href="https://github.com/JosephBARBIERDARNAL/morethemes">
+          <a href="https://github.com/y-sunflower/morethemes">
             <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
         </td>
@@ -610,7 +610,7 @@ Third-party and user-contributed packages
         </td>
 
         <td>
-          <a href="https://josephbarbierdarnal.github.io/morethemes">morethemes</a>
+          <a href="https://y-sunflower.github.io/morethemes">morethemes</a>
         </td>
         <td>
           More (polished) themes for Matplotlib.
@@ -665,7 +665,7 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
-          <a href="https://github.com/JosephBARBIERDARNAL/pypalettes">
+          <a href="https://github.com/y-sunflower/pypalettes">
             <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
         </td>
@@ -1235,6 +1235,29 @@ Third-party and user-contributed packages
         </td>
         <td>
           Multidimensional data analysis, e.g. hyperspectral imaging.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <a href="https://github.com/fabilab/iplotx">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/iplotx">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://iplotx.readthedocs.io">iplotx</a>
+        </td>
+        <td>
+          Visualise networks and trees, with style.
         </td>
 
       </tr>
@@ -2742,6 +2765,32 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://github.com/y-sunflower/dayplot">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/dayplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/conda-forge/dayplot">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://y-sunflower.github.io/dayplot">dayplot</a>
+        </td>
+        <td>
+          Calendar heatmaps made super simple and highly customizable
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/konstantint/matplotlib-venn">
             <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
@@ -3022,6 +3071,29 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://github.com/wuyao1997/break_axes">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/break_axes">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+        </td>
+
+        <td>
+          <a href="https://github.com/wuyao1997/break_axes">break_axes</a>
+        </td>
+        <td>
+          A Matplotlib-based utility module for creating broken axes.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/bendichter/brokenaxes">
             <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
@@ -3043,6 +3115,32 @@ Third-party and user-contributed packages
         </td>
         <td>
           Plots with breaks in the axes.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <a href="https://github.com/y-sunflower/drawarrow">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/drawarrow">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/conda-forge/drawarrow">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://y-sunflower.github.io/drawarrow">drawarrow</a>
+        </td>
+        <td>
+          Drawing arrows for matplotlib made easy
         </td>
 
       </tr>
@@ -3404,6 +3502,32 @@ Third-party and user-contributed packages
         </td>
         <td>
           A lightweight Matplotlib wrapper for making beautiful, publication-quality graphics.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <a href="https://github.com/y-sunflower/pyfonts">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/pyfonts">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/conda-forge/pyfonts">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://y-sunflower.github.io/pyfonts">pyfonts</a>
+        </td>
+        <td>
+          A simple and reproducible way of using fonts in matplotlib
         </td>
 
       </tr>
