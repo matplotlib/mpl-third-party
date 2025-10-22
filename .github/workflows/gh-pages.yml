@@ -1,7 +1,6 @@
 name: GitHub Pages
 permissions:
   contents: read
-
 on:
   push:
     branches:
@@ -10,6 +9,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    permissions: 
+      contents: write
+      deployments: write
     steps:
       - name: checkout
         uses: actions/checkout@v5
