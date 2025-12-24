@@ -243,6 +243,9 @@ Third-party and user-contributed packages
         <td>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/manimplotlib">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -318,6 +321,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/streamjoy">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -376,6 +382,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/aquarel">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -581,6 +590,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/farrowandball">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -630,6 +642,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mpl-visual-context">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -653,6 +668,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mplcyberpunk">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -754,6 +772,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/tueplots">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -887,6 +908,9 @@ Third-party and user-contributed packages
         <td>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/pycharm">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -933,6 +957,9 @@ Third-party and user-contributed packages
         <td>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/vscode">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1052,6 +1079,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/bg-heatmaps">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1075,6 +1105,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/colorio">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1150,6 +1183,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/DnaFeaturesViewer">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1251,6 +1287,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/iplotx">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1508,6 +1547,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/myforestplot">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1557,6 +1599,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/planetMagFields">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1580,6 +1625,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/plot_phylo">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1707,6 +1755,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/pyplutchik">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1834,6 +1885,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/TULIPS">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -1953,6 +2007,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/glue">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2054,6 +2111,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/PyNanoLab">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2103,6 +2163,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/sview-gui">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2135,6 +2198,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/kivy_matplotlib_widget">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2158,6 +2224,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mpl-draggable-line">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2181,6 +2250,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mpl-image-labeller">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2204,6 +2276,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mpl-image-segmenter">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2276,6 +2351,9 @@ Third-party and user-contributed packages
         <td>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mpl_widget_box">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2348,6 +2426,9 @@ Third-party and user-contributed packages
         <td>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mplinorm">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2397,6 +2478,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/quibbler">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2611,6 +2695,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/ridge_map">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2704,6 +2791,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/blume">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2727,6 +2817,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/dataclocklib">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2854,6 +2947,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mpl_chord_diagram">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2877,6 +2973,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mpl_sankey">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2900,6 +2999,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/mpl_stereo">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2949,6 +3051,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/py-upset">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -2972,6 +3077,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/s3dlib">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -3082,6 +3190,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/break_axes">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -3313,6 +3424,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/matplotlib-map-utils">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
@@ -3631,6 +3745,9 @@ Third-party and user-contributed packages
           </a>
         </td>
         <td>
+          <a href="https://anaconda.org/conda-forge/gr">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
         </td>
 
         <td>
