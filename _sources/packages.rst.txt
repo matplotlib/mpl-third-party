@@ -605,6 +605,32 @@ Third-party and user-contributed packages
       </tr>
       <tr>
         <td>
+          <a href="https://github.com/zacswider/mergechannels">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/None">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/None/None">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://github.com/zacswider/mergechannels">mergechannels</a>
+        </td>
+        <td>
+          Colormaps and high performance channel blending for visualizing fluorescence images.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
           <a href="https://github.com/y-sunflower/morethemes">
             <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
           </a>
