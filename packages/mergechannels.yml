@@ -1,0 +1,9 @@
+name: mergechannels
+repo: zacswider/mergechannels
+section: colormaps and styles
+description: Colormaps and high performance channel blending for visualizing fluorescence images.
+site: # optional, default repo site
+keywords: [colormaps, microscopy, composite, images]
+pypi_name: # optional, default repo name
+conda_package: # optional
+conda_channel: # optional, default conda-forge
