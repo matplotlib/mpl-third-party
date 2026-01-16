@@ -2735,6 +2735,32 @@ Third-party and user-contributed packages
 
       </tr>
       <tr>
+        <td>
+          <a href="https://github.com/steveberardi/starplot">
+            <img src="_static/badges/code-gray.svg" alt="code badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://pypi.org/project/starplot">
+            <img src="_static/badges/pip-orange.svg" alt="pypi badge" class="dark-light">
+          </a>
+        </td>
+        <td>
+          <a href="https://anaconda.org/conda-forge/starplot">
+            <img src="_static/badges/conda-blue.svg" alt="conda badge" class="dark-light">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://starplot.dev">starplot</a>
+        </td>
+        <td>
+          Create star charts and maps of the sky
+        </td>
+
+      </tr>
+      <tr>
         <th colspan=5>
           <h3 id="miscellaneous">
             Miscellaneous
