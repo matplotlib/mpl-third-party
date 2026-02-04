@@ -1,0 +1,9 @@
+name: ultraplot
+repo: ultraplot/UltraPlot
+section: alternative apis 
+description: A succinct wrapper for matplotlib? Write less, create more.
+site: https://ultraplot.readthedocs.io/
+keywords: [scientific visualization, complex subplot management, geo plotting, enhanced styling] 
+pypi_name: ultraplot 
+conda_package: ultraplot 
+conda_channel: conda-forge 
