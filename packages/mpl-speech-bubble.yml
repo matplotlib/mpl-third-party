@@ -1,0 +1,6 @@
+name: mpl-speech-bubble
+repo: leejjoon/mpl-speech-bubble
+section: plotting utilities
+description: Draw speech bubbles with Matplotlib.
+site: https://mpl-speech-bubble.readthedocs.io/
+pypi_name: mpl-speech-bubble
