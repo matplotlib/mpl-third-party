@@ -1,0 +1,5 @@
+name: mpl-arrow
+repo: mpl-extensions/mpl-arrow
+section: plotting utilities
+description: An easy way to draw nice arrows in matplotlib.
+pypi_name: mpl-arrow
