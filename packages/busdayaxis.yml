@@ -3,4 +3,4 @@ repo: saemeon/busdayaxis
 section: plotting utilities
 keywords: [axis, time-series, business-day, busday, datetime]
 site: https://saemeon.github.io/busdayaxis/
-description: Matplotlib axis scale that compresses non-business periods so that time series appear continuous across business days.
+description: Axis scale to compress non-business periods so that time series appear continuous across business periods.
