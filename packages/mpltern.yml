@@ -1,0 +1,5 @@
+name: mpltern
+repo: yuzie007/mpltern
+section: plot types
+description: Ternary plots as a Matplotlib projection.
+keywords: [ternary, projection, plot types]
