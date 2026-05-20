@@ -1,0 +1,7 @@
+name: diplotocus
+repo: titanbin/diplotocus
+section: animations
+description: Timeline-like animations of matplotlib plots.
+site: https://diplotocus.readthedocs.io/
+keywords: [animations]
+pypi_name: diplotocus
