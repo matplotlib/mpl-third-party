@@ -1,0 +1,9 @@
+name: mpl-measurements
+repo: ubaldot/mpl-measurements
+section: measurements
+description: interactive measurements tool,
+site: https://matplotlib.org
+keywords: [measurements, scope]
+pypi_name: mpl-measurements
+conda_package: mpl-measurements
+conda_channel: conda-forge
