@@ -2,7 +2,6 @@ name: mpl-measurements
 repo: ubaldot/mpl-measurements
 section: interactivity
 description: Interactive cursor-based measurement tool for Matplotlib plots (time, amplitude, differences, ...)
-site: https://matplotlib.org
 keywords: [measurements, scope]
 pypi_name: mpl-measurements
 conda_package: mpl-measurements
