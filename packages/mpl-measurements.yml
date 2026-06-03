@@ -1,7 +1,7 @@
 name: mpl-measurements
 repo: ubaldot/mpl-measurements
 section: interactivity
-description: interactive tool for measuring Line2D attributes, such as Δt, Δy, RMS, etc.
+description: Interactive cursor-based measurement tool for Matplotlib plots (time, amplitude, differences, ...)
 site: https://matplotlib.org
 keywords: [measurements, scope]
 pypi_name: mpl-measurements
