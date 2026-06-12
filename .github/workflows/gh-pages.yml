@@ -8,8 +8,8 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
-    permissions: 
+    runs-on: ubuntu-24.04
+    permissions:
       contents: write
       deployments: write
     steps:
