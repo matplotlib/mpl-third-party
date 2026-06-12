@@ -1,0 +1,5 @@
+name: curved-text
+repo: thiebes/curved-text
+keywords: [text, annotation, labels, curve]
+section: plotting utilities
+description: Draw a string along an arbitrary curve, with arc-length positioning and a perpendicular offset.
