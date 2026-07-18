@@ -1,0 +1,5 @@
+name: mpl_wrap
+repo: scottshambaugh/mpl_wrap
+section: plot types
+description: Matplotlib helper library for plotting wrapped, angular, or periodic data.
+pypi_name: mpl_wrap
