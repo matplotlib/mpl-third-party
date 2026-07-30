@@ -1,0 +1,6 @@
+name: mplchart
+repo: furechan/mplchart
+section: domain specific libraries
+description: Classic stock charts with technical analysis indicators.
+site: https://furechan.github.io/mplchart
+keywords: [finance, charting, candlesticks, technical-analysis]
