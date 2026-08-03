@@ -1,0 +1,6 @@
+name: skyplothelper
+repo: pjcigan/skyplothelper
+section: domain specific libraries
+description: Astronomy visualization toolkit with sky maps, WCS frames, spherical geometry, tilted globes and planets, and cosmology cone diagrams.
+site: https://skyplothelper.readthedocs.io
+keywords: [astronomy, mapping, sky, projections]
