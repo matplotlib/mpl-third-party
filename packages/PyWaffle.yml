@@ -1,0 +1,8 @@
+name: pywaffle
+repo: gyli/PyWaffle
+section: plot types
+description: Waffle, square pie and pictogram charts.
+site: https://github.com/gyli/PyWaffle
+keywords: [waffle chart, square pie chart, pictogram chart, infographics]
+pypi_name: pywaffle
+conda_package: pywaffle
