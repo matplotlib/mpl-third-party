@@ -1,0 +1,8 @@
+name: mpl-coworkingview
+repo: coworkingview/flex-office-data
+section: domain specific libraries
+description: Bar charts of flexible-office prices from the CoworkingView Price Index.
+site: https://coworkingview.com/en/api
+keywords: [coworking, "price index", "flexible office"]
+pypi_name: mpl-coworkingview
+conda_package: mpl-coworkingview
