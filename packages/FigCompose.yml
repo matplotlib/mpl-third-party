@@ -1,0 +1,5 @@
+name: FigCompose
+repo: frederickc8896-Fabulous/FigCompose
+section: plotting utilities
+description: Compose multi-panel Matplotlib figures from tabular data with reusable physical sizing, series styling, and measured layout checks.
+pypi_name: FigCompose
