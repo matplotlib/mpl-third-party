@@ -1,0 +1,6 @@
+name: glasbey
+repo: lmcinnes/glasbey
+section: colormaps and styles
+description: Algorithmic generation of categorical palettes and perceptually uniform colormaps
+site: https://glasbey.readthedocs.io/
+keywords: [glasbey, categorical palette, colormap, cmap]
